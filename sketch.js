@@ -4,6 +4,8 @@ var count;
 var s_color;
 var s_weight;
 
+var isOverCircle;
+
 
 function setup () {
 
@@ -16,18 +18,74 @@ function setup () {
 	count = 0;
 	s_color = 0;
 	s_weight = 0;
+
 }
 
 
 function draw () {
+
+//rectangulo
+push()
+fill(0)
+stroke(250)
+strokeWeight(1)
+rectMode(CENTER)
+rect(width/2,height/2,width/3,height/2)
+pop()
+
+//texto inicio
+	push()
+	textFont('Rubik:300')
+	fill(250)
+	textAlign(CENTER)
+	textSize(15)
+	text('In the last year has increased the number \nof species extinted because of human acts. \nDeforestation of the Amazon, hunting \nand other actions are destroying diverse species. \nChoose the different tools and search in this jungle \nfive animals in danger and discover more about them.',width/2,height/2.5)
+	pop()
+
+//botón inicio
+	  var distance = dist(mouseX, mouseY, width/2, height/1.5);
+
+	  if(distance < 50)
+	  {
+	    isOverCircle = true;
+	  } else {
+	    isOverCircle = false;
+	  }
+
+	  ellipseMode(CENTER);
+	  stroke(250);
+	  strokeWeight(1);
+	  if(isOverCircle == true)
+	  {
+	    fill(100);
+	    cursor(HAND);
+	  } else {
+	    fill(200,120);
+	    cursor(ARROW);
+	  }
+	  ellipse(width/2, height/1.5, 80,75);
+		textSize(15)
+		textFont('Rubik:300')
+		text(CENTER)
+		noStroke()
+		fill(0)
+		text('play',width/2.04, height/1.49)
+
+
+
+
+
+//fondo inicio plantas
 	for (var i = 0; i < branch.length; i++) {
 		branch[i].render ();
 		branch[i].update ();
+
+
 	}
 }
 
 
-
+//funcion primera pantalla con arboles
 function CreateBranch (sx, sy, ex, ey, sl, sd) {
 	var startx = sx;
 	var starty = sy;
@@ -83,7 +141,14 @@ function CreateBranch (sx, sy, ex, ey, sl, sd) {
 		prevy = nexty;
 	}
 }
+//primer boton
 
+function mousePressed(){
+  if(isOverCircle == true)
+  {
+    backgroundColor = color(random(255), random(255), random(255));
+  }
+}
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
