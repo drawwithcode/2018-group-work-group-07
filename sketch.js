@@ -1,14 +1,17 @@
 var myImg;
 var myImg2;
 var myImg3;
-var myImg3;
+var myImg4;
+var myImg5;
+var myImg6;
 
 function preload() {
   myImage = loadImage("./library/sfondo.png");
   myImage2 = loadImage("./library/covermariposa.png");
   myImage3 = loadImage("./library/coverrana.png");
   myImage4 = loadImage("./library/coverarmadillo.png");
-
+  myImage5 = loadImage("./library/coverbradipo.png");
+  myImage6 = loadImage("./library/coversimio.png");
 }
 
 function setup () {
@@ -37,9 +40,15 @@ image(myImage3, 499, 1995, 200,200);
 
 //cover armadillo
 
-image(myImage4, 1950, 1765, 580,580);
+image(myImage4, 1975, 1780, 590, 590);
 
+//cover bradipo
 
+image(myImage5, 2130, -130, 350, 1360);
+
+//cover simio
+
+image(myImage6, 2420, 1200, 500, 500);
 
 
 //texto inicio
