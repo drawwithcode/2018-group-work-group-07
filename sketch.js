@@ -1,7 +1,13 @@
 var myImg;
+var myImg2;
+var myImg3;
+var myImg3;
 
 function preload() {
   myImage = loadImage("./library/sfondo.png");
+  myImage2 = loadImage("./library/covermariposa.png");
+  myImage3 = loadImage("./library/coverrana.png");
+  myImage4 = loadImage("./library/coverarmadillo.png");
 
 }
 
@@ -14,19 +20,27 @@ function setup () {
 
 
 function draw () {
+
+
 	image(myImage, 0, 0, myImage.width, myImage.height);
-	translate(-2000, 1500);
 
 
 
-//rectangulo
-push()
-fill(0)
-stroke(250)
-strokeWeight(1)
-rectMode(CENTER)
-rect(100,100,100,100)
-pop()
+
+//cover mariposa
+
+image(myImage2, 548, 385, 250,250);
+
+//cover rana
+
+image(myImage3, 499, 1995, 200,200);
+
+//cover armadillo
+
+image(myImage4, 1950, 1765, 580,580);
+
+
+
 
 //texto inicio
 	push()
@@ -82,5 +96,5 @@ function mousePressed(){
 }
 
 function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
+  resizeCanvas(3999, 2244);
 }
