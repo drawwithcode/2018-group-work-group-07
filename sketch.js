@@ -1,8 +1,17 @@
 var myImg;
+var myImg2;
+var myImg3;
+var myImg4;
+var myImg5;
+var myImg6;
 
 function preload() {
   myImage = loadImage("./library/sfondo.png");
-
+  myImage2 = loadImage("./library/covermariposa.png");
+  myImage3 = loadImage("./library/coverrana.png");
+  myImage4 = loadImage("./library/coverarmadillo.png");
+  myImage5 = loadImage("./library/coverbradipo.png");
+  myImage6 = loadImage("./library/coversimio.png");
 }
 
 function setup () {
@@ -14,19 +23,33 @@ function setup () {
 
 
 function draw () {
+
+
 	image(myImage, 0, 0, myImage.width, myImage.height);
-	translate(-2000, 1500);
 
 
 
-//rectangulo
-push()
-fill(0)
-stroke(250)
-strokeWeight(1)
-rectMode(CENTER)
-rect(100,100,100,100)
-pop()
+
+//cover mariposa
+
+image(myImage2, 548, 385, 250,250);
+
+//cover rana
+
+image(myImage3, 499, 1995, 200,200);
+
+//cover armadillo
+
+image(myImage4, 1975, 1780, 590, 590);
+
+//cover bradipo
+
+image(myImage5, 2130, -130, 350, 1360);
+
+//cover simio
+
+image(myImage6, 2420, 1200, 500, 500);
+
 
 //texto inicio
 	push()
@@ -82,5 +105,5 @@ function mousePressed(){
 }
 
 function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
+  resizeCanvas(3999, 2244);
 }
