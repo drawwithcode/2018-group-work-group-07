@@ -4,6 +4,8 @@ var myImg3;
 var myImg4;
 var myImg5;
 var myImg6;
+var mySong;
+
 
 function preload() {
   myImage = loadImage("./library/sfondo.png");
@@ -12,22 +14,21 @@ function preload() {
   myImage4 = loadImage("./library/coverarmadillo.png");
   myImage5 = loadImage("./library/coverbradipo.png");
   myImage6 = loadImage("./library/coversimio.png");
+  mySong = loadSound("./library/backsounds.mp3");
+
 }
 
 function setup () {
-	createCanvas(3999, 2244);
 
-
-
+  createCanvas(3999, 2244);
+  mySong.play();
 }
 
 
 function draw () {
 
 
-	image(myImage, 0, 0, myImage.width, myImage.height);
-
-
+image(myImage, 0, 0, myImage.width, myImage.height);
 
 
 //cover mariposa
