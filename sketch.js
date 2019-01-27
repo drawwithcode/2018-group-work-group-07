@@ -8,10 +8,10 @@ var myImg7;
 var myImg8;
 var button;
 
-var mySong;
-
 
 function preload() {
+  mySong = loadSound("./library/sound.mp3");
+
   myImage = loadImage("./library/sfondo.png");
   myImage2 = loadImage("./library/covermariposa.png");
   myImage3 = loadImage("./library/coverrana.png");
@@ -21,13 +21,19 @@ function preload() {
   myImage7 = loadImage("./library/primera.png");
   myImage8 = loadImage("./library/exppng.png");
 
-  mySong = loadSound("./library/backsounds.mp3");
-
   //button iconi
   button = createImg("./library/exppng.png");
   button.position(50, 50);
   button.size(50,50)
-  button.mousePressed()
+  button.mousePressed(menu)
+
+  //button inicio
+  button = createImg("./library/boton.png");
+  button.position(650, 600);
+  button.size(100,30)
+  button.mousePressed(play)
+
+
 }
 
 function setup () {
@@ -42,7 +48,6 @@ function setup () {
 function draw () {
 
 //image(myImage, 0, 0, myImage.width/3, myImage.height/3);
-
 
 
 //cover mariposa
@@ -70,13 +75,6 @@ image(myImage6, 855, 380, 190, 190);
 
 //image(myImage7, 0, 0, myImage.width/2.7, myImage.height/2.7);
 
-//iconi
-
-//image(myImage8, 50, 50, 50, 50);
-
-//botone icono
-
-
 
 
 
@@ -90,65 +88,34 @@ image(myImage6, 855, 380, 190, 190);
 	// pop()
 
 
-  //texto instrucciones
-  // push()
-	// textFont('Rubik:300')
-	// fill(250)
-	// textAlign(CENTER)
-	// textSize(15)
-	// text('',width/2,height/2.5)
-	// pop()
+}
 
+//boton menu
 
-//botón inicio
-	  // var distance = dist(mouseX, mouseY, width/2, height/1.5);
-    //
-	  // if(distance < 50)
-	  // {
-	  //   isOverCircle = true;
-	  // } else {
-	  //   isOverCircle = false;
-	  // }
-    //
-	  // ellipseMode(CENTER);
-	  // stroke(250);
-	  // strokeWeight(1);
-	  // if(isOverCircle == true)
-	  // {
-	  //   fill(100);
-	  //   cursor(HAND);
-	  // } else {
-	  //   fill(200,120);
-	  //   cursor(ARROW);
-	  // }
-	  // ellipse(width/2, height/1.5, 80,75);
-		// textSize(15)
-		// textFont('Rubik:300')
-		// text(CENTER)
-		// noStroke()
-		// fill(0)
-		// text('play',width/2.04, height/1.49)
+function menu() {
 
-
+if(button.mousePressed(menu)){
+background(0)
+} else {
+button.mousePressed(menu)
+background(myImage)
+}
 
 }
 
+//boton play
+function play() {
 
+if(button.mousePressed(play)){
 
-//primer boton
+background(0)
+} else {
+background(myImage);
 
-function mousePressed(){
-  if(isOverCircle == true)
-  {
-    backgroundColor = color(random(255), random(255), random(255));
-  }
 }
-//Button
-// function clickFunction(){
-//
-//   background(myImage)
-//
-// }
+
+}
+
 
 function windowResized() {
   resizeCanvas(windowWidth,windowHeight);
