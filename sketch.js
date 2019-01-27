@@ -4,7 +4,10 @@ var myImg3;
 var myImg4;
 var myImg5;
 var myImg6;
+var myImg7;
 var mySong;
+
+var button;
 
 
 function preload() {
@@ -14,81 +17,107 @@ function preload() {
   myImage4 = loadImage("./library/coverarmadillo.png");
   myImage5 = loadImage("./library/coverbradipo.png");
   myImage6 = loadImage("./library/coversimio.png");
+  myImage7 = loadImage("./library/primera2.png");
   mySong = loadSound("./library/backsounds.mp3");
+
 
 }
 
 function setup () {
 
-  createCanvas(3999, 2244);
+  createCanvas(windowWidth,windowHeight)
+  background(myImage)
+
   mySong.play();
 }
 
 
 function draw () {
 
+  //image(myImage, 0, 0, myImage.width/3, myImage.height/3);
 
-image(myImage, 0, 0, myImage.width, myImage.height);
 
 
 //cover mariposa
 
-image(myImage2, 548, 385, 250,250);
+image(myImage2, 210, 130, 75,75);
 
 //cover rana
 
-image(myImage3, 499, 1995, 200,200);
+image(myImage3, 200, 725, 50, 50);
 
 //cover armadillo
 
-image(myImage4, 1975, 1780, 590, 590);
+image(myImage4, 735, 670, 160, 160);
 
 //cover bradipo
 
-image(myImage5, 2130, -130, 350, 1360);
+image(myImage5, 767, -8, 125, 430);
 
 //cover simio
 
-image(myImage6, 2420, 1200, 500, 500);
+image(myImage6, 855, 423, 190, 190);
+
+
+//primera pagina
+
+//image(myImage7, 0, 0, myImage.width/2.7, myImage.height/2.7);
+
+
+//iconi
+
+
+
 
 
 //texto inicio
-	push()
-	textFont('Rubik:300')
-	fill(250)
-	textAlign(CENTER)
-	textSize(15)
-	text('In the last year has increased the number \nof species extinted because of human acts. \nDeforestation of the Amazon, hunting \nand other actions are destroying diverse species. \nChoose the different tools and search in this jungle \nfive animals in danger and discover more about them.',width/2,height/2.5)
-	pop()
+	// push()
+	// textFont('Rubik:300')
+	// fill(250)
+	// textAlign(CENTER)
+	// textSize(15)
+	// text('In the last years has increased the number of species in danger or threatened because of human acts and it has been declared as a “global epidemic”. Scientists estimate that up to 200 species die every hour. The deforestation of the Amazon, hunting and other human actions are destroying diverse species. With this game you will discover some of the species that are in danger. Choose different tools and discover more about animals in danger in the Amazon.',width/2,height/2.5)
+	// pop()
+
+
+  //texto instrucciones
+  // push()
+	// textFont('Rubik:300')
+	// fill(250)
+	// textAlign(CENTER)
+	// textSize(15)
+	// text('',width/2,height/2.5)
+	// pop()
+
 
 //botón inicio
-	  var distance = dist(mouseX, mouseY, width/2, height/1.5);
-
-	  if(distance < 50)
-	  {
-	    isOverCircle = true;
-	  } else {
-	    isOverCircle = false;
-	  }
-
-	  ellipseMode(CENTER);
-	  stroke(250);
-	  strokeWeight(1);
-	  if(isOverCircle == true)
-	  {
-	    fill(100);
-	    cursor(HAND);
-	  } else {
-	    fill(200,120);
-	    cursor(ARROW);
-	  }
-	  ellipse(width/2, height/1.5, 80,75);
-		textSize(15)
-		textFont('Rubik:300')
-		text(CENTER)
-		noStroke()
-		fill(0)
-		text('play',width/2.04, height/1.49)
+	  // var distance = dist(mouseX, mouseY, width/2, height/1.5);
+    //
+	  // if(distance < 50)
+	  // {
+	  //   isOverCircle = true;
+	  // } else {
+	  //   isOverCircle = false;
+	  // }
+    //
+	  // ellipseMode(CENTER);
+	  // stroke(250);
+	  // strokeWeight(1);
+	  // if(isOverCircle == true)
+	  // {
+	  //   fill(100);
+	  //   cursor(HAND);
+	  // } else {
+	  //   fill(200,120);
+	  //   cursor(ARROW);
+	  // }
+	  // ellipse(width/2, height/1.5, 80,75);
+		// textSize(15)
+		// textFont('Rubik:300')
+		// text(CENTER)
+		// noStroke()
+		// fill(0)
+		// text('play',width/2.04, height/1.49)
 
 
 
@@ -104,7 +133,13 @@ function mousePressed(){
     backgroundColor = color(random(255), random(255), random(255));
   }
 }
+//Button
+// function clickFunction(){
+//
+//   background(myImage)
+//
+// }
 
 function windowResized() {
-  resizeCanvas(3999, 2244);
+  resizeCanvas(windowWidth,windowHeight);
 }
