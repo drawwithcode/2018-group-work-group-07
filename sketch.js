@@ -11,6 +11,7 @@ var myImg10;
 var myImg11;
 var myImg12;
 var myImg13;
+var mySong;
 
 
 var button;
@@ -48,6 +49,7 @@ function preload() {
   button.mousePressed(play)
 
 
+
 }
 
 function setup () {
@@ -55,12 +57,18 @@ function setup () {
   createCanvas(windowWidth,windowHeight)
   background(myImage)
   mySong.play();
+
+
 }
+
+
+
 
 
 function draw () {
 
 //image(myImage, 0, 0, myImage.width/3, myImage.height/3);
+
 
 
 //cover mariposa
@@ -107,7 +115,6 @@ image(myImage12, 400, -105, 700, 400);
 
 
 
-
 //texto inicio
 	// push()
 	// textFont('Rubik:300')
@@ -119,7 +126,6 @@ image(myImage12, 400, -105, 700, 400);
 
 
 }
-
 //boton menu
 
 function menu() {
@@ -136,7 +142,7 @@ background(myImage)
 //boton play
 function play() {
 
-if(!button.mousePressed(play)){
+if(button.mousePressed(play)){
 
 background(0)
 } else {
