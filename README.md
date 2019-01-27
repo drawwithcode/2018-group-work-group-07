@@ -1,3 +1,26 @@
-# P5-empty-project
-This repository is the starting point of the assignments given in the elective course [Creative Coding at Politecnico di Milano](https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=696598&__pj0=0&__pj1=3ed8420c42c849845b5caa3de626e8fc).
-Browse [this website](https://drawwithcode.github.io/) if you want to know more about it.
+# The concept
+Endangered animals (and how to find them) (picture)
+### What is this?
+Say what the project is about
+### Why this idea?
+Say what the project is about and where your idea comes from.
+
+## Inspirations/References
+All the other projects that inspired you, from any perspective (interactive, visual, critical, theorietical, etc)
+
+## --IMAGE/GIF/VIDEO--
+A visual recap of your project, it must convey main features and make people want to look at the real sketch
+
+# The project
+
+## Design challenges
+Explain choiches behind the design of interactions and the architecture of the sketch. What are the most innovative elements?
+If useful, do the same for the visual design of the sketch.
+
+## Code challenges 
+challenges On the technical side, what drove you crazy. What are the most interesting and elegant solutions?
+
+## Credits (third libraries used)
+
+# Who are we?
+This is a project created by Teresa Cremonesi, Andrea Febres Medina, Filippo Ferrari and Cristina Pita da Veiga developed in the course of Creative Coding at Politecnico di Milano.
