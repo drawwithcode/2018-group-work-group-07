@@ -6,6 +6,13 @@ var myImg5;
 var myImg6;
 var myImg7;
 var myImg8;
+var myImg9;
+var myImg10;
+var myImg11;
+var myImg12;
+var myImg13;
+
+
 var button;
 
 
@@ -20,6 +27,13 @@ function preload() {
   myImage6 = loadImage("./library/coversimio.png");
   myImage7 = loadImage("./library/primera.png");
   myImage8 = loadImage("./library/exppng.png");
+  myImage9 = loadImage("./library/suono.png");
+  myImage10 = loadImage("./library/binocolo.png");
+  myImage11 = loadImage("./library/tastiera.png");
+  myImage12 = loadImage("./library/luce.png");
+  myImage13 = loadImage("./library/banner.png");
+
+
 
   //button iconi
   button = createImg("./library/exppng.png");
@@ -40,7 +54,6 @@ function setup () {
 
   createCanvas(windowWidth,windowHeight)
   background(myImage)
-
   mySong.play();
 }
 
@@ -70,6 +83,23 @@ image(myImage5, 767, -35, 125, 430);
 
 image(myImage6, 855, 380, 190, 190);
 
+//icono banner
+image(myImage13, 370, 50, 700, 50);
+
+//icono suono
+image(myImage9, 330, -105, 700, 400);
+
+//icono binoculo
+image(myImage10, 360,-105, 700, 400);
+
+//icono tastiera
+image(myImage11, 380, -105, 700, 400);
+
+//luce
+image(myImage12, 400, -105, 700, 400);
+
+
+
 
 //primera pagina
 
@@ -97,16 +127,16 @@ function menu() {
 if(button.mousePressed(menu)){
 background(0)
 } else {
-button.mousePressed(menu)
 background(myImage)
 }
+
 
 }
 
 //boton play
 function play() {
 
-if(button.mousePressed(play)){
+if(!button.mousePressed(play)){
 
 background(0)
 } else {
