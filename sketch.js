@@ -5,6 +5,9 @@ var myImg4;
 var myImg5;
 var myImg6;
 var myImg7;
+var myImg8;
+var button;
+
 var mySong;
 
 
@@ -16,9 +19,15 @@ function preload() {
   myImage5 = loadImage("./library/coverbradipo.png");
   myImage6 = loadImage("./library/coversimio.png");
   myImage7 = loadImage("./library/primera.png");
+  myImage8 = loadImage("./library/exppng.png");
+
   mySong = loadSound("./library/backsounds.mp3");
 
-
+  //button iconi
+  button = createImg("./library/exppng.png");
+  button.position(50, 50);
+  button.size(50,50)
+  button.mousePressed()
 }
 
 function setup () {
@@ -61,7 +70,11 @@ image(myImage6, 855, 380, 190, 190);
 
 //image(myImage7, 0, 0, myImage.width/2.7, myImage.height/2.7);
 
+//iconi
 
+//image(myImage8, 50, 50, 50, 50);
+
+//botone icono
 
 
 
