@@ -6,9 +6,6 @@ var myImg5;
 var myImg6;
 var mySong;
 
-
-var mySong;
-
 function preload() {
   myImage = loadImage("./library/sfondo.png");
   myImage2 = loadImage("./library/covermariposa.png");
