@@ -1,4 +1,5 @@
-# Endangered animals (and how to find them)
+# The concept
+Endangered animals (and how to find them) (picture)
 ### What is this?
 Say what the project is about
 ### Why this idea?
@@ -10,14 +11,16 @@ All the other projects that inspired you, from any perspective (interactive, vis
 ## --IMAGE/GIF/VIDEO--
 A visual recap of your project, it must convey main features and make people want to look at the real sketch
 
+# The project
+
 ## Design challenges
 Explain choiches behind the design of interactions and the architecture of the sketch. What are the most innovative elements?
 If useful, do the same for the visual design of the sketch.
 
-## Code challenges
-On the technical side, what drove you crazy. What are the most interesting and elegant solutions?
+## Code challenges 
+challenges On the technical side, what drove you crazy. What are the most interesting and elegant solutions?
 
 ## Credits (third libraries used)
 
-## Who are we?
+# Who are we?
 This is a project created by Teresa Cremonesi, Andrea Febres Medina, Filippo Ferrari and Cristina Pita da Veiga developed in the course of Creative Coding at Politecnico di Milano.
