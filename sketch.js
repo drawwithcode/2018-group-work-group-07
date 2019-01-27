@@ -4,6 +4,8 @@ var myImg3;
 var myImg4;
 var myImg5;
 var myImg6;
+var mySong;
+
 
 var mySong;
 
@@ -22,18 +24,22 @@ function preload() {
 function setup() {
   createCanvas(3999, 2244);
 
-
+  mySong = loadSound("./library/backsounds.mp3");
 
 }
 
-
 function draw() {
+
+// music
 
   if (mySong.isPlaying() == true) {
     mySong.play();
   }
 
   mySong.loop();
+
+
+image(myImage, 0, 0, myImage.width, myImage.height);
 
 
   image(myImage, 0, 0, myImage.width, myImage.height);
