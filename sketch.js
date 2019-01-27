@@ -7,12 +7,7 @@ var myImg6;
 var myImg7;
 var mySong;
 
-<<<<<<< HEAD
-var button;
 
-
-=======
->>>>>>> 0723295bca3a0af5fbc76722260f07139d29f34f
 function preload() {
   myImage = loadImage("./library/sfondo.png");
   myImage2 = loadImage("./library/covermariposa.png");
@@ -20,83 +15,46 @@ function preload() {
   myImage4 = loadImage("./library/coverarmadillo.png");
   myImage5 = loadImage("./library/coverbradipo.png");
   myImage6 = loadImage("./library/coversimio.png");
-<<<<<<< HEAD
-  myImage7 = loadImage("./library/primera2.png");
+  myImage7 = loadImage("./library/primera.png");
   mySong = loadSound("./library/backsounds.mp3");
 
 
 }
-=======
 
-  mySong = loadSound('./Rainforest-sounds.mp3');
->>>>>>> 0723295bca3a0af5fbc76722260f07139d29f34f
+function setup () {
 
-}
-
-<<<<<<< HEAD
   createCanvas(windowWidth,windowHeight)
   background(myImage)
 
   mySong.play();
-=======
-function setup() {
-  createCanvas(3999, 2244);
-
-  mySong = loadSound("./library/backsounds.mp3");
-
->>>>>>> 0723295bca3a0af5fbc76722260f07139d29f34f
 }
 
-function draw() {
 
-// music
+function draw () {
 
-  if (mySong.isPlaying() == true) {
-    mySong.play();
-  }
-
-  mySong.loop();
-
-  //image(myImage, 0, 0, myImage.width/3, myImage.height/3);
+//image(myImage, 0, 0, myImage.width/3, myImage.height/3);
 
 
 
-  image(myImage, 0, 0, myImage.width, myImage.height);
+//cover mariposa
 
-<<<<<<< HEAD
-image(myImage2, 210, 130, 75,75);
-=======
-  //cover mariposa
->>>>>>> 0723295bca3a0af5fbc76722260f07139d29f34f
+image(myImage2, 208, 125, 75,75);
 
-  image(myImage2, 548, 385, 250, 250);
+//cover rana
 
-<<<<<<< HEAD
-image(myImage3, 200, 725, 50, 50);
-=======
-  //cover rana
->>>>>>> 0723295bca3a0af5fbc76722260f07139d29f34f
+image(myImage3, 200, 660, 50, 50);
 
-  image(myImage3, 499, 1995, 200, 200);
+//cover armadillo
 
-<<<<<<< HEAD
-image(myImage4, 735, 670, 160, 160);
-=======
-  //cover armadillo
->>>>>>> 0723295bca3a0af5fbc76722260f07139d29f34f
+image(myImage4, 735, 600, 160, 160);
 
-  image(myImage4, 1975, 1780, 590, 590);
+//cover bradipo
 
-<<<<<<< HEAD
-image(myImage5, 767, -8, 125, 430);
-=======
-  //cover bradipo
->>>>>>> 0723295bca3a0af5fbc76722260f07139d29f34f
+image(myImage5, 767, -35, 125, 430);
 
-  image(myImage5, 2130, -130, 350, 1360);
+//cover simio
 
-<<<<<<< HEAD
-image(myImage6, 855, 423, 190, 190);
+image(myImage6, 855, 380, 190, 190);
 
 
 //primera pagina
@@ -104,17 +62,11 @@ image(myImage6, 855, 423, 190, 190);
 //image(myImage7, 0, 0, myImage.width/2.7, myImage.height/2.7);
 
 
-//iconi
 
 
 
-=======
-  //cover simio
->>>>>>> 0723295bca3a0af5fbc76722260f07139d29f34f
 
-  image(myImage6, 2420, 1200, 500, 500);
 
-<<<<<<< HEAD
 //texto inicio
 	// push()
 	// textFont('Rubik:300')
@@ -163,44 +115,6 @@ image(myImage6, 855, 423, 190, 190);
 		// noStroke()
 		// fill(0)
 		// text('play',width/2.04, height/1.49)
-=======
-
-  //texto inicio
-  push()
-  textFont('Rubik:300')
-  fill(250)
-  textAlign(CENTER)
-  textSize(15)
-  text('In the last year has increased the number \nof species extinted because of human acts. \nDeforestation of the Amazon, hunting \nand other actions are destroying diverse species. \nChoose the different tools and search in this jungle \nfive animals in danger and discover more about them.', width / 2, height / 2.5)
-  pop()
-
-  //botón inicio
-  var distance = dist(mouseX, mouseY, width / 2, height / 1.5);
-
-  if (distance < 50) {
-    isOverCircle = true;
-  } else {
-    isOverCircle = false;
-  }
-
-  ellipseMode(CENTER);
-  stroke(250);
-  strokeWeight(1);
-  if (isOverCircle == true) {
-    fill(100);
-    cursor(HAND);
-  } else {
-    fill(200, 120);
-    cursor(ARROW);
-  }
-  ellipse(width / 2, height / 1.5, 80, 75);
-  textSize(15)
-  textFont('Rubik:300')
-  text(CENTER)
-  noStroke()
-  fill(0)
-  text('play', width / 2.04, height / 1.49)
->>>>>>> 0723295bca3a0af5fbc76722260f07139d29f34f
 
 
 
@@ -210,8 +124,9 @@ image(myImage6, 855, 423, 190, 190);
 
 //primer boton
 
-function mousePressed() {
-  if (isOverCircle == true) {
+function mousePressed(){
+  if(isOverCircle == true)
+  {
     backgroundColor = color(random(255), random(255), random(255));
   }
 }
