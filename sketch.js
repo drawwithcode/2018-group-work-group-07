@@ -11,11 +11,11 @@ var myImg10;
 var myImg11;
 var myImg12;
 var myImg13;
+var myImg14;
 var mySong;
-
-
 var button;
-
+let angle = 0.0;
+let jitter = 0.0;
 
 function preload() {
   mySong = loadSound("./library/sound.mp3");
@@ -33,6 +33,7 @@ function preload() {
   myImage11 = loadImage("./library/tastiera.png");
   myImage12 = loadImage("./library/luce.png");
   myImage13 = loadImage("./library/banner.png");
+  myImage14 = loadImage("./library/liana.png");
 
 
 
@@ -55,7 +56,7 @@ function preload() {
 function setup () {
 
   createCanvas(windowWidth,windowHeight)
-  background(myImage)
+  //background(myImage)
   mySong.play();
 
 
@@ -66,10 +67,21 @@ function setup () {
 
 
 function draw () {
+  background(myImage)
 
 //image(myImage, 0, 0, myImage.width/3, myImage.height/3);
+push()
+//movimento liana amarilla
+if (second() % 1 === 0) {
+  jitter = random(0, 0.1);
+ }
+ angle = angle + jitter;
+  let c = cos(angle);
 
-
+translate(0,0)
+ rotate(c);
+ image(myImage14,-100,-100,1000,500);
+pop()
 
 //cover mariposa
 
