@@ -70,18 +70,7 @@ function draw () {
   background(myImage)
 
 //image(myImage, 0, 0, myImage.width/3, myImage.height/3);
-push()
-//movimento liana amarilla
-if (second() % 1 === 0) {
-  jitter = random(0, 0.1);
- }
- angle = angle + jitter;
-  let c = cos(angle);
 
-translate(0,0)
- rotate(c);
- image(myImage14,-100,-100,1000,500);
-pop()
 
 //cover mariposa
 
@@ -122,7 +111,6 @@ image(myImage12, 400, -105, 700, 400);
 
 
 //primera pagina
-
 //image(myImage7, 0, 0, myImage.width/2.7, myImage.height/2.7);
 
 
@@ -136,6 +124,18 @@ image(myImage12, 400, -105, 700, 400);
 	// text('In the last years has increased the number of species in danger or threatened because of human acts and it has been declared as a “global epidemic”. Scientists estimate that up to 200 species die every hour. The deforestation of the Amazon, hunting and other human actions are destroying diverse species. With this game you will discover some of the species that are in danger. Choose different tools and discover more about animals in danger in the Amazon.',width/2,height/2.5)
 	// pop()
 
+  push()
+  //movimento liana amarilla
+  if (second() % 1 === 0) {
+    jitter = random(0, 0.1);
+   }
+   angle = angle + jitter;
+    let c = cos(angle);
+
+  translate(0,0)
+   rotate(c);
+   image(myImage14,-100,-100,1000,500);
+  pop()
 
 }
 //boton menu
