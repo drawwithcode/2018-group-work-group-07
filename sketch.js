@@ -12,6 +12,11 @@ var myImg11;
 var myImg12;
 var myImg13;
 var myImg14;
+var myImg15;
+var myImg16;
+var myImg17;
+var myImg18;
+var myImg19;
 var mySong;
 var button;
 let angle = 0.0;
@@ -20,7 +25,7 @@ let jitter = 0.0;
 function preload() {
   mySong = loadSound("./library/sound.mp3");
 
-  myImage = loadImage("./library/sfondo.png");
+  myImage = loadImage("./library/fondo.png");
   myImage2 = loadImage("./library/covermariposa.png");
   myImage3 = loadImage("./library/coverrana.png");
   myImage4 = loadImage("./library/coverarmadillo.png");
@@ -34,6 +39,12 @@ function preload() {
   myImage12 = loadImage("./library/luce.png");
   myImage13 = loadImage("./library/banner.png");
   myImage14 = loadImage("./library/liana.png");
+  myImage15 = loadImage("./library/farfalla.png");
+  myImage16 = loadImage("./library/rana.png");
+  myImage17 = loadImage("./library/armadillo.png");
+  myImage18 = loadImage("./library/bradipo.png");
+  myImage19 = loadImage("./library/monkey.png");
+
 
 
 
@@ -72,25 +83,48 @@ function draw () {
 //image(myImage, 0, 0, myImage.width/3, myImage.height/3);
 
 
-//cover mariposa
 
-image(myImage2, 208, 125, 75,75);
+//animali schermata
+
+//farfalla
+image(myImage15, 250, 125, 20,20);
+
+//cover farfalla
+
+image(myImage2, 215, 125, 75,75);
+
+//rana
+image(myImage16, 220, 680, 20, 20);
 
 //cover rana
 
-image(myImage3, 200, 660, 50, 50);
+image(myImage3, 200, 660, 60, 60);
+
+//armadillo
+image(myImage17, 800, 670, 50, 50);
 
 //cover armadillo
 
 image(myImage4, 735, 600, 160, 160);
 
+// bradipo
+
+image(myImage18, 800, 210, 70, 90);
+
 //cover bradipo
 
-image(myImage5, 767, -35, 125, 430);
+image(myImage5, 768, -35, 125, 430);
+
+// simio
+
+image(myImage19, 905, 430, 90, 90);
 
 //cover simio
 
 image(myImage6, 855, 380, 190, 190);
+
+
+//iconi
 
 //icono banner
 image(myImage13, 370, 50, 700, 50);
