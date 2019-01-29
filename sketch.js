@@ -4,114 +4,167 @@ var myImg3;
 var myImg4;
 var myImg5;
 var myImg6;
+var myImg7;
+var myImg8;
+var myImg9;
+var myImg10;
+var myImg11;
+var myImg12;
+var myImg13;
+var myImg14;
 var mySong;
+var button;
+let angle = 0.0;
+let jitter = 0.0;
 
 function preload() {
+  mySong = loadSound("./library/sound.mp3");
+
   myImage = loadImage("./library/sfondo.png");
   myImage2 = loadImage("./library/covermariposa.png");
   myImage3 = loadImage("./library/coverrana.png");
   myImage4 = loadImage("./library/coverarmadillo.png");
   myImage5 = loadImage("./library/coverbradipo.png");
   myImage6 = loadImage("./library/coversimio.png");
+  myImage7 = loadImage("./library/primera.png");
+  myImage8 = loadImage("./library/exppng.png");
+  myImage9 = loadImage("./library/suono.png");
+  myImage10 = loadImage("./library/binocolo.png");
+  myImage11 = loadImage("./library/tastiera.png");
+  myImage12 = loadImage("./library/luce.png");
+  myImage13 = loadImage("./library/banner.png");
+  myImage14 = loadImage("./library/liana.png");
 
-  mySong = loadSound('./Rainforest-sounds.mp3');
+
+
+  //button iconi
+  button = createImg("./library/exppng.png");
+  button.position(50, 50);
+  button.size(50,50)
+  button.mousePressed(menu)
+
+  //button inicio
+  button = createImg("./library/boton.png");
+  button.position(650, 600);
+  button.size(100,30)
+  button.mousePressed(play)
+
+
 
 }
 
-function setup() {
-  createCanvas(3999, 2244);
+function setup () {
 
-  mySong = loadSound("./library/backsounds.mp3");
+  createCanvas(windowWidth,windowHeight)
+  //background(myImage)
+  mySong.play();
+
 
 }
 
-function draw() {
-
-// music
-
-  if (mySong.isPlaying() == true) {
-    mySong.play();
-  }
-
-  mySong.loop();
 
 
-image(myImage, 0, 0, myImage.width, myImage.height);
 
 
-  image(myImage, 0, 0, myImage.width, myImage.height);
+function draw () {
+  background(myImage)
 
-  //cover mariposa
-
-  image(myImage2, 548, 385, 250, 250);
-
-  //cover rana
-
-  image(myImage3, 499, 1995, 200, 200);
-
-  //cover armadillo
-
-  image(myImage4, 1975, 1780, 590, 590);
-
-  //cover bradipo
-
-  image(myImage5, 2130, -130, 350, 1360);
-
-  //cover simio
-
-  image(myImage6, 2420, 1200, 500, 500);
+//image(myImage, 0, 0, myImage.width/3, myImage.height/3);
 
 
-  //texto inicio
+//cover mariposa
+
+image(myImage2, 208, 125, 75,75);
+
+//cover rana
+
+image(myImage3, 200, 660, 50, 50);
+
+//cover armadillo
+
+image(myImage4, 735, 600, 160, 160);
+
+//cover bradipo
+
+image(myImage5, 767, -35, 125, 430);
+
+//cover simio
+
+image(myImage6, 855, 380, 190, 190);
+
+//icono banner
+image(myImage13, 370, 50, 700, 50);
+
+//icono suono
+image(myImage9, 330, -105, 700, 400);
+
+//icono binoculo
+image(myImage10, 360,-105, 700, 400);
+
+//icono tastiera
+image(myImage11, 380, -105, 700, 400);
+
+//luce
+image(myImage12, 400, -105, 700, 400);
+
+
+
+
+//primera pagina
+//image(myImage7, 0, 0, myImage.width/2.7, myImage.height/2.7);
+
+
+
+//texto inicio
+	// push()
+	// textFont('Rubik:300')
+	// fill(250)
+	// textAlign(CENTER)
+	// textSize(15)
+	// text('In the last years has increased the number of species in danger or threatened because of human acts and it has been declared as a “global epidemic”. Scientists estimate that up to 200 species die every hour. The deforestation of the Amazon, hunting and other human actions are destroying diverse species. With this game you will discover some of the species that are in danger. Choose different tools and discover more about animals in danger in the Amazon.',width/2,height/2.5)
+	// pop()
+
   push()
-  textFont('Rubik:300')
-  fill(250)
-  textAlign(CENTER)
-  textSize(15)
-  text('In the last year has increased the number \nof species extinted because of human acts. \nDeforestation of the Amazon, hunting \nand other actions are destroying diverse species. \nChoose the different tools and search in this jungle \nfive animals in danger and discover more about them.', width / 2, height / 2.5)
+  //movimento liana amarilla
+  if (second() % 1 === 0) {
+    jitter = random(0, 0.1);
+   }
+   angle = angle + jitter;
+    let c = cos(angle);
+
+  translate(0,0)
+   rotate(c);
+   image(myImage14,-100,-100,1000,500);
   pop()
 
-  //botón inicio
-  var distance = dist(mouseX, mouseY, width / 2, height / 1.5);
+}
+//boton menu
 
-  if (distance < 50) {
-    isOverCircle = true;
-  } else {
-    isOverCircle = false;
-  }
+function menu() {
 
-  ellipseMode(CENTER);
-  stroke(250);
-  strokeWeight(1);
-  if (isOverCircle == true) {
-    fill(100);
-    cursor(HAND);
-  } else {
-    fill(200, 120);
-    cursor(ARROW);
-  }
-  ellipse(width / 2, height / 1.5, 80, 75);
-  textSize(15)
-  textFont('Rubik:300')
-  text(CENTER)
-  noStroke()
-  fill(0)
-  text('play', width / 2.04, height / 1.49)
-
+if(button.mousePressed(menu)){
+background(0)
+} else {
+background(myImage)
+}
 
 
 }
 
+//boton play
+function play() {
 
+if(button.mousePressed(play)){
 
-//primer boton
+background(0)
+} else {
+background(myImage);
 
-function mousePressed() {
-  if (isOverCircle == true) {
-    backgroundColor = color(random(255), random(255), random(255));
-  }
 }
+
+}
+
 
 function windowResized() {
-  resizeCanvas(3999, 2244);
+  resizeCanvas(windowWidth,windowHeight);
 }
