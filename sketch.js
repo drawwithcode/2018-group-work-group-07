@@ -111,21 +111,21 @@ image(myImage15, 0,0,windowWidth,windowHeight);
 
 //cover farfalla
 
-image(myImage2, 210, 110, 75,75);
+image(myImage2, 0,0,windowWidth,windowHeight);
 
 //rana
-image(myImage16, 0,0,windowWidth,windowHeight);
+//image(myImage16, 0,0,windowWidth,windowHeight);
 
 //cover rana
 
-image(myImage3, 185, 655, 70, 70);
+image(myImage3,0,0,windowWidth,windowHeight);
 
 //armadillo
 image(myImage17, 0,0,windowWidth,windowHeight);
 
 //cover armadillo
 
-image(myImage4, 735, 600, 160, 160);
+image(myImage4, 0,0,windowWidth,windowHeight);
 
 // bradipo
 
@@ -133,7 +133,7 @@ image(myImage18, 0,0,windowWidth,windowHeight);
 
 //cover bradipo
 
-image(myImage5, 768, -35, 125, 430);
+image(myImage5, 0,0,windowWidth,windowHeight);
 
 // simio
 
@@ -141,7 +141,7 @@ image(myImage19,0,0,windowWidth,windowHeight);
 
 //cover simio
 
-image(myImage6, 855, 380, 190, 190);
+image(myImage6, 0,0,windowWidth,windowHeight);
 
 
 //iconi
@@ -183,15 +183,15 @@ image(myImage12, 400, -105, 700, 400);
 //herramienta keyboard
 push()
 if (keyIsPressed == true) {  // If the key is pressed,
-    image(myImage3, 185, 655, 70, 70);
+    image(myImage3, 0,0,windowWidth,windowHeight);
     image(myImage26, 10,0,windowWidth,windowHeight);
-    image(myImage27, 400,-20,windowWidth,windowHeight);
+    image(myImage27, 400,-30,windowWidth,windowHeight);
 
   }
   else {
-    image(myImage3, 187, 655, 70, 70);
+    image(myImage3, 2,0,windowWidth,windowHeight);
     image(myImage26, 8,2,windowWidth,windowHeight);
-    image(myImage27, 400,2,windowWidth,windowHeight);
+    image(myImage27, 400,0,windowWidth,windowHeight);
 
   }
 pop()
