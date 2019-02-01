@@ -35,6 +35,7 @@ var button;
 let angle = 0.0;
 let jitter = 0.0;
 var rana = false
+var farfalla = false
 
 
 function preload() {
@@ -233,17 +234,10 @@ pop()
    image(myImage14,-100,-100,1000,500);
   pop()
 
-//click rana
 
-// if ((mouseX > 40) && (mouseX < 80) && (mouseY > 20) && (mouseY < 80)){
-// fill(250)
-// rect(40, 20, 40, 60);
-//
-// }
-// else {
-//   fill(0);
-// }
 
+
+//aparición rana
 if (rana){
 image(myImage16, 0,0,windowWidth,windowHeight)
 
@@ -255,6 +249,18 @@ image(myImage16, 0,0,windowWidth,windowHeight)
 // fill(250)
 // ellipse(windowWidth/6.5,windowHeight/12*11.3,30)
 
+//aparicion farfalla
+if (farfalla){
+image(myImage15, 0,0,windowWidth,windowHeight)
+
+} else {
+  image(myImage2, 0,0,windowWidth,windowHeight)
+
+
+  // fill(250)
+  // ellipse(windowWidth/6.2,windowHeight/5,30)
+
+}
 
 //pagina final
 // image(myImage20, 0,0,windowWidth,windowHeight);
@@ -296,15 +302,17 @@ background(0)
 }
 //click rana
 function mouseClicked(){
-var distance = dist(mouseX,mouseY,windowWidth/6.5,windowHeight/12*11.3)
-if (distance < 20){
+var dirana = dist(mouseX,mouseY,windowWidth/6.5,windowHeight/12*11.3)
+if (dirana < 20){
   rana = true
 
 }
-
+var difarfalla = dist(mouseX,mouseY,windowWidth/6.2,windowHeight/5)
+if (difarfalla < 20){
+  farfalla = true
   }
 
-
+}
 //boton play
 function play() {
 
