@@ -173,20 +173,19 @@ image(myImage19,0,0,windowWidth,windowHeight);
 //iconi
 
 //icono banner
-image(myImage13, windowWidth/4.8,windowHeight/15,windowWidth/1.8,windowHeight/15);
+image(myImage13, windowWidth/4.8,windowHeight/13,windowWidth/1.8,windowHeight/13);
 
 //icono suono
-
-image(myImage9, 330, -105, 700, 400);
+image(myImage9, 0,0,windowWidth,windowHeight);
 
 //icono binoculo
-image(myImage10, 360,-105, 700, 400);
+image(myImage10, 0,0,windowWidth,windowHeight);
 
 //icono tastiera
-image(myImage11, 380, -105, 700, 400);
+image(myImage11,0,0,windowWidth,windowHeight);
 
 //luce
-image(myImage12, 400, -105, 700, 400);
+image(myImage12, 0,0,windowWidth,windowHeight);
 
 
 //primera pagina
@@ -320,7 +319,7 @@ background(0)
 }
 
 
-//click rana + farfall + scimmia + armadillo
+//click rana + farfalla + scimmia + armadillo + bradipo
 function mouseClicked(){
 var dirana = dist(mouseX,mouseY,windowWidth/6.5,windowHeight/12*11.3)
 if (dirana < 40){
