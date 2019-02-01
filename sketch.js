@@ -30,12 +30,26 @@ var myImg29;
 var myImg30;
 var myImg31;
 var myImg32;
+var myImg33;
+var myImg34;
+var myImg35;
+var myImg36;
+var myImg37;
 var mySong;
 var button;
 let angle = 0.0;
 let jitter = 0.0;
 var rana = false
 var farfalla = false
+var scimmia = false
+var armadillo = false
+
+var myImg39; // hoja morada
+var myImg38; // cover negra con hueco
+var light = false; //sirve que sea asì
+var leavessloth = true; //igual que light
+
+
 
 
 function preload() {
@@ -73,6 +87,15 @@ function preload() {
   myImage30 = loadImage("./library/u1.png");
   myImage31 = loadImage("./library/s3.png");
   myImage32 = loadImage("./library/i2.png");
+  myImage33 = loadImage("./library/testoarmadillo.png");
+  myImage34 = loadImage("./library/testobradipo.png");
+  myImage35 = loadImage("./library/testofarfalla.png");
+  myImage36 = loadImage("./library/testorana.png");
+  myImage37 = loadImage("./library/testoscimmia.png");
+  myImage38 = loadImage("./library/cover.png");
+  myImage39 = loadImage("./library/copribradipo.png");
+
+
 
 
 
@@ -110,29 +133,26 @@ function draw () {
 image(myImage, 0, 0, windowWidth, windowHeight);
 
 
-
-
-
 //farfalla
 image(myImage15, 0,0,windowWidth,windowHeight);
 
 //cover farfalla
 
-image(myImage2, 0,0,windowWidth,windowHeight);
+//image(myImage2, 0,0,windowWidth,windowHeight);
 
 //rana
-//image(myImage16, 0,0,windowWidth,windowHeight);
+image(myImage16, 0,0,windowWidth,windowHeight);
 
 //cover rana
 
-image(myImage3,0,0,windowWidth,windowHeight);
+//image(myImage3,0,0,windowWidth,windowHeight);
 
 //armadillo
 image(myImage17, 0,0,windowWidth,windowHeight);
 
 //cover armadillo
 
-image(myImage4, 0,0,windowWidth,windowHeight);
+//image(myImage4, 0,0,windowWidth,windowHeight);
 
 // bradipo
 
@@ -140,23 +160,23 @@ image(myImage18, 0,0,windowWidth,windowHeight);
 
 //cover bradipo
 
-image(myImage5, 0,0,windowWidth,windowHeight);
+//image(myImage5, 0,0,windowWidth,windowHeight);
 
-// simio
+// scimmia
 
 image(myImage19,0,0,windowWidth,windowHeight);
 
-//cover simio
+//cover scimmia
 
-image(myImage6, 0,0,windowWidth,windowHeight);
-
+//image(myImage6, 0,0,windowWidth,windowHeight);
 
 //iconi
 
 //icono banner
-image(myImage13, 370, 50, 700, 50);
+image(myImage13, windowWidth/4.8,windowHeight/15,windowWidth/1.8,windowHeight/15);
 
 //icono suono
+
 image(myImage9, 330, -105, 700, 400);
 
 //icono binoculo
@@ -169,12 +189,8 @@ image(myImage11, 380, -105, 700, 400);
 image(myImage12, 400, -105, 700, 400);
 
 
-
-
-
 //primera pagina
 //image(myImage7, 0, 0, windowWidth, windowHeight);
-
 
 
 //texto inicio
@@ -185,9 +201,6 @@ image(myImage12, 400, -105, 700, 400);
 	// textSize(15)
 	// text('In the last years has increased the number of species in danger or threatened because of human acts and it has been declared as a “global epidemic”. Scientists estimate that up to 200 species die every hour. The deforestation of the Amazon, hunting and other human actions are destroying diverse species. With this game you will discover some of the species that are in danger. Choose different tools and discover more about animals in danger in the Amazon.',width/2,height/2.5)
 	// pop()
-
-
-
 
 //herramienta keyboard
 push()
@@ -201,8 +214,6 @@ if (keyIsPressed == true) {  // If the key is pressed,
     image(myImage30, 0,-10,windowWidth,windowHeight)
     image(myImage31, 0,0,windowWidth,windowHeight)
     image(myImage32, 0,0,windowWidth,windowHeight)
-
-
   }
   else {
     image(myImage3, 2,0,windowWidth,windowHeight);
@@ -214,26 +225,8 @@ if (keyIsPressed == true) {  // If the key is pressed,
     image(myImage30, 0,5,windowWidth,windowHeight)
     image(myImage31, 0,5,windowWidth,windowHeight)
     image(myImage32, 5,2,windowWidth,windowHeight)
-
-
   }
 pop()
-
-
-
-  push()
-  //movimento liana amarilla
-  if (second() % 1 === 0) {
-    jitter = random(0, 0.1);
-   }
-   angle = angle + jitter;
-    let c = cos(angle);
-
-  translate(0,0)
-   rotate(c);
-   image(myImage14,-100,-100,1000,500);
-  pop()
-
 
 
 
@@ -244,10 +237,7 @@ image(myImage16, 0,0,windowWidth,windowHeight)
 } else {
   image(myImage3, 0,0,windowWidth,windowHeight)
 
-
 }
-// fill(250)
-// ellipse(windowWidth/6.5,windowHeight/12*11.3,30)
 
 //aparicion farfalla
 if (farfalla){
@@ -255,39 +245,67 @@ image(myImage15, 0,0,windowWidth,windowHeight)
 
 } else {
   image(myImage2, 0,0,windowWidth,windowHeight)
+}
 
 
-  // fill(250)
-  // ellipse(windowWidth/6.2,windowHeight/5,30)
+//aparición scimmia
+if (scimmia){
+image(myImage19, 0,0,windowWidth,windowHeight)
+
+} else {
+  image(myImage6, 0,0,windowWidth,windowHeight)
 
 }
 
-//pagina final
+//aparición armadillo
+if (armadillo){
+image(myImage17, 0,0,windowWidth,windowHeight)
+
+} else {
+  image(myImage4, 0,0,windowWidth,windowHeight)
+
+}
+
+//aparicion sloth
+
+  if (leavessloth) {
+    var x = random(1);
+    var y = random(1);
+    image(myImage5, x, y, windowWidth, windowHeight);
+    image(myImage39, x, y, windowWidth, windowHeight);
+  }
+
+  // da cancellare poi: è solo per fare il tool della luce
+  fill(250)
+  ellipse(windowWidth /2, windowHeight / 3, 30);
+
+
+  if (light) {
+    image(myImage38, mouseX - myImage38.width / 2, mouseY - myImage38.height / 2, myImage38.width, myImage38.height);
+  }
+}
+
+
+
+
+// //pagina final
 // image(myImage20, 0,0,windowWidth,windowHeight);
 // image(myImage21, 0,0,windowWidth,windowHeight);
 // image(myImage22, 0,0,windowWidth,windowHeight);
 // image(myImage23, 0,0,windowWidth,windowHeight);
 // image(myImage24, 0,0,windowWidth,windowHeight);
 // image(myImage25, 0,0,windowWidth,windowHeight);
-
-
+//
+//
 // if ((mouseX > windowWidth/10) && (mouseX < windowWidth/5)){
-// fill(250)
-// rect(40, 20, 40, 60);
-//
-// textFont('Rubik:300')
-// fill(250)
-// textAlign(CENTER)
-// textSize(15)
-// text('Lemur tree frogs')
-//
+//   image(myImage36, 0,0,windowWidth,windowHeight);
 // }
 // else {
 //   fill(0);
 // }
-//\n
+//
 
-}
+
 
 
 function menu() {
@@ -300,32 +318,56 @@ background(0)
 
 
 }
-//click rana
+
+
+//click rana + farfall + scimmia + armadillo
 function mouseClicked(){
 var dirana = dist(mouseX,mouseY,windowWidth/6.5,windowHeight/12*11.3)
-if (dirana < 20){
+if (dirana < 40){
   rana = true
 
 }
 var difarfalla = dist(mouseX,mouseY,windowWidth/6.2,windowHeight/5)
-if (difarfalla < 20){
+if (difarfalla < 40){
   farfalla = true
   }
+var discimmia = dist(mouseX,mouseY,windowWidth/1.5,windowHeight/1.6)
+if (discimmia < 50){
+    scimmia = true
+    }
+var diarmadillo = dist(mouseX,mouseY,windowWidth/1.8,windowHeight/12*11.3)
+if (diarmadillo < 40){
+    armadillo = true
+    }
+
+var dlight = dist(mouseX, mouseY, windowWidth / 2, windowHeight / 3);
+if (dlight  < 20) {
+      light = true;
+      }
+
+  var dsloth = dist(mouseX, mouseY, windowWidth / 1.7, windowHeight / 3);
+  if (dsloth < 50) {
+    leavessloth = false;
+    light = false;
+      }
 
 }
+
+
+
 //boton play
-function play() {
-
-if(button.mousePressed(play)){
-
-  image(myImage, 0, 0, windowWidth, windowHeight);
-
-} else {
-  image(myImage7, 0, 0, windowWidth, windowHeight);
-
-}
-
-}
+// function play() {
+//
+// if(button.mousePressed(play)){
+//
+//   image(myImage, 0, 0, windowWidth, windowHeight);
+//
+// } else {
+//   image(myImage7, 0, 0, windowWidth, windowHeight);
+//
+// }
+//
+// }
 
 function windowResized() {
   resizeCanvas(windowWidth,windowHeight);
