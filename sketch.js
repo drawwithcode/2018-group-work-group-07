@@ -110,7 +110,7 @@ image(myImage, 0, 0, windowWidth, windowHeight);
 
 
 fill(0)
-rect(windowWidth/2,windowHeight/2, windowWidth/2,windowHeight/2);
+rect(windowWidth/4,windowHeight/2, windowWidth/4,windowHeight/2);
 
 //farfalla
 image(myImage15, 0,0,windowWidth,windowHeight);
