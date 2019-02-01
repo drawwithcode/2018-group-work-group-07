@@ -34,6 +34,7 @@ var mySong;
 var button;
 let angle = 0.0;
 let jitter = 0.0;
+var rana = false
 
 
 function preload() {
@@ -109,8 +110,7 @@ image(myImage, 0, 0, windowWidth, windowHeight);
 
 
 
-fill(0)
-rect(windowWidth/4,windowHeight/2, windowWidth/4,windowHeight/2);
+
 
 //farfalla
 image(myImage15, 0,0,windowWidth,windowHeight);
@@ -166,6 +166,7 @@ image(myImage11, 380, -105, 700, 400);
 
 //luce
 image(myImage12, 400, -105, 700, 400);
+
 
 
 
@@ -232,22 +233,53 @@ pop()
    image(myImage14,-100,-100,1000,500);
   pop()
 
-
 //click rana
-if (mouseIsPressed == true) {
-  if (mouseButton == LEFT) {
+
+// if ((mouseX > 40) && (mouseX < 80) && (mouseY > 20) && (mouseY < 80)){
+// fill(250)
+// rect(40, 20, 40, 60);
+//
+// }
+// else {
+//   fill(0);
+// }
+
+if (rana){
 image(myImage16, 0,0,windowWidth,windowHeight)
-  }
-  else if (mouseButton == RIGHT) {
-    image(myImage3,0,0,windowWidth,windowHeight);
-  }
-}
-else {
-  fill(0)
-rect(10,10,10,10)
-}
+
+} else {
+  image(myImage3, 0,0,windowWidth,windowHeight)
 
 
+}
+// fill(250)
+// ellipse(windowWidth/6.5,windowHeight/12*11.3,30)
+
+
+//pagina final
+// image(myImage20, 0,0,windowWidth,windowHeight);
+// image(myImage21, 0,0,windowWidth,windowHeight);
+// image(myImage22, 0,0,windowWidth,windowHeight);
+// image(myImage23, 0,0,windowWidth,windowHeight);
+// image(myImage24, 0,0,windowWidth,windowHeight);
+// image(myImage25, 0,0,windowWidth,windowHeight);
+
+
+// if ((mouseX > windowWidth/10) && (mouseX < windowWidth/5)){
+// fill(250)
+// rect(40, 20, 40, 60);
+//
+// textFont('Rubik:300')
+// fill(250)
+// textAlign(CENTER)
+// textSize(15)
+// text('Lemur tree frogs')
+//
+// }
+// else {
+//   fill(0);
+// }
+//\n
 
 }
 
@@ -262,6 +294,16 @@ background(0)
 
 
 }
+//click rana
+function mouseClicked(){
+var distance = dist(mouseX,mouseY,windowWidth/6.5,windowHeight/12*11.3)
+if (distance < 20){
+  rana = true
+
+}
+
+  }
+
 
 //boton play
 function play() {
