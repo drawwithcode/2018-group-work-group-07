@@ -25,13 +25,16 @@ var myImg24;
 var myImg25;
 var myImg26;
 var myImg27;
-
-
-
+var myImg28;
+var myImg29;
+var myImg30;
+var myImg31;
+var myImg32;
 var mySong;
 var button;
 let angle = 0.0;
 let jitter = 0.0;
+
 
 function preload() {
   mySong = loadSound("./library/sound.mp3");
@@ -63,6 +66,11 @@ function preload() {
   myImage25 = loadImage("./library/scimmiafinalepng.png");
   myImage26 = loadImage("./library/a1.png");
   myImage27 = loadImage("./library/L1.png");
+  myImage28 = loadImage("./library/c2.png");
+  myImage29 = loadImage("./library/g4.png");
+  myImage30 = loadImage("./library/u1.png");
+  myImage31 = loadImage("./library/s3.png");
+  myImage32 = loadImage("./library/i2.png");
 
 
 
@@ -95,16 +103,14 @@ function setup () {
 }
 
 
-
-
-
 function draw () {
 //background(myImage)
 image(myImage, 0, 0, windowWidth, windowHeight);
 
 
 
-
+fill(0)
+rect(windowWidth/2,windowHeight/2, windowWidth/2,windowHeight/2);
 
 //farfalla
 image(myImage15, 0,0,windowWidth,windowHeight);
@@ -180,18 +186,33 @@ image(myImage12, 400, -105, 700, 400);
 
 
 
+
 //herramienta keyboard
 push()
 if (keyIsPressed == true) {  // If the key is pressed,
     image(myImage3, 0,0,windowWidth,windowHeight);
     image(myImage26, 10,0,windowWidth,windowHeight);
     image(myImage27, 400,-30,windowWidth,windowHeight);
+    image(myImage28, 700,-130,windowWidth,windowHeight)
+    image(myImage29, 700,0,windowWidth,windowHeight)
+    image(myImage29, 0,0,windowWidth,windowHeight)
+    image(myImage30, 0,-10,windowWidth,windowHeight)
+    image(myImage31, 0,0,windowWidth,windowHeight)
+    image(myImage32, 0,0,windowWidth,windowHeight)
+
 
   }
   else {
     image(myImage3, 2,0,windowWidth,windowHeight);
     image(myImage26, 8,2,windowWidth,windowHeight);
     image(myImage27, 400,0,windowWidth,windowHeight);
+    image(myImage28, 715,-135,windowWidth,windowHeight)
+    image(myImage29, 700,5,windowWidth,windowHeight)
+    image(myImage29, 3,0,windowWidth,windowHeight)
+    image(myImage30, 0,5,windowWidth,windowHeight)
+    image(myImage31, 0,5,windowWidth,windowHeight)
+    image(myImage32, 5,2,windowWidth,windowHeight)
+
 
   }
 pop()
@@ -211,8 +232,25 @@ pop()
    image(myImage14,-100,-100,1000,500);
   pop()
 
+
+//click rana
+if (mouseIsPressed == true) {
+  if (mouseButton == LEFT) {
+image(myImage16, 0,0,windowWidth,windowHeight)
+  }
+  else if (mouseButton == RIGHT) {
+    image(myImage3,0,0,windowWidth,windowHeight);
+  }
 }
-//boton menu
+else {
+  fill(0)
+rect(10,10,10,10)
+}
+
+
+
+}
+
 
 function menu() {
 
@@ -238,7 +276,6 @@ if(button.mousePressed(play)){
 }
 
 }
-
 
 function windowResized() {
   resizeCanvas(windowWidth,windowHeight);
