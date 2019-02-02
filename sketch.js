@@ -62,6 +62,8 @@ var leavemonkey = true;
 var leaves = true;
 var banana = false;
 
+var info = false
+var xinfo = false
 
 
 function preload() {
@@ -113,24 +115,7 @@ function preload() {
   myImage44 = loadImage('./library/z5.png');
   myImage45 = loadImage('./library/z6.png');
   myImage46 = loadImage('./library/banana.png');
-
-
-
-
-
-
-  //button iconi
-  button = createImg("./library/exppng.png");
-  button.position(50, 50);
-  button.size(50,50)
-  button.mousePressed(menu)
-
-  //button inicio
-  button = createImg("./library/boton.png");
-  button.position(650, 600);
-  button.size(100,30)
-  button.mousePressed(play)
-
+  myImage47 = loadImage('./library/info.png')
 
 
 }
@@ -181,8 +166,6 @@ image(myImage19,0,0,windowWidth,windowHeight);
 //cover scimmia
 //image(myImage6, 0,0,windowWidth,windowHeight);
 
-//iconi
-
 //icono banner
 image(myImage13, windowWidth/4.8,windowHeight/13,windowWidth/1.8,windowHeight/13);
 
@@ -230,7 +213,6 @@ if (keyIsPressed == true) {  // If the key is pressed,
 pop()
 
 
-
 //aparición rana
 if (rana){
 image(myImage16, 0,0,windowWidth,windowHeight)
@@ -267,6 +249,34 @@ image(myImage17, 0,0,windowWidth,windowHeight)
 
 }
 
+// banna + scimmmia
+image(myImage19, 0, 0, windowWidth, windowHeight);
+
+  if (leavemonkey) {
+    image(myImage6, 0, 0, windowWidth, windowHeight);
+  }
+
+  if (leaves) {
+
+    image(myImage43, 0, 0, windowWidth, windowHeight);
+    image(myImage44, 0, 0, windowWidth, windowHeight);
+    image(myImage45, 0, 0, windowWidth, windowHeight);
+  }
+
+if (mouseX >= windowWidth / 1.5 - windowWidth / 8 && mouseX <= windowWidth / 1.5 + windowWidth / 8 && mouseY >= windowHeight / 1.6 - windowHeight / 8 && mouseY <= windowHeight / 1.6 + windowHeight / 8) {
+    var x = random(2);
+    var y = random(2);
+    image(myImage43, x, y, windowWidth, windowHeight);
+    image(myImage44, x, y, windowWidth, windowHeight);
+    image(myImage45, x, y, windowWidth, windowHeight);
+  }
+
+if (banana) {
+    image(myImage46, mouseX, mouseY, windowWidth /15, windowHeight / 10);
+  }
+
+    ellipse(windowWidth/1.77, windowHeight / 9, 20);
+
 //aparicion sloth
 
   if (leavessloth) {
@@ -278,7 +288,7 @@ image(myImage17, 0,0,windowWidth,windowHeight)
 
   // da cancellare poi: è solo per fare il tool della luce
   fill(250)
-  ellipse(windowWidth /2, windowHeight / 3, 30);
+  ellipse(windowWidth/3, windowHeight / 9, 20);
 
 
   if (light) {
@@ -286,43 +296,24 @@ image(myImage17, 0,0,windowWidth,windowHeight)
   }
 
 
-// banna + scimmmia
-image(myImage19, 0, 0, windowWidth, windowHeight);
+    //boton info
+    image(myImage8, 0,0,windowWidth,windowHeight)
 
-  if (leavemonkey) {
-    image(myImage6, 0, 0, windowWidth, windowHeight);
-  }
+if (info){
+    image(myImage47, 0,0,windowWidth,windowHeight)
 
-  if (leaves) {
+    }  fill(250)
+      ellipse(windowWidth/1.065, windowHeight/10, 30);
 
-    image(myImage42, 0, 0, windowWidth, windowHeight);
-    image(myImage43, 0, 0, windowWidth, windowHeight);
-    image(myImage44, 0, 0, windowWidth, windowHeight);
-    image(myImage45, 0, 0, windowWidth, windowHeight);
-  }
+//boton x
+if (xinfo){
+    image(myImage47, 0,0,windowWidth,windowHeight)
 
-if (mouseX >= windowWidth / 1.5 - windowWidth / 8 && mouseX <= windowWidth / 1.5 + windowWidth / 8 && mouseY >= windowHeight / 1.6 - windowHeight / 8 && mouseY <= windowHeight / 1.6 + windowHeight / 8) {
-    var x = random(2);
-    var y = random(2);
-    image(myImage42, x, y, windowWidth, windowHeight);
-    image(myImage43, x, y, windowWidth, windowHeight);
-    image(myImage44, x, y, windowWidth, windowHeight);
-    image(myImage45, x, y, windowWidth, windowHeight);
-  }
+    }
+    fill(250)
+      ellipse(windowWidth/1.15, windowHeight/9, 30);
 
-  if (banana) {
-    image(myImage46, mouseX, mouseY, windowWidth /15, windowHeight / 10);
-  }
-
-    ellipse(windowWidth /2, windowHeight / 4, 20);
-}
-
-
-
-
-
-
-// //pagina final
+////pagina final info animali
 // image(myImage20, 0,0,windowWidth,windowHeight);
 // image(myImage21, 0,0,windowWidth,windowHeight);
 // image(myImage22, 0,0,windowWidth,windowHeight);
@@ -330,28 +321,31 @@ if (mouseX >= windowWidth / 1.5 - windowWidth / 8 && mouseX <= windowWidth / 1.5
 // image(myImage24, 0,0,windowWidth,windowHeight);
 // image(myImage25, 0,0,windowWidth,windowHeight);
 //
-//
+// //info rana
 // if ((mouseX > windowWidth/10) && (mouseX < windowWidth/5)){
 //   image(myImage36, 0,0,windowWidth,windowHeight);
 // }
-// else {
-//   fill(0);
+// //info armadillo
+// if ((mouseX > windowWidth/5) && (mouseX < windowWidth/3)){
+//   image(myImage33, 0,0,windowWidth,windowHeight);
 // }
-//
+// //info bradipo
+// if ((mouseX > windowWidth/2.8) && (mouseX < windowWidth/1.5)){
+//   image(myImage34, 0,0,windowWidth,windowHeight);
+// }
+// //info farfalla
+// if ((mouseX > windowWidth/1.5) && (mouseX < windowWidth/1.3)){
+//   image(myImage35, 0,0,windowWidth,windowHeight);
+// }
+// //info scimmia
+// if ((mouseX > windowWidth/1.3) && (mouseX < windowWidth/1.01)){
+//   image(myImage37, 0,0,windowWidth,windowHeight);
+// }
 
 
-
-
-function menu() {
-
-if(button.mousePressed(menu)){
-background(0)
-} else {
-  image(myImage, 0, 0, windowWidth, windowHeight);
 }
 
 
-}
 
 
 //click rana + farfalla + scimmia + armadillo + bradipo
@@ -374,30 +368,40 @@ if (diarmadillo < 40){
     armadillo = true
     }
 
-var dlight = dist(mouseX, mouseY, windowWidth / 2, windowHeight / 3);
+var dlight = dist(mouseX, mouseY, windowWidth/3, windowHeight / 9);
 if (dlight  < 20) {
       light = true;
       }
 
-  var dsloth = dist(mouseX, mouseY, windowWidth / 1.7, windowHeight / 3);
+var dsloth = dist(mouseX, mouseY, windowWidth / 1.7, windowHeight / 3);
   if (dsloth < 50) {
     leavessloth = false;
     light = false;
       }
 
 //bannan + scimmia
-
 var dmonkey = dist(mouseX, mouseY, windowWidth / 1.5, windowHeight / 1.6);
   if (dmonkey < windowWidth / 20) {
     leavemonkey = false;
     banana = false;
   }
 
-  var dbanana = dist(mouseX, mouseY, windowWidth / 2, windowHeight / 4);
+  var dbanana = dist(mouseX, mouseY,windowWidth/1.77, windowHeight / 9);
   if (dbanana < 20) {
     banana = true;
   }
+//boton info
+var diinfo = dist(mouseX,mouseY,windowWidth/1.065, windowHeight/10)
+if (diinfo < 50){
+    info = true
 
+    }
+
+//cerrar boton info
+var dxinfo = dist(mouseX,mouseY,windowWidth/1.15, windowHeight/9)
+if (dxinfo < 50){
+    info = false
+        }
 
 }
 
