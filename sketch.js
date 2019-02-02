@@ -49,6 +49,18 @@ var myImg38; // cover negra con hueco
 var light = false; //sirve que sea asì
 var leavessloth = true; //igual que light
 
+//var myImage40;
+//var myImage41;
+var myImage42;
+var myImage43;
+var myImage44;
+var myImage45;
+var myImage46;
+
+
+var leavemonkey = true;
+var leaves = true;
+var banana = false;
 
 
 
@@ -94,7 +106,13 @@ function preload() {
   myImage37 = loadImage("./library/testoscimmia.png");
   myImage38 = loadImage("./library/cover.png");
   myImage39 = loadImage("./library/copribradipo.png");
-
+  //myImage40 = loadImage('./library/scimmia.png');
+  //myImage41 = loadImage('./library/coperturascimmia1.png');
+  myImage42 = loadImage('./library/s1.png');
+  myImage43 = loadImage('./library/z4.png');
+  myImage44 = loadImage('./library/z5.png');
+  myImage45 = loadImage('./library/z6.png');
+  myImage46 = loadImage('./library/banana.png');
 
 
 
@@ -137,37 +155,30 @@ image(myImage, 0, 0, windowWidth, windowHeight);
 image(myImage15, 0,0,windowWidth,windowHeight);
 
 //cover farfalla
-
 //image(myImage2, 0,0,windowWidth,windowHeight);
 
 //rana
 image(myImage16, 0,0,windowWidth,windowHeight);
 
 //cover rana
-
 //image(myImage3,0,0,windowWidth,windowHeight);
 
 //armadillo
 image(myImage17, 0,0,windowWidth,windowHeight);
 
 //cover armadillo
-
 //image(myImage4, 0,0,windowWidth,windowHeight);
 
 // bradipo
-
 image(myImage18, 0,0,windowWidth,windowHeight);
 
 //cover bradipo
-
 //image(myImage5, 0,0,windowWidth,windowHeight);
 
 // scimmia
-
 image(myImage19,0,0,windowWidth,windowHeight);
 
 //cover scimmia
-
 //image(myImage6, 0,0,windowWidth,windowHeight);
 
 //iconi
@@ -191,15 +202,6 @@ image(myImage12, 0,0,windowWidth,windowHeight);
 //primera pagina
 //image(myImage7, 0, 0, windowWidth, windowHeight);
 
-
-//texto inicio
-	// push()
-	// textFont('Rubik:300')
-	// fill(250)
-	// textAlign(CENTER)
-	// textSize(15)
-	// text('In the last years has increased the number of species in danger or threatened because of human acts and it has been declared as a “global epidemic”. Scientists estimate that up to 200 species die every hour. The deforestation of the Amazon, hunting and other human actions are destroying diverse species. With this game you will discover some of the species that are in danger. Choose different tools and discover more about animals in danger in the Amazon.',width/2,height/2.5)
-	// pop()
 
 //herramienta keyboard
 push()
@@ -282,7 +284,40 @@ image(myImage17, 0,0,windowWidth,windowHeight)
   if (light) {
     image(myImage38, mouseX - myImage38.width / 2, mouseY - myImage38.height / 2, myImage38.width, myImage38.height);
   }
+
+
+// banna + scimmmia
+image(myImage19, 0, 0, windowWidth, windowHeight);
+
+  if (leavemonkey) {
+    image(myImage6, 0, 0, windowWidth, windowHeight);
+  }
+
+  if (leaves) {
+
+    image(myImage42, 0, 0, windowWidth, windowHeight);
+    image(myImage43, 0, 0, windowWidth, windowHeight);
+    image(myImage44, 0, 0, windowWidth, windowHeight);
+    image(myImage45, 0, 0, windowWidth, windowHeight);
+  }
+
+if (mouseX >= windowWidth / 1.5 - windowWidth / 8 && mouseX <= windowWidth / 1.5 + windowWidth / 8 && mouseY >= windowHeight / 1.6 - windowHeight / 8 && mouseY <= windowHeight / 1.6 + windowHeight / 8) {
+    var x = random(2);
+    var y = random(2);
+    image(myImage42, x, y, windowWidth, windowHeight);
+    image(myImage43, x, y, windowWidth, windowHeight);
+    image(myImage44, x, y, windowWidth, windowHeight);
+    image(myImage45, x, y, windowWidth, windowHeight);
+  }
+
+  if (banana) {
+    image(myImage46, mouseX, mouseY, windowWidth /15, windowHeight / 10);
+  }
+
+    ellipse(windowWidth /2, windowHeight / 4, 20);
 }
+
+
 
 
 
@@ -350,23 +385,22 @@ if (dlight  < 20) {
     light = false;
       }
 
+//bannan + scimmia
+
+var dmonkey = dist(mouseX, mouseY, windowWidth / 1.5, windowHeight / 1.6);
+  if (dmonkey < windowWidth / 20) {
+    leavemonkey = false;
+    banana = false;
+  }
+
+  var dbanana = dist(mouseX, mouseY, windowWidth / 2, windowHeight / 4);
+  if (dbanana < 20) {
+    banana = true;
+  }
+
+
 }
 
-
-
-//boton play
-// function play() {
-//
-// if(button.mousePressed(play)){
-//
-//   image(myImage, 0, 0, windowWidth, windowHeight);
-//
-// } else {
-//   image(myImage7, 0, 0, windowWidth, windowHeight);
-//
-// }
-//
-// }
 
 function windowResized() {
   resizeCanvas(windowWidth,windowHeight);
