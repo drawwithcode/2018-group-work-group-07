@@ -1,13 +1,17 @@
-# The concept
+# The idea
 Endangered animals (and how to find them) (picture)
+
 ### What is this?
 This project is an interactive where the user has to find in the Amazonic jungle 5 different animals using various tools: the voice, the keyboard, the mouse... Thought the time they spend playing with it they will discover different characteristics of the animals and interact with the computer.
+
 ### Why this idea?
 This idea start as a claim about what is happening with the animals because of human. In the last years has increased the number of species in danger or threatened because of human acts and it has been declared as a “global epidemic”. Scientists estimate that up to 200 species die every hour. The deforestation of the Amazon, hunting and other human actions are destroying diverse species. 
 
 With this game the user discover some of the species that are in danger. This is a way to make people consciousness about this problem.
-# Who are we?
+
+### Who are we?
 This is a project created by Teresa Cremonesi, Andrea Febres Medina, Filippo Ferrari and Cristina Pita da Veiga developed in the course of Creative Coding at Politecnico di Milano.
+
 ## Inspirations/References
 All the other projects that inspired you, from any perspective (interactive, visual, critical, theorietical, etc)
 
@@ -28,7 +32,6 @@ challenges On the technical side, what drove you crazy. What are the most intere
 Sources for the information: Proceedings of the National Academy of Sciences, World Wild Life, NYT, BBC, IUCN Red List of Threatened Animals.
 
 ### Information about the Amazon and the animals
-
 The Amazon is the world's biggest rainforest and is the home of the 10% of species in the planet. Nearly two-thirds of the Amazon rainforest is found in Brazil, but it also cover other countries as Colombia, Peru or Bolivia. The Amazon River is, by far, the world's largest river by volume: 7.000 kilometers.But this incredible rainforest has a very big problem: human action. Unless the deforestation in the Amazon rainforest has been declining since 2004, is the biggest front in the world and, as explains WWF, interventions are needed to prevent a large-scale ecological disaster, as WWF explains. Right now, a 20% of the Amazon biome has already been lost.
 
 Blue morpho butterfly  Morpho menelaus
