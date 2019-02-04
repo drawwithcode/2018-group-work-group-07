@@ -79,12 +79,13 @@ var avanti2;
 
 // var bradipo;
 var armadillo;
+var farfalla;
 
 
 function preload() {
   mySong = loadSound("./library/sound.mp3");
 
-  myImage = loadImage("./library/fondo.png");
+  myImage = loadImage("./library/sfondo.png");
   myImage2 = loadImage("./library/covermariposa.png");
   myImage3 = loadImage("./library/coverrana.png");
   myImage4 = loadImage("./library/coverarmadillo.png");
@@ -146,7 +147,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight)
   mySong.play();
 
-  //speech recognition
+  //speech recognition tool for armadillo and butterfly
   var speechRec = new p5.SpeechRec('en-US', parseResult);
 
   var continuous = true;
@@ -169,9 +170,8 @@ function setup() {
       bradipo.shake();
     } else if (mostrecentword.indexOf("armadillo") !== -1) {
       armadillo.shake();
-    } else if (mostrecentword.indexOf("green") !== -1) {
-      fill(0, 255, 0);
-      ellipse(width / 2, height / 4, 200);
+    } else if (mostrecentword.indexOf("butterfly") !== -1) {
+      farfalla.shake();
     } else if (mostrecentword.indexOf("blue") !== -1) {
       fill(0, 0, 255);
       ellipse(width / 2, height / 4, 200);
@@ -184,7 +184,8 @@ function setup() {
   analyzer.setInput(mySong);
 
   // bradipo = new Bradipo();
-  armadillo = new Armadillo();
+  armadillo = new ArmadilloCover();
+  farfalla =  new FarfallaCover();
 
 
 }
@@ -192,13 +193,176 @@ function setup() {
 
 function draw() {
 
-  //schermate iniziali
+  //flow of game windows
   if (sfondo) {
     if (instructions) {
       if (startgame) {
         image(myImage, 0, 0, windowWidth, windowHeight); //sfondo gioco
-        bradipo.display();
+        // bradipo.display();
+
+        //all the draw of previous sketch - moving leaves and animals
+        //rana
+        image(myImage16, 0, 0, windowWidth, windowHeight);
+
+        //cover rana
+        //image(myImage3,0,0,windowWidth,windowHeight);
+
+        //armadillo
+        image(myImage17, 0, 0, windowWidth, windowHeight);
+
+        //cover armadillo
+        //image(myImage4, 0,0,windowWidth,windowHeight);
+
+        // bradipo
+        image(myImage18, 0, 0, windowWidth, windowHeight);
+
+        //cover bradipo
+        //image(myImage5, 0,0,windowWidth,windowHeight);
+
+        // scimmia
+        image(myImage19, 0, 0, windowWidth, windowHeight);
+
+        //cover scimmia
+        //image(myImage6, 0,0,windowWidth,windowHeight);
+
+        //icono banner
+        image(myImage13, windowWidth / 4.8, windowHeight / 13, windowWidth / 1.8, windowHeight / 13);
+
+        //icono suono
+        image(myImage9, 0, 0, windowWidth, windowHeight);
+
+        //icono binoculo
+        image(myImage10, 0, 0, windowWidth, windowHeight);
+
+        //icono tastiera
+        image(myImage11, 0, 0, windowWidth, windowHeight);
+
+        //luce
+        image(myImage12, 0, 0, windowWidth, windowHeight);
+
+        //movement of leaves using the keyboard
+        push()
+        if (keyIsPressed == true) { // If the key is pressed,
+          image(myImage3, -15, -6, windowWidth, windowHeight);
+          image(myImage26, 10, 0, windowWidth, windowHeight);
+          image(myImage27, 400, -30, windowWidth, windowHeight);
+          image(myImage28, 700, -130, windowWidth, windowHeight);
+          image(myImage29, 700, 0, windowWidth, windowHeight);
+          image(myImage29, 0, 0, windowWidth, windowHeight);
+          image(myImage30, 0, -10, windowWidth, windowHeight);
+          image(myImage31, 0, 0, windowWidth, windowHeight);
+          image(myImage32, 0, 0, windowWidth, windowHeight);
+        } else {
+          image(myImage3, 0, 0, windowWidth, windowHeight);
+          image(myImage26, 0, 0, windowWidth, windowHeight);
+          image(myImage27, 400, 0, windowWidth, windowHeight);
+          image(myImage28, 715, -135, windowWidth, windowHeight);
+          image(myImage29, 700, 5, windowWidth, windowHeight);
+          image(myImage29, 3, 0, windowWidth, windowHeight);
+          image(myImage30, 0, 5, windowWidth, windowHeight);
+          image(myImage31, 0, 5, windowWidth, windowHeight);
+          image(myImage32, 5, 2, windowWidth, windowHeight);
+        }
+        pop();
+
+        //aparición rana
+        if (rana) {
+          image(myImage16, 0, 0, windowWidth, windowHeight);
+        } else {
+          image(myImage3, 0, 0, windowWidth, windowHeight);
+        }
+
+        //aparicion farfalla
+        if (farfalla) {
+          image(myImage15, 0, 0, windowWidth, windowHeight)
+
+        } else {
+          image(myImage2, 0, 0, windowWidth, windowHeight)
+        }
+        farfalla.display();
+
+        //aparición scimmia
+        if (scimmia) {
+          image(myImage19, 0, 0, windowWidth, windowHeight)
+
+        } else {
+          image(myImage6, 0, 0, windowWidth, windowHeight)
+
+        }
+
+        //aparición armadillo
+        if (armadillo) {
+          image(myImage17, 0, 0, windowWidth, windowHeight)
+        } else {
+          image(myImage4, 0, 0, windowWidth, windowHeight)
+        }
         armadillo.display();
+
+        // banna + scimmmia
+        image(myImage19, 0, 0, windowWidth, windowHeight);
+
+        if (leavemonkey) {
+          image(myImage6, 0, 0, windowWidth, windowHeight);
+        }
+
+        if (leaves) {
+          image(myImage43, 0, 0, windowWidth, windowHeight);
+          image(myImage44, 0, 0, windowWidth, windowHeight);
+          image(myImage45, 0, 0, windowWidth, windowHeight);
+        }
+
+        if (mouseX >= windowWidth / 1.5 - windowWidth / 8 && mouseX <= windowWidth / 1.5 + windowWidth / 8 && mouseY >= windowHeight / 1.6 - windowHeight / 8 && mouseY <= windowHeight / 1.6 + windowHeight / 8) {
+          var x = random(2);
+          var y = random(2);
+          image(myImage43, x, y, windowWidth, windowHeight);
+          image(myImage44, x, y, windowWidth, windowHeight);
+          image(myImage45, x, y, windowWidth, windowHeight);
+        }
+
+        if (banana) {
+          push();
+          imageMode(CENTER);
+          image(myImage46, mouseX, mouseY, windowWidth / 15, windowHeight / 10);
+          pop();
+        }
+
+        ellipse(windowWidth / 1.77, windowHeight / 9, 20);
+
+        //aparicion sloth
+
+        if (leavessloth) {
+          var x = random(1);
+          var y = random(1);
+          image(myImage5, x, y, windowWidth, windowHeight);
+          image(myImage39, x, y, windowWidth, windowHeight);
+        }
+
+        // da cancellare poi: è solo per fare il tool della luce
+        fill(250)
+        ellipse(windowWidth / 3, windowHeight / 9, 20);
+
+
+        if (light) {
+          image(myImage38, mouseX - myImage38.width / 2, mouseY - myImage38.height / 2, myImage38.width, myImage38.height);
+        }
+        //boton info
+        image(myImage8, 0, 0, windowWidth, windowHeight)
+
+        if (info) {
+          image(myImage47, 0, 0, windowWidth, windowHeight)
+
+        }
+        fill(250)
+        ellipse(windowWidth / 1.065, windowHeight / 10, 30);
+
+        //boton x
+        if (xinfo) {
+          image(myImage47, 0, 0, windowWidth, windowHeight)
+
+        }
+        fill(250)
+        ellipse(windowWidth / 1.15, windowHeight / 9, 30);
+
       } else {
         image(myInstructions, 0, 0, windowWidth, windowHeight); //sfondo instructions
         push();
@@ -227,55 +391,6 @@ function draw() {
   volume = analyzer.getLevel();
   volume = map(volume, 0, 1, 0, height);
 
-  // //background(myImage)
-  // image(myImage, 0, 0, windowWidth, windowHeight);
-  //
-  //
-  // //farfalla
-  // image(myImage15, 0,0,windowWidth,windowHeight);
-
-  //cover farfalla
-  //image(myImage2, 0,0,windowWidth,windowHeight);
-
-  //rana
-  image(myImage16, 0, 0, windowWidth, windowHeight);
-
-  //cover rana
-  //image(myImage3,0,0,windowWidth,windowHeight);
-
-  //armadillo
-  image(myImage17, 0, 0, windowWidth, windowHeight);
-
-  //cover armadillo
-  //image(myImage4, 0,0,windowWidth,windowHeight);
-
-  // bradipo
-  image(myImage18, 0, 0, windowWidth, windowHeight);
-
-  //cover bradipo
-  //image(myImage5, 0,0,windowWidth,windowHeight);
-
-  // scimmia
-  image(myImage19, 0, 0, windowWidth, windowHeight);
-
-  //cover scimmia
-  //image(myImage6, 0,0,windowWidth,windowHeight);
-
-  //icono banner
-  image(myImage13, windowWidth / 4.8, windowHeight / 13, windowWidth / 1.8, windowHeight / 13);
-
-  //icono suono
-  image(myImage9, 0, 0, windowWidth, windowHeight);
-
-  //icono binoculo
-  image(myImage10, 0, 0, windowWidth, windowHeight);
-
-  //icono tastiera
-  image(myImage11, 0, 0, windowWidth, windowHeight);
-
-  //luce
-  image(myImage12, 0, 0, windowWidth, windowHeight);
-
   // error if the window is too small
   if (windowWidth < 1100 || windowHeight < 620) {
     push();
@@ -298,132 +413,17 @@ function draw() {
     cursor(ARROW);
   }
 
-  //herramienta keyboard
-  push()
-  if (keyIsPressed == true) { // If the key is pressed,
-    image(myImage3, 0, 0, windowWidth, windowHeight);
-    image(myImage26, 10, 0, windowWidth, windowHeight);
-    image(myImage27, 400, -30, windowWidth, windowHeight);
-    image(myImage28, 700, -130, windowWidth, windowHeight)
-    image(myImage29, 700, 0, windowWidth, windowHeight)
-    image(myImage29, 0, 0, windowWidth, windowHeight)
-    image(myImage30, 0, -10, windowWidth, windowHeight)
-    image(myImage31, 0, 0, windowWidth, windowHeight)
-    image(myImage32, 0, 0, windowWidth, windowHeight)
-  } else {
-    image(myImage3, 2, 0, windowWidth, windowHeight);
-    image(myImage26, 8, 2, windowWidth, windowHeight);
-    image(myImage27, 400, 0, windowWidth, windowHeight);
-    image(myImage28, 715, -135, windowWidth, windowHeight)
-    image(myImage29, 700, 5, windowWidth, windowHeight)
-    image(myImage29, 3, 0, windowWidth, windowHeight)
-    image(myImage30, 0, 5, windowWidth, windowHeight)
-    image(myImage31, 0, 5, windowWidth, windowHeight)
-    image(myImage32, 5, 2, windowWidth, windowHeight)
-  }
-  pop()
+  // //background(myImage)
+  // image(myImage, 0, 0, windowWidth, windowHeight);
+  //
+  //
+  // //farfalla
+  // image(myImage15, 0,0,windowWidth,windowHeight);
+
+  //cover farfalla
+  //image(myImage2, 0,0,windowWidth,windowHeight);
 
 
-  //aparición rana
-  if (rana) {
-    image(myImage16, 0, 0, windowWidth, windowHeight)
-
-  } else {
-    image(myImage3, 0, 0, windowWidth, windowHeight)
-
-  }
-
-  //aparicion farfalla
-  if (farfalla) {
-    image(myImage15, 0, 0, windowWidth, windowHeight)
-
-  } else {
-    image(myImage2, 0, 0, windowWidth, windowHeight)
-  }
-
-
-  //aparición scimmia
-  if (scimmia) {
-    image(myImage19, 0, 0, windowWidth, windowHeight)
-
-  } else {
-    image(myImage6, 0, 0, windowWidth, windowHeight)
-
-  }
-
-  //aparición armadillo
-  if (armadillo) {
-    image(myImage17, 0, 0, windowWidth, windowHeight)
-
-  } else {
-    image(myImage4, 0, 0, windowWidth, windowHeight)
-
-  }
-
-  // banna + scimmmia
-  image(myImage19, 0, 0, windowWidth, windowHeight);
-
-  if (leavemonkey) {
-    image(myImage6, 0, 0, windowWidth, windowHeight);
-  }
-
-  if (leaves) {
-
-    image(myImage43, 0, 0, windowWidth, windowHeight);
-    image(myImage44, 0, 0, windowWidth, windowHeight);
-    image(myImage45, 0, 0, windowWidth, windowHeight);
-  }
-
-  if (mouseX >= windowWidth / 1.5 - windowWidth / 8 && mouseX <= windowWidth / 1.5 + windowWidth / 8 && mouseY >= windowHeight / 1.6 - windowHeight / 8 && mouseY <= windowHeight / 1.6 + windowHeight / 8) {
-    var x = random(2);
-    var y = random(2);
-    image(myImage43, x, y, windowWidth, windowHeight);
-    image(myImage44, x, y, windowWidth, windowHeight);
-    image(myImage45, x, y, windowWidth, windowHeight);
-  }
-
-  if (banana) {
-    image(myImage46, mouseX, mouseY, windowWidth / 15, windowHeight / 10);
-  }
-
-  ellipse(windowWidth / 1.77, windowHeight / 9, 20);
-
-  //aparicion sloth
-
-  if (leavessloth) {
-    var x = random(1);
-    var y = random(1);
-    image(myImage5, x, y, windowWidth, windowHeight);
-    image(myImage39, x, y, windowWidth, windowHeight);
-  }
-
-  // da cancellare poi: è solo per fare il tool della luce
-  fill(250)
-  ellipse(windowWidth / 3, windowHeight / 9, 20);
-
-
-  if (light) {
-    image(myImage38, mouseX - myImage38.width / 2, mouseY - myImage38.height / 2, myImage38.width, myImage38.height);
-  }
-
-
-  //boton info
-  image(myImage8, 0, 0, windowWidth, windowHeight)
-
-  if (info) {
-    image(myImage47, 0, 0, windowWidth, windowHeight)
-
-  }
-  fill(250)
-  ellipse(windowWidth / 1.065, windowHeight / 10, 30);
-
-  //boton x
-  if (xinfo) {
-    image(myImage47, 0, 0, windowWidth, windowHeight)
-
-  }
-  fill(250)
-  ellipse(windowWidth / 1.15, windowHeight / 9, 30);
 
   ////pagina final info animali
   // image(myImage20, 0,0,windowWidth,windowHeight);
@@ -469,17 +469,42 @@ function draw() {
 //   }
 // }
 
-function Armadillo() {
 
-  this.x = 630;
-  this.y = 500;
+function FarfallaCover() {
+
+  this.x = 0;
+  this.y = 0;
+  this.w = windowWidth;
+  this.h = windowHeight;
 
   this.display = function() {
-    image(myImage4, this.x, this.y, 160, 160);
+    image(myImage2, this.x, this.y, this.w, this.h);
   }
 
   this.shake = function() {
-    this.x = this.x + random (-5, 5);
+    this.x = this.x + random(-10, 10);
+    this.y = this.y + random(-5, 5);
+    this.w = this.w + random(0, 10);
+    this.h = this.h + random(0, 10);
+  }
+}
+
+function ArmadilloCover() {
+
+  this.x = 0;
+  this.y = 0;
+  this.w = windowWidth;
+  this.h = windowHeight;
+
+  this.display = function() {
+    image(myImage4, this.x, this.y, this.w, this.h);
+  }
+
+  this.shake = function() {
+    this.x = this.x + random(-10, 10);
+    this.y = this.y + random(-5, 5);
+    this.w = this.w + random(0, 10);
+    this.h = this.h + random(0, 10);
   }
 }
 
