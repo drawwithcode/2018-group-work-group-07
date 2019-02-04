@@ -197,7 +197,7 @@ function draw() {
   if (sfondo) {
     if (instructions) {
       if (startgame) {
-        image(myImage, 0, 0, windowWidth, windowHeight); //sfondo gioco
+        image(myImage, 0, 0, windowWidth, windowHeight); //sfondo del gioco
         // bradipo.display();
 
         //all the draw of previous sketch - moving leaves and animals
@@ -225,24 +225,25 @@ function draw() {
         //cover scimmia
         //image(myImage6, 0,0,windowWidth,windowHeight);
 
-        //icono banner
+        //instruments banner
         image(myImage13, windowWidth / 4.8, windowHeight / 13, windowWidth / 1.8, windowHeight / 13);
 
-        //icono suono
+        //icon sound
         image(myImage9, 0, 0, windowWidth, windowHeight);
 
-        //icono binoculo
+        //icon binoculars
         image(myImage10, 0, 0, windowWidth, windowHeight);
 
-        //icono tastiera
+        //icon keyboard
         image(myImage11, 0, 0, windowWidth, windowHeight);
 
-        //luce
+        //icon light
         image(myImage12, 0, 0, windowWidth, windowHeight);
 
         //movement of leaves using the keyboard
+        //when key is pressed move these elements
         push()
-        if (keyIsPressed == true) { // If the key is pressed,
+        if (keyIsPressed == true) {
           image(myImage3, -15, -6, windowWidth, windowHeight);
           image(myImage26, 10, 0, windowWidth, windowHeight);
           image(myImage27, 400, -30, windowWidth, windowHeight);
@@ -265,36 +266,35 @@ function draw() {
         }
         pop();
 
-        //aparición rana
+        //show rana and hide its cover
         if (rana) {
           image(myImage16, 0, 0, windowWidth, windowHeight);
         } else {
           image(myImage3, 0, 0, windowWidth, windowHeight);
         }
 
-        //aparicion farfalla
+        //show farfalla and hide its cover
         if (farfalla) {
-          image(myImage15, 0, 0, windowWidth, windowHeight)
-
+          image(myImage15, 0, 0, windowWidth, windowHeight);
         } else {
-          image(myImage2, 0, 0, windowWidth, windowHeight)
+          image(myImage2, 0, 0, windowWidth, windowHeight);
         }
         farfalla.display();
 
-        //aparición scimmia
+        //show monkey and hide its cover
         if (scimmia) {
-          image(myImage19, 0, 0, windowWidth, windowHeight)
+          image(myImage19, 0, 0, windowWidth, windowHeight);
 
         } else {
-          image(myImage6, 0, 0, windowWidth, windowHeight)
+          image(myImage6, 0, 0, windowWidth, windowHeight);
 
         }
 
-        //aparición armadillo
+        //show armadillo and hide its cover
         if (armadillo) {
-          image(myImage17, 0, 0, windowWidth, windowHeight)
+          image(myImage17, 0, 0, windowWidth, windowHeight);
         } else {
-          image(myImage4, 0, 0, windowWidth, windowHeight)
+          image(myImage4, 0, 0, windowWidth, windowHeight);
         }
         armadillo.display();
 
@@ -328,8 +328,7 @@ function draw() {
 
         ellipse(windowWidth / 1.77, windowHeight / 9, 20);
 
-        //aparicion sloth
-
+        //show sloth and hide the cover
         if (leavessloth) {
           var x = random(1);
           var y = random(1);
@@ -339,48 +338,43 @@ function draw() {
 
         // da cancellare poi: è solo per fare il tool della luce
         fill(250)
-        ellipse(windowWidth / 3, windowHeight / 9, 20);
+        ellipse(windowWidth / 3, windowHeight / 9, 40);
 
 
         if (light) {
           image(myImage38, mouseX - myImage38.width / 2, mouseY - myImage38.height / 2, myImage38.width, myImage38.height);
         }
-        //boton info
-        image(myImage8, 0, 0, windowWidth, windowHeight)
+        //button about
+        image(myImage8, 0, 0, windowWidth, windowHeight);
 
         if (info) {
-          image(myImage47, 0, 0, windowWidth, windowHeight)
-
+          image(myImage47, 0, 0, windowWidth, windowHeight);
         }
         fill(250)
-        ellipse(windowWidth / 1.065, windowHeight / 10, 30);
-
-        //boton x
-        if (xinfo) {
-          image(myImage47, 0, 0, windowWidth, windowHeight)
-
-        }
-        fill(250)
-        ellipse(windowWidth / 1.15, windowHeight / 9, 30);
+        ellipse(windowWidth / 1.070, windowHeight / 8.9, 50);
 
       } else {
-        image(myInstructions, 0, 0, windowWidth, windowHeight); //sfondo instructions
+        //backgound instructions of the game
+        image(myInstructions, 0, 0, windowWidth, windowHeight);
+        //button forward 2
         push();
         imageMode(CENTER);
-        image(avanti2, windowWidth / 7 * 5.85, windowHeight / 10 * 7.6, 30, 30); //avanti2
+        image(avanti2, windowWidth / 7 * 5.85, windowHeight / 10 * 7.6, 30, 30);
         pop();
-        // ellipse(windowWidth / 7 * 5.85, windowHeight / 10 * 7.6, 30);
       }
     } else {
-      image(myIntro, 0, 0, windowWidth, windowHeight); //sfondo intro
-      // ellipse(windowWidth / 7 * 5.65, windowHeight / 10 * 7.6, 30);
+      //background introduction of the game
+      image(myIntro, 0, 0, windowWidth, windowHeight);
+      //button forward 1
       push();
       imageMode(CENTER);
-      image(avanti1, windowWidth / 7 * 5.65, windowHeight / 10 * 7.6, 30, 30); //avanti1
+      image(avanti1, windowWidth / 7 * 5.65, windowHeight / 10 * 7.6, 30, 30);
       pop();
     }
   } else {
-    image(myImage7, 0, 0, windowWidth, windowHeight); //sfondo inizio
+    //background beginning of the game
+    image(myImage7, 0, 0, windowWidth, windowHeight);
+    //button play
     push();
     imageMode(CENTER);
     image(bottoneplay, windowWidth / 2, windowHeight / 10 * 7.6, 100, 30);
@@ -407,7 +401,15 @@ function draw() {
   var dforward1 = dist(mouseX, mouseY, windowWidth / 7 * 5.85, windowHeight / 10 * 7.6);
   var dforward2 = dist(mouseX, mouseY, windowWidth / 7 * 5.65, windowHeight / 10 * 7.6);
   var dforward3 = dist(mouseX, mouseY, windowWidth / 7 * 5.45, windowHeight / 10 * 7.6);
-  if (dforward1 < 15 || dforward2 < 15 || dforward3 < 15 || mouseX > windowWidth / 2 - 50 && mouseX < windowWidth / 2 + 50 && mouseY > windowHeight / 10 * 7.6 - 15 && mouseY < windowHeight / 10 * 7.6 + 15) {
+  var dlight = dist(mouseX, mouseY, windowWidth / 3, windowHeight / 9);
+  var dbanana = dist(mouseX, mouseY, windowWidth / 1.77, windowHeight / 9);
+  var diinfo = dist(mouseX, mouseY, windowWidth / 1.070, windowHeight / 8.9);
+  var dsloth = dist(mouseX, mouseY, windowWidth / 1.7, windowHeight / 3);
+  var discimmia = dist(mouseX, mouseY, windowWidth / 1.5, windowHeight / 1.6);
+  var diarmadillo = dist(mouseX, mouseY, windowWidth / 1.8, windowHeight / 12 * 11.3);
+  var difarfalla = dist(mouseX, mouseY, windowWidth / 6.2, windowHeight / 5);
+  var dirana = dist(mouseX, mouseY, windowWidth / 6.5, windowHeight / 12 * 11.3);
+  if (dirana < 30 || difarfalla < 30 || discimmia < 50 || diarmadillo < 40 || dsloth < 50 || diinfo < 25 || dbanana < 20 || dlight < 20 || dforward1 < 15 || dforward2 < 15 || dforward3 < 15 || mouseX > windowWidth / 2 - 50 && mouseX < windowWidth / 2 + 50 && mouseY > windowHeight / 10 * 7.6 - 15 && mouseY < windowHeight / 10 * 7.6 + 15) {
     cursor(HAND);
   } else {
     cursor(ARROW);
@@ -422,8 +424,6 @@ function draw() {
 
   //cover farfalla
   //image(myImage2, 0,0,windowWidth,windowHeight);
-
-
 
   ////pagina final info animali
   // image(myImage20, 0,0,windowWidth,windowHeight);
@@ -508,43 +508,40 @@ function ArmadilloCover() {
   }
 }
 
-
-
-//click rana + farfalla + scimmia + armadillo + bradipo
 function mouseClicked() {
 
-  //bottone play
+  //button play
   if (mouseX > windowWidth / 2 - 50 && mouseX < windowWidth / 2 + 50 && mouseY > windowHeight / 10 * 7.6 - 15 && mouseY < windowHeight / 10 * 7.6 + 15) {
     sfondo = true;
   }
 
-  //istruzioni-->inizio gioco
+  //instructions-->first page
   var dforward1 = dist(mouseX, mouseY, windowWidth / 7 * 5.85, windowHeight / 10 * 7.6);
   if (dforward1 < 15 || dforward2 < 15 || dforward2 < 15) {
     startgame = true;
   }
-  //prima pagina-->istruzioni
+  //first page-->instructions
   var dforward2 = dist(mouseX, mouseY, windowWidth / 7 * 5.65, windowHeight / 10 * 7.6);
   if (dforward2 < 15) {
     instructions = true;
   }
 
-  var dirana = dist(mouseX, mouseY, windowWidth / 6.5, windowHeight / 12 * 11.3)
-  if (dirana < 40) {
-    rana = true
+  var dirana = dist(mouseX, mouseY, windowWidth / 6.5, windowHeight / 12 * 11.3);
+  if (dirana < 30) {
+    rana = true;
 
   }
-  var difarfalla = dist(mouseX, mouseY, windowWidth / 6.2, windowHeight / 5)
-  if (difarfalla < 40) {
-    farfalla = true
+  var difarfalla = dist(mouseX, mouseY, windowWidth / 6.2, windowHeight / 5);
+  if (difarfalla < 30) {
+    farfalla = true;
   }
-  var discimmia = dist(mouseX, mouseY, windowWidth / 1.5, windowHeight / 1.6)
+  var discimmia = dist(mouseX, mouseY, windowWidth / 1.5, windowHeight / 1.6);
   if (discimmia < 50) {
-    scimmia = true
+    scimmia = true;
   }
-  var diarmadillo = dist(mouseX, mouseY, windowWidth / 1.8, windowHeight / 12 * 11.3)
+  var diarmadillo = dist(mouseX, mouseY, windowWidth / 1.8, windowHeight / 12 * 11.3);
   if (diarmadillo < 40) {
-    armadillo = true
+    armadillo = true;
   }
 
   var dlight = dist(mouseX, mouseY, windowWidth / 3, windowHeight / 9);
@@ -569,21 +566,12 @@ function mouseClicked() {
   if (dbanana < 20) {
     banana = true;
   }
-  //boton info
-  var diinfo = dist(mouseX, mouseY, windowWidth / 1.065, windowHeight / 10)
-  if (diinfo < 50) {
-    info = true
-
+  //button info
+  var diinfo = dist(mouseX, mouseY, windowWidth / 1.070, windowHeight / 8.9);
+  if (diinfo < 25) {
+    info = !info;
   }
-
-  //cerrar boton info
-  var dxinfo = dist(mouseX, mouseY, windowWidth / 1.15, windowHeight / 9)
-  if (dxinfo < 50) {
-    info = false
-  }
-
 }
-
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
