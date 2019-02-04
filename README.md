@@ -2,16 +2,23 @@
 
 ![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/endangered%20animals.png)
 
+### Who are we?
+This is a project created by Teresa Cremonesi, Andrea Febres Medina, Filippo Ferrari and Cristina Pita da Veiga developed in the course of Creative Coding at Politecnico di Milano.
+
 ### What is this?
-This project is an interactive where the user has to find in the Amazonic jungle five different animals endangered or threatened using a variety of tools: the voice, the keyboard, the mouse... Thought the time they spend playing with it they will discover different characteristics of the animals and interact with the computer.
+This project is an interactive where the user has to find in the Amazonic jungle five different animals endangered or threatened using a variety of tools: the voice, the keyboard, the mouse... Thought the time they spend playing with it they will discover different characteristics of the animals and interact with the computer. To active two tools you have to select them (banana and light) the other two you can be use without selectioning them. 
+
+Banana: clicking ober the banana the user active the tool and when is aproximiting to the monkey the forest move, so they can select over it.
+Light: some animals are sensible to the light (in this case the sloth). Activing the light its created a cover to search the animal moving the mouse.
+Voice : saying the name of the animals hidden the user will find two of them. In this way will appear the armadillo and the butterfly.
+Keyboard: pushing the space to move the plants and clicking over it to see the hidden animal to find the frog.
+
 
 ### Why this idea?
 This idea start as a claim about what is happening with the animals because of human. In the last years has increased the number of species in danger or threatened because of human acts and it has been declared as a “global epidemic”. Scientists estimate that up to 200 species die every hour. The deforestation of the Amazon, hunting and other human actions are destroying diverse species. 
 
 With this game the user discover some of the species that are in danger. This is a way to make people awareness about this problem. We have to create conciousness about our "global village".
 
-### Who are we?
-This is a project created by Teresa Cremonesi, Andrea Febres Medina, Filippo Ferrari and Cristina Pita da Veiga developed in the course of Creative Coding at Politecnico di Milano.
 
 ## Inspirations/References
 All the other projects that inspired you, from any perspective (interactive, visual, critical, theorietical, etc)
