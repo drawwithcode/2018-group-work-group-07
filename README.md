@@ -45,10 +45,13 @@ https://projects.propublica.org/extinctions/
 We search in different platforms the animals endangered or threatened and we select the most interesting for our projects. This are some of the sources: Proceedings of the National Academy of Sciences, World Wild Life, NYT, BBC, IUCN Red List of Threatened Animals (https://www.iucnredlist.org/). Also we search for articles about the topic that could make our story more deep. For example: the economics of finding the endangered species (http://www.rff.org/blog/2010/economics-endangered-species).
 
 
-## --IMAGE/GIF/VIDEO--
-A visual recap of your project, it must convey main features and make people want to look at the real sketch
-
+## Visual recap of the project
+The banana tool
 ![alt text]( https://github.com/drawwithcode/2018-group-work-group-07/blob/master/banana.gif)
+
+The light tool
+![alt text]( https://github.com/drawwithcode/2018-group-work-group-07/blob/master/banana.gif)
+
 
 # The project
 
