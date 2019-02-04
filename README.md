@@ -97,7 +97,7 @@ We found the problem that when you zoom with the keyboard or reduze the size of 
 
 - Coding sources
 
-We used p5js, p5.dom and p5.sound.. This are the main sources:
+We used p5js, p5.dom, p5.sound and p5.speech. This are the main sources:
 
 Coding train: https://www.youtube.com/watch?v=Rk-_syQluvc
               https://www.youtube.com/watch?v=q_bXBcmfTJM
