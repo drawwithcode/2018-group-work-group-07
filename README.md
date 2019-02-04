@@ -66,22 +66,21 @@ The sound create the move of the different pngs in the background and create the
 
 With the keyboard you can move some plants of the screen to discover where are the animals. 
 
-The space tool
-
 ![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/space.gif)
+
+The space tool
 
 - Mouse
 
 With the mouse the user can move around the screen and select the animals. Also the light and the banana tools work with that.
 
-The light tool
-
 ![alt text]( https://github.com/drawwithcode/2018-group-work-group-07/blob/master/light.gif)
 
-The banana tool
+The light tool
 
 ![alt text]( https://github.com/drawwithcode/2018-group-work-group-07/blob/master/banana.gif)
 
+The banana tool
 
 ## Code and design challenges 
 
