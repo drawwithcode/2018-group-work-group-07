@@ -1,7 +1,7 @@
 # The idea
 Endangered animals (and how to find them) (picture)
 
-![alt text](https://crispdv9.github.io/2018-group-work-group-07/library/endangeredanimals.png)
+![alt text](https://github.com/drawwithcode/2018-group-work-group-07/library/endangeredanimals.png)
 
 ### What is this?
 This project is an interactive where the user has to find in the Amazonic jungle 5 different animals endangered or threatened using various tools: the voice, the keyboard, the mouse... Thought the time they spend playing with it they will discover different characteristics of the animals and interact with the computer.
