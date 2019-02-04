@@ -1,10 +1,9 @@
 # The idea
-Endangered animals (and how to find them) (picture)
 
 ![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/endangered%20animals.png)
 
 ### What is this?
-This project is an interactive where the user has to find in the Amazonic jungle 5 different animals endangered or threatened using various tools: the voice, the keyboard, the mouse... Thought the time they spend playing with it they will discover different characteristics of the animals and interact with the computer.
+This project is an interactive where the user has to find in the Amazonic jungle five different animals endangered or threatened using a variety of tools: the voice, the keyboard, the mouse... Thought the time they spend playing with it they will discover different characteristics of the animals and interact with the computer.
 
 ### Why this idea?
 This idea start as a claim about what is happening with the animals because of human. In the last years has increased the number of species in danger or threatened because of human acts and it has been declared as a “global epidemic”. Scientists estimate that up to 200 species die every hour. The deforestation of the Amazon, hunting and other human actions are destroying diverse species. 
@@ -16,6 +15,23 @@ This is a project created by Teresa Cremonesi, Andrea Febres Medina, Filippo Fer
 
 ## Inspirations/References
 All the other projects that inspired you, from any perspective (interactive, visual, critical, theorietical, etc)
+
+- Visual
+
+- Interactive projects inspiration
+
+Hidden folks is an inspiration for the project because of the idea of creating a big screen to find the animals.
+https://hiddenfolks.com/
+
+Species in pieces is a website where animals in danger are creating with different pieces geometricaly, in this way to can discover more about endangered animals.
+http://www.species-in-pieces.com/
+
+This project develoop by propublica give us an idea of what we wanted to talk about: animals in danger of extintion. From this information we achive the idea of the project.
+https://projects.propublica.org/extinctions/
+
+- Theorethical
+
+
 
 ## --IMAGE/GIF/VIDEO--
 A visual recap of your project, it must convey main features and make people want to look at the real sketch
@@ -30,6 +46,8 @@ If useful, do the same for the visual design of the sketch.
 challenges On the technical side, what drove you crazy. What are the most interesting and elegant solutions?
 
 ## Credits (third libraries used)
+
+https://processing.org/examples/
 
 Sources for the information: Proceedings of the National Academy of Sciences, World Wild Life, NYT, BBC, IUCN Red List of Threatened Animals.
 
