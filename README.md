@@ -1,6 +1,6 @@
 # The idea
 
-![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/endangered%20animals.png)
+![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/endangered.png)
 
 ### Who are we?
 This is a project created by Teresa Cremonesi, Andrea Febres Medina, Filippo Ferrari and Cristina Pita da Veiga developed in the course of Creative Coding at Politecnico di Milano.
