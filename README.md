@@ -45,10 +45,6 @@ https://projects.propublica.org/extinctions/
 We search in different platforms the animals endangered or threatened and we select the most interesting for our projects. This are some of the sources: Proceedings of the National Academy of Sciences, World Wild Life, NYT, BBC, IUCN Red List of Threatened Animals (https://www.iucnredlist.org/). Also we search for articles about the topic that could make our story more deep. For example: the economics of finding the endangered species (http://www.rff.org/blog/2010/economics-endangered-species).
 
 
-<<<<<<< HEAD
-## --IMAGE/GIF/VIDEO--
-A visual recap of your project, it must convey main features and make people want to look at the real sketch
-=======
 ## Visual recap of the project
 The banana tool
 
@@ -58,7 +54,6 @@ The light tool
 
 ![alt text]( https://github.com/drawwithcode/2018-group-work-group-07/blob/master/light.gif)
 
->>>>>>> b9605a4fe74de72588477dafbae53d0ddfd8e034
 
 # The project
 
@@ -75,13 +70,6 @@ The big screen was another big challenge. At the begginig we started with the id
 ![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/sfondo.png) 
 
 
-- Design the jungle and the animals
-
-One of the main channels was to put the big screen and the load of all the pictures. How to manage all the png and the levels of animals.
-
-![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/sfondo.png) 
-
-
 ## Code challenges 
 
 
@@ -94,28 +82,8 @@ The light was one of the main lights we wanted to create with the camera, but we
 We found the problem that when you zoom with the keyboard or reduze the size of the windows the background can change, so we create a "error" screen to avoid the change of the size.
 
 
-- Big screen
-
-At the begginig we started with the idea of creating a big screen to move around. The main problem was if we create this part, we had to cut other parts, so we decided to create a screen with all the elements as Hidden Folks. 
-
-- Light
-
-The light was one of the main lights we wanted to create with the camera, but we found problems to create the reaction with the whole scrren (at the begginig the moving screen gave us a better interaction with light), so we decided to create a different way to use it. With a cover we develop a "light" to wake up the sloth.
-
-- Zoom and size screen
-
-We found the problem that when you zoom with the keyboard or reduze the size of the windows the background can change, so we create a "error" screen to avoid the change of the size.
-
-
 ## Credits (third libraries used)
 
-<<<<<<< HEAD
-
-
-https://processing.org/examples/
-
-
-=======
 Coding train: https://www.youtube.com/watch?v=Rk-_syQluvc
               https://www.youtube.com/watch?v=q_bXBcmfTJM
 P5.js: https://editor.p5js.org/piecesofuk/sketches/SyBpNOJTb
@@ -123,7 +91,6 @@ P5.js: https://editor.p5js.org/piecesofuk/sketches/SyBpNOJTb
 Processing: https://processing.org/examples/
 
 Banana: https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjF09bP96HgAhVJ26QKHRk_DM8QjRx6BAgBEAU&url=http%3A%2F%2Fwww.freestockphotos.biz%2Fstockphoto%2F15912&psig=AOvVaw2cnhZ2xFLxXtII08a70JnX&ust=1549364751305777
->>>>>>> b9605a4fe74de72588477dafbae53d0ddfd8e034
 
 ### Information about the Amazon and the animals
 The Amazon is the world's biggest rainforest and is the home of the 10% of species in the planet. Nearly two-thirds of the Amazon rainforest is found in Brazil, but it also cover other countries as Colombia, Peru or Bolivia. The Amazon River is, by far, the world's largest river by volume: 7.000 kilometers.But this incredible rainforest has a very big problem: human action. Unless the deforestation in the Amazon rainforest has been declining since 2004, is the biggest front in the world and, as explains WWF, interventions are needed to prevent a large-scale ecological disaster, as WWF explains. Right now, a 20% of the Amazon biome has already been lost.
