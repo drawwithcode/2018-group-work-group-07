@@ -39,10 +39,17 @@ var mySong;
 var button;
 let angle = 0.0;
 let jitter = 0.0;
+<<<<<<< HEAD
 var rana = false;
 var farfalla = false;
 var scimmia = false;
 var armadillo = false;
+=======
+var rana = false
+var farfalla = false
+var scimmia = false
+var armadillo = false
+>>>>>>> b9605a4fe74de72588477dafbae53d0ddfd8e034
 
 var myImg39; // hoja morada
 var myImg38; // cover negra con hueco
@@ -62,6 +69,7 @@ var leavemonkey = true;
 var leaves = true;
 var banana = false;
 
+<<<<<<< HEAD
 var info = false;
 var xinfo = false;
 
@@ -80,6 +88,11 @@ var avanti2;
 
 var bradipo;
 var armadillo;
+=======
+var info = false
+var xinfo = false
+
+>>>>>>> b9605a4fe74de72588477dafbae53d0ddfd8e034
 
 function preload() {
   mySong = loadSound("./library/sound.mp3");
@@ -130,6 +143,7 @@ function preload() {
   myImage44 = loadImage('./library/z5.png');
   myImage45 = loadImage('./library/z6.png');
   myImage46 = loadImage('./library/banana.png');
+<<<<<<< HEAD
   myImage47 = loadImage('./library/info.png');
 
   bottoneplay = loadImage("./library/boton.png");
@@ -149,6 +163,9 @@ function setup() {
 
   //speech recognition
   var speechRec = new p5.SpeechRec('en-US', parseResult);
+=======
+  myImage47 = loadImage('./library/info.png')
+>>>>>>> b9605a4fe74de72588477dafbae53d0ddfd8e034
 
   var continuous = true;
   var interim = true;
@@ -166,6 +183,7 @@ function setup() {
 
     var mostrecentword = speechRec.resultString.split(' ').pop();
 
+<<<<<<< HEAD
     if (mostrecentword.indexOf("sloth") !== -1) {
       bradipo.shake();
     } else if (mostrecentword.indexOf("armadillo") !== -1) {
@@ -190,8 +208,21 @@ function setup() {
 
 
 }
+=======
+
+}
 
 
+function draw () {
+//background(myImage)
+image(myImage, 0, 0, windowWidth, windowHeight);
+
+>>>>>>> b9605a4fe74de72588477dafbae53d0ddfd8e034
+
+//farfalla
+image(myImage15, 0,0,windowWidth,windowHeight);
+
+<<<<<<< HEAD
 function draw() {
 
   //schermate iniziali
@@ -270,10 +301,54 @@ function draw() {
 
   //icono banner
   image(myImage13, windowWidth / 4.8, windowHeight / 13, windowWidth / 1.8, windowHeight / 13);
+=======
+//cover farfalla
+//image(myImage2, 0,0,windowWidth,windowHeight);
+
+//rana
+image(myImage16, 0,0,windowWidth,windowHeight);
+
+//cover rana
+//image(myImage3,0,0,windowWidth,windowHeight);
+
+//armadillo
+image(myImage17, 0,0,windowWidth,windowHeight);
+
+//cover armadillo
+//image(myImage4, 0,0,windowWidth,windowHeight);
+
+// bradipo
+image(myImage18, 0,0,windowWidth,windowHeight);
+
+//cover bradipo
+//image(myImage5, 0,0,windowWidth,windowHeight);
+
+// scimmia
+image(myImage19,0,0,windowWidth,windowHeight);
+
+//cover scimmia
+//image(myImage6, 0,0,windowWidth,windowHeight);
+
+//icono banner
+image(myImage13, windowWidth/4.8,windowHeight/13,windowWidth/1.8,windowHeight/13);
+
+//icono suono
+image(myImage9, 0,0,windowWidth,windowHeight);
+
+//icono binoculo
+image(myImage10, 0,0,windowWidth,windowHeight);
+
+//icono tastiera
+image(myImage11,0,0,windowWidth,windowHeight);
+
+//luce
+image(myImage12, 0,0,windowWidth,windowHeight);
+>>>>>>> b9605a4fe74de72588477dafbae53d0ddfd8e034
 
   //icono suono
   image(myImage9, 0, 0, windowWidth, windowHeight);
 
+<<<<<<< HEAD
   //icono binoculo
   image(myImage10, 0, 0, windowWidth, windowHeight);
 
@@ -282,8 +357,53 @@ function draw() {
 
   //luce
   image(myImage12, 0, 0, windowWidth, windowHeight);
+=======
+//primera pagina
+//image(myImage7, 0, 0, windowWidth, windowHeight);
 
 
+//herramienta keyboard
+push()
+if (keyIsPressed == true) {  // If the key is pressed,
+    image(myImage3, 0,0,windowWidth,windowHeight);
+    image(myImage26, 10,0,windowWidth,windowHeight);
+    image(myImage27, 400,-30,windowWidth,windowHeight);
+    image(myImage28, 700,-130,windowWidth,windowHeight)
+    image(myImage29, 700,0,windowWidth,windowHeight)
+    image(myImage29, 0,0,windowWidth,windowHeight)
+    image(myImage30, 0,-10,windowWidth,windowHeight)
+    image(myImage31, 0,0,windowWidth,windowHeight)
+    image(myImage32, 0,0,windowWidth,windowHeight)
+  }
+  else {
+    image(myImage3, 2,0,windowWidth,windowHeight);
+    image(myImage26, 8,2,windowWidth,windowHeight);
+    image(myImage27, 400,0,windowWidth,windowHeight);
+    image(myImage28, 715,-135,windowWidth,windowHeight)
+    image(myImage29, 700,5,windowWidth,windowHeight)
+    image(myImage29, 3,0,windowWidth,windowHeight)
+    image(myImage30, 0,5,windowWidth,windowHeight)
+    image(myImage31, 0,5,windowWidth,windowHeight)
+    image(myImage32, 5,2,windowWidth,windowHeight)
+  }
+pop()
+
+
+//aparición rana
+if (rana){
+image(myImage16, 0,0,windowWidth,windowHeight)
+
+} else {
+  image(myImage3, 0,0,windowWidth,windowHeight)
+
+}
+>>>>>>> b9605a4fe74de72588477dafbae53d0ddfd8e034
+
+//aparicion farfalla
+if (farfalla){
+image(myImage15, 0,0,windowWidth,windowHeight)
+
+<<<<<<< HEAD
   //primera pagina
   //image(myImage7, 0, 0, windowWidth, windowHeight);
 
@@ -475,12 +595,131 @@ function Bradipo() {
   this.display = function() {
     image(myImage5, this.x, this.y, 125, 430);
   }
+=======
+} else {
+  image(myImage2, 0,0,windowWidth,windowHeight)
+}
+
+
+//aparición scimmia
+if (scimmia){
+image(myImage19, 0,0,windowWidth,windowHeight)
+
+} else {
+  image(myImage6, 0,0,windowWidth,windowHeight)
+
+}
+
+//aparición armadillo
+if (armadillo){
+image(myImage17, 0,0,windowWidth,windowHeight)
+
+} else {
+  image(myImage4, 0,0,windowWidth,windowHeight)
+
+}
+
+// banna + scimmmia
+image(myImage19, 0, 0, windowWidth, windowHeight);
+
+  if (leavemonkey) {
+    image(myImage6, 0, 0, windowWidth, windowHeight);
+  }
+
+  if (leaves) {
+
+    image(myImage43, 0, 0, windowWidth, windowHeight);
+    image(myImage44, 0, 0, windowWidth, windowHeight);
+    image(myImage45, 0, 0, windowWidth, windowHeight);
+  }
+
+if (mouseX >= windowWidth / 1.5 - windowWidth / 8 && mouseX <= windowWidth / 1.5 + windowWidth / 8 && mouseY >= windowHeight / 1.6 - windowHeight / 8 && mouseY <= windowHeight / 1.6 + windowHeight / 8) {
+    var x = random(2);
+    var y = random(2);
+    image(myImage43, x, y, windowWidth, windowHeight);
+    image(myImage44, x, y, windowWidth, windowHeight);
+    image(myImage45, x, y, windowWidth, windowHeight);
+  }
+
+if (banana) {
+    image(myImage46, mouseX, mouseY, windowWidth /15, windowHeight / 10);
+  }
+
+    ellipse(windowWidth/1.77, windowHeight / 9, 20);
+
+//aparicion sloth
+
+  if (leavessloth) {
+    var x = random(1);
+    var y = random(1);
+    image(myImage5, x, y, windowWidth, windowHeight);
+    image(myImage39, x, y, windowWidth, windowHeight);
+  }
+
+  // da cancellare poi: è solo per fare il tool della luce
+  fill(250)
+  ellipse(windowWidth/3, windowHeight / 9, 20);
+
+
+  if (light) {
+    image(myImage38, mouseX - myImage38.width / 2, mouseY - myImage38.height / 2, myImage38.width, myImage38.height);
+  }
+
+
+    //boton info
+    image(myImage8, 0,0,windowWidth,windowHeight)
+
+if (info){
+    image(myImage47, 0,0,windowWidth,windowHeight)
+
+    }  fill(250)
+      ellipse(windowWidth/1.065, windowHeight/10, 30);
+
+//boton x
+if (xinfo){
+    image(myImage47, 0,0,windowWidth,windowHeight)
+
+    }
+    fill(250)
+      ellipse(windowWidth/1.15, windowHeight/9, 30);
+
+////pagina final info animali
+// image(myImage20, 0,0,windowWidth,windowHeight);
+// image(myImage21, 0,0,windowWidth,windowHeight);
+// image(myImage22, 0,0,windowWidth,windowHeight);
+// image(myImage23, 0,0,windowWidth,windowHeight);
+// image(myImage24, 0,0,windowWidth,windowHeight);
+// image(myImage25, 0,0,windowWidth,windowHeight);
+//
+// //info rana
+// if ((mouseX > windowWidth/10) && (mouseX < windowWidth/5)){
+//   image(myImage36, 0,0,windowWidth,windowHeight);
+// }
+// //info armadillo
+// if ((mouseX > windowWidth/5) && (mouseX < windowWidth/3)){
+//   image(myImage33, 0,0,windowWidth,windowHeight);
+// }
+// //info bradipo
+// if ((mouseX > windowWidth/2.8) && (mouseX < windowWidth/1.5)){
+//   image(myImage34, 0,0,windowWidth,windowHeight);
+// }
+// //info farfalla
+// if ((mouseX > windowWidth/1.5) && (mouseX < windowWidth/1.3)){
+//   image(myImage35, 0,0,windowWidth,windowHeight);
+// }
+// //info scimmia
+// if ((mouseX > windowWidth/1.3) && (mouseX < windowWidth/1.01)){
+//   image(myImage37, 0,0,windowWidth,windowHeight);
+// }
+
+>>>>>>> b9605a4fe74de72588477dafbae53d0ddfd8e034
 
   this.shake = function() {
     this.x = this.x + random (-5, 5);
   }
 }
 
+<<<<<<< HEAD
 function Armadillo() {
 
   this.x = 630;
@@ -489,11 +728,68 @@ function Armadillo() {
   this.display = function() {
     image(myImage4, this.x, this.y, 160, 160);
   }
+=======
+
+
+
+//click rana + farfalla + scimmia + armadillo + bradipo
+function mouseClicked(){
+var dirana = dist(mouseX,mouseY,windowWidth/6.5,windowHeight/12*11.3)
+if (dirana < 40){
+  rana = true
+>>>>>>> b9605a4fe74de72588477dafbae53d0ddfd8e034
 
   this.shake = function() {
     this.x = this.x + random (-5, 5);
   }
 }
+var difarfalla = dist(mouseX,mouseY,windowWidth/6.2,windowHeight/5)
+if (difarfalla < 40){
+  farfalla = true
+  }
+var discimmia = dist(mouseX,mouseY,windowWidth/1.5,windowHeight/1.6)
+if (discimmia < 50){
+    scimmia = true
+    }
+var diarmadillo = dist(mouseX,mouseY,windowWidth/1.8,windowHeight/12*11.3)
+if (diarmadillo < 40){
+    armadillo = true
+    }
+
+var dlight = dist(mouseX, mouseY, windowWidth/3, windowHeight / 9);
+if (dlight  < 20) {
+      light = true;
+      }
+
+var dsloth = dist(mouseX, mouseY, windowWidth / 1.7, windowHeight / 3);
+  if (dsloth < 50) {
+    leavessloth = false;
+    light = false;
+      }
+
+//bannan + scimmia
+var dmonkey = dist(mouseX, mouseY, windowWidth / 1.5, windowHeight / 1.6);
+  if (dmonkey < windowWidth / 20) {
+    leavemonkey = false;
+    banana = false;
+  }
+
+  var dbanana = dist(mouseX, mouseY,windowWidth/1.77, windowHeight / 9);
+  if (dbanana < 20) {
+    banana = true;
+  }
+//boton info
+var diinfo = dist(mouseX,mouseY,windowWidth/1.065, windowHeight/10)
+if (diinfo < 50){
+    info = true
+
+    }
+
+//cerrar boton info
+var dxinfo = dist(mouseX,mouseY,windowWidth/1.15, windowHeight/9)
+if (dxinfo < 50){
+    info = false
+        }
 
 //click rana + farfalla + scimmia + armadillo + bradipo
 function mouseClicked() {
