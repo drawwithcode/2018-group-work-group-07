@@ -48,6 +48,8 @@ We search in different platforms the animals endangered or threatened and we sel
 ## --IMAGE/GIF/VIDEO--
 A visual recap of your project, it must convey main features and make people want to look at the real sketch
 
+![alt text]( https://github.com/drawwithcode/2018-group-work-group-07/blob/master/banana.gif)
+
 # The project
 
 ## Design challenges
