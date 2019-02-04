@@ -79,11 +79,13 @@ We found the problem that when you zoom with the keyboard or reduze the size of 
 
 ## Credits (third libraries used)
 
+Coding train: https://www.youtube.com/watch?v=Rk-_syQluvc
+              https://www.youtube.com/watch?v=q_bXBcmfTJM
+P5.js: https://editor.p5js.org/piecesofuk/sketches/SyBpNOJTb
+              https://p5js.org/learn/interactivity.html
+Processing: https://processing.org/examples/
 
-
-https://processing.org/examples/
-
-
+Banana: https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjF09bP96HgAhVJ26QKHRk_DM8QjRx6BAgBEAU&url=http%3A%2F%2Fwww.freestockphotos.biz%2Fstockphoto%2F15912&psig=AOvVaw2cnhZ2xFLxXtII08a70JnX&ust=1549364751305777
 
 ### Information about the Amazon and the animals
 The Amazon is the world's biggest rainforest and is the home of the 10% of species in the planet. Nearly two-thirds of the Amazon rainforest is found in Brazil, but it also cover other countries as Colombia, Peru or Bolivia. The Amazon River is, by far, the world's largest river by volume: 7.000 kilometers.But this incredible rainforest has a very big problem: human action. Unless the deforestation in the Amazon rainforest has been declining since 2004, is the biggest front in the world and, as explains WWF, interventions are needed to prevent a large-scale ecological disaster, as WWF explains. Right now, a 20% of the Amazon biome has already been lost.
