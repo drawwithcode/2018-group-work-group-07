@@ -46,7 +46,7 @@ The idea was to create illustrations but not in a very childish style. At the en
 
 - Voice
 
-With the speech recognition there is an interaction with two of the animals. 
+With the speech recognition has been created two interactions.
 
 *Voice tool*: saying the name of the animals hidden the user will find two of them. In this way, will appear the armadillo and the butterfly.
 
@@ -56,11 +56,9 @@ The sound create the move of the different pngs in the background and create the
 
 - Keyboard
 
-With the keyboard you can move some plants of the screen to discover where are the animals. 
+*Keyboard tool*: Pushing the space to move the plants and clicking over it to see the hidden animal to find the frog.
 
 ![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/space.gif)
-
-*Keyboard tool*: pushing the space to move the plants and clicking over it to see the hidden animal to find the frog.
 
 - Mouse
 
