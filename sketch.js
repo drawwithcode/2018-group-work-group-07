@@ -36,13 +36,13 @@ var myImg35;
 var myImg36;
 var myImg37;
 var mySong;
-var button;
-let angle = 0.0;
-let jitter = 0.0;
-var rana = false
-var farfalla = false
-var scimmia = false
-var armadillo = false
+// var button;
+// var angle = 0.0;
+// var jitter = 0.0;
+var rana = false;
+var farfalla = false;
+var scimmia = false;
+var armadillo = false;
 
 var myImg39; // hoja morada
 var myImg38; // cover negra con hueco
@@ -57,13 +57,28 @@ var myImage44;
 var myImage45;
 var myImage46;
 
-
 var leavemonkey = true;
 var leaves = true;
 var banana = false;
 
-var info = false
-var xinfo = false
+var info = false;
+var xinfo = false;
+
+var SpeechRec;
+var analyzer;
+
+var instructions = false;
+var intro = false;
+var startgame = false;
+var sfondo = false;
+
+var myInstructions;
+var myIntro;
+var avanti1;
+var avanti2;
+
+// var bradipo;
+var armadillo;
 
 
 function preload() {
@@ -115,8 +130,14 @@ function preload() {
   myImage44 = loadImage('./library/z5.png');
   myImage45 = loadImage('./library/z6.png');
   myImage46 = loadImage('./library/banana.png');
-  myImage47 = loadImage('./library/info.png')
+  myImage47 = loadImage('./library/info.png');
 
+  bottoneplay = loadImage("./library/boton.png");
+
+  myInstructions = loadImage("./library/istruzioni.png");
+  myIntro = loadImage("./library/intro.png");
+  avanti1 = loadImage("./library/avanti_1.png");
+  avanti2 = loadImage("./library/avanti_2.png");
 
 }
 
