@@ -6,12 +6,12 @@
 This is a project created by Teresa Cremonesi, Andrea Febres Medina, Filippo Ferrari and Cristina Pita da Veiga developed in the course of Creative Coding at Politecnico di Milano.
 
 ### What is this?
-This project is an interactive where the user has to find in the Amazonic jungle five different animals endangered or threatened (Sloth, Butterfly, Armadillo, Frog and Monkey) using a variety of tools: the voice, the keyboard, the mouse... Thought the time they spend playing with it they will discover different characteristics of the animals and interact with the computer. We create also "fake animals" in the background that are not really in the jungle, and the user should discover which are they. Moreover, to active two tools you have to select them (banana and light) the other two, can be used without selectioning them. 
+This project is an interactive game where the user has to find in the Amazon Rainforest five different animals endangered or threatened (Sloth, Butterfly, Armadillo, Frog and Monkey) using a variety of tools: the voice, the keyboard, the mouse... Trhought the time they spend playing with it they will discover different characteristics of the animals and interact with the computer. We create also "fake animals" in the background that are not really in the jungle, and the user should discover which are they. Moreover, to active two tools you have to select them (banana and light) while the other two, can be used without selectioning them. 
 
 ### Why this idea?
 This idea starts as a claim about what is happening with the animals because of humans. In the last years has increased the number of species in danger or threatened because of human acts and it has been declared as a “global epidemic”. Scientists estimate that up to 200 species die every hour. The deforestation of the Amazon, hunting and other human actions are destroying diverse species. 
 
-With this game the user discover some of the species that are in danger. This is a way to make people awareness about this problem. We have to create conciousness about our "global village".
+With this game the user discover some of the species that are in danger. This is a way to make people aware about this problem. We have to create conciousness about our "global village".
 
 ## Inspirations/References
 
@@ -104,6 +104,8 @@ Coding train: https://www.youtube.com/watch?v=Rk-_syQluvc
               
 P5.js: https://editor.p5js.org/piecesofuk/sketches/SyBpNOJTb
               https://p5js.org/learn/interactivity.html
+
+P5.speech.js: http://ability.nyu.edu/p5.js-speech/
               
 Processing: https://processing.org/examples/
 
