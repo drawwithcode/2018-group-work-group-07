@@ -68,12 +68,15 @@ The space tool
 The project consist in different pages connected with buttons that arrive to the big screen of the rainforest. Also when the user finish, appear a screen with all the animals and the information. 
 
 - Big screen
+
 The main design problem we had was the Big Screen. At the begginig we started with the idea of creating a big screen to move around. The main problem was that if we created it, we had to cut other parts, so we decided to create a screen with all the elements, as Hidden Folks.
 
 - Illustrations
+
 We decided to do the sketch by our own illustrations. A big challenge was the the wide amount of png and levels we had in the sketch. Organize them and configurate in different levels was important.
 
 - Tools
+
 The interaction of the tools was the most important challenge. Create the interaction with the images and the illustrations require different solutions. 
 
 ![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/sfondo.png) 
@@ -95,6 +98,8 @@ We found the problem that when you zoom with the keyboard or reduze the size of 
 
 - Coding sources
 
+We used p5js to create the code. This are the main sources:
+
 Coding train: https://www.youtube.com/watch?v=Rk-_syQluvc
               https://www.youtube.com/watch?v=q_bXBcmfTJM
 P5.js: https://editor.p5js.org/piecesofuk/sketches/SyBpNOJTb
@@ -106,6 +111,8 @@ Github: https://github.com/processing/p5.js/wiki/Positioning-your-canvas
 Banana: https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjF09bP96HgAhVJ26QKHRk_DM8QjRx6BAgBEAU&url=http%3A%2F%2Fwww.freestockphotos.biz%2Fstockphoto%2F15912&psig=AOvVaw2cnhZ2xFLxXtII08a70JnX&ust=1549364751305777
 
 - Information sources
+
+Apart of the studies and articles, we based our information about the animals in different sources:
 
 Proceedings of the National Academy of Sciences, World Wild Life, NYT, BBC and IUCN Red List of Threatened Animals (https://www.iucnredlist.org/), Resources For the Future (http://www.rff.org/blog/2010/economics-endangered-species).
 
