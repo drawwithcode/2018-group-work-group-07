@@ -44,7 +44,7 @@ We search in different platforms the animals endangered or threatened and we sel
 
 - Visual
 
-The idea was to create illustrations but not very childish style. At the end the idea is to concern people about a very big problem, the game can be fun with colourfull illustrations, but there is a black screen in the back remember the problem. 
+The idea was to create illustrations but not in a very childish style. At the end the idea is to concern people about a very big problem, the game can be fun with colourfull illustrations, but there is a black screen in the back remember the problem. 
 
 ![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/inspira.png)
 
@@ -99,7 +99,7 @@ We decided to do the sketch by our own illustrations. A big challenge was the th
 
 - Light
 
-The light was one of the main lights we wanted to create with the camera, but we found problems to create the reaction with the whole scrren (at the begginig the moving screen gave us a better interaction with light), so we decided to create a different way to use it. With a cover we develop a "light" to wake up the sloth.
+The light was one of the main interactions we wanted to create with the camera, but we found problems to create the reaction with the whole screen (at the begginig the moving screen gave us a better interaction with light), so we decided to create a different way to use it. With a cover we develop a "light" to wake up the sloth.
 
 - Zoom and size screen
 
