@@ -20,6 +20,8 @@ All the other projects that inspired you, from any perspective (interactive, vis
 
 - Interactive projects inspiration
 
+![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/inspi2000.png)
+
 Hidden folks is an inspiration for the project because of the idea of creating a big screen to find the animals.
 https://hiddenfolks.com/
 
