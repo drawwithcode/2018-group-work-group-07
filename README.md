@@ -46,6 +46,8 @@ We search in different platforms the animals endangered or threatened and we sel
 
 The idea was to create illustrations but not very childish style. At the end the idea is to concern people about a very big problem, the game can be fun with colourfull illustrations, but there is a black screen in the back remember the problem. 
 
+![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/inspira.png)
+
 
 ## Visual recap of the project
 The banana tool
