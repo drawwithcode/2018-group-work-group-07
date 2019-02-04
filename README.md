@@ -44,14 +44,28 @@ A visual recap of your project, it must convey main features and make people wan
 Explain choiches behind the design of interactions and the architecture of the sketch. What are the most innovative elements?
 If useful, do the same for the visual design of the sketch.
 
+- Design the jungle and the animals
+
+
 ## Code challenges 
 challenges On the technical side, what drove you crazy. What are the most interesting and elegant solutions?
+
+- Big screen
+
+At the begginig we started with the idea of creating a big screen to move around. The main problem was if we create this part, we had to cut other parts, so we decided to create a screen with all the elements as Hidden Folks. 
+
+- Speech recognition
+
+The main challenge was to create the reaction with the words to the plants.
+
 
 ## Credits (third libraries used)
 
 https://processing.org/examples/
 
-Sources for the information: Proceedings of the National Academy of Sciences, World Wild Life, NYT, BBC, IUCN Red List of Threatened Animals.
+- Sources for the information
+
+Proceedings of the National Academy of Sciences, World Wild Life, NYT, BBC, IUCN Red List of Threatened Animals.
 
 ### Information about the Amazon and the animals
 The Amazon is the world's biggest rainforest and is the home of the 10% of species in the planet. Nearly two-thirds of the Amazon rainforest is found in Brazil, but it also cover other countries as Colombia, Peru or Bolivia. The Amazon River is, by far, the world's largest river by volume: 7.000 kilometers.But this incredible rainforest has a very big problem: human action. Unless the deforestation in the Amazon rainforest has been declining since 2004, is the biggest front in the world and, as explains WWF, interventions are needed to prevent a large-scale ecological disaster, as WWF explains. Right now, a 20% of the Amazon biome has already been lost.
