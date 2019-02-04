@@ -47,10 +47,12 @@ We search in different platforms the animals endangered or threatened and we sel
 
 ## Visual recap of the project
 The banana tool
+
 ![alt text]( https://github.com/drawwithcode/2018-group-work-group-07/blob/master/banana.gif)
 
 The light tool
-![alt text]( https://github.com/drawwithcode/2018-group-work-group-07/blob/master/banana.gif)
+
+![alt text]( https://github.com/drawwithcode/2018-group-work-group-07/blob/master/light.gif)
 
 
 # The project
