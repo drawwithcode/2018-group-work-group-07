@@ -61,19 +61,20 @@ The space tool
 ![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/space.gif)
 
 
-
-
 # The project
 
-## Design challenges (Explain choiches behind the design of interactions and the architecture of the sketch. What are the most innovative elements?
+## Design challenges
 
 The project consist in different pages connected with buttons that arrive to the big screen of the rainforest. Also when the user finish, appear a screen with all the animals and the information. 
 
--Big screen
+- Big screen
 The main design problem we had was the Big Screen. At the begginig we started with the idea of creating a big screen to move around. The main problem was that if we created it, we had to cut other parts, so we decided to create a screen with all the elements, as Hidden Folks.
 
--Illustrations
-We decided to do the sketch by our own designs. A big challenge was the the wide amount of png and levels we had in the sketch. Organize them and configurate in different levels was important.
+- Illustrations
+We decided to do the sketch by our own illustrations. A big challenge was the the wide amount of png and levels we had in the sketch. Organize them and configurate in different levels was important.
+
+- Tools
+The interaction of the tools was the most important challenge. Create the interaction with the images and the illustrations require different solutions. 
 
 ![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/sfondo.png) 
 
