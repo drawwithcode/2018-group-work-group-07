@@ -123,7 +123,6 @@ function preload() {
 function setup () {
 
   createCanvas(windowWidth,windowHeight)
-  //background(myImage)
   mySong.play();
 
 
