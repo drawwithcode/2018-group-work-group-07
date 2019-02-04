@@ -88,7 +88,7 @@ We decided to do the sketch by our own illustrations. A big challenge was the th
 
 The light was one of the main interactions we wanted to create with the camera, but we found problems to create the reaction with the whole screen (at the begginig the moving screen gave us a better interaction with light), so we decided to create a different way to use it. With a cover we develop a "light" to wake up the sloth.
 
-- Zoom and size screen
+- Zoom and resize screen
 
 We found the problem that when you zoom with the keyboard or reduze the size of the windows the background can change, so we create a "error" screen to avoid the change of the size.
 
