@@ -8,7 +8,7 @@ This project is an interactive where the user has to find in the Amazonic jungle
 ### Why this idea?
 This idea start as a claim about what is happening with the animals because of human. In the last years has increased the number of species in danger or threatened because of human acts and it has been declared as a “global epidemic”. Scientists estimate that up to 200 species die every hour. The deforestation of the Amazon, hunting and other human actions are destroying diverse species. 
 
-With this game the user discover some of the species that are in danger. This is a way to make people consciousness about this problem.
+With this game the user discover some of the species that are in danger. This is a way to make people awareness about this problem. We have to create conciousness about our "global village".
 
 ### Who are we?
 This is a project created by Teresa Cremonesi, Andrea Febres Medina, Filippo Ferrari and Cristina Pita da Veiga developed in the course of Creative Coding at Politecnico di Milano.
@@ -17,6 +17,8 @@ This is a project created by Teresa Cremonesi, Andrea Febres Medina, Filippo Fer
 All the other projects that inspired you, from any perspective (interactive, visual, critical, theorietical, etc)
 
 - Visual
+
+The idea was to create illustrations but not very childish style. At the end the idea is to concern people about a very big problem, the game can be fun with colourfull illustrations, but there is a black screen in the back remember the problem. 
 
 - Interactive projects inspiration
 
@@ -54,12 +56,19 @@ challenges On the technical side, what drove you crazy. What are the most intere
 
 At the begginig we started with the idea of creating a big screen to move around. The main problem was if we create this part, we had to cut other parts, so we decided to create a screen with all the elements as Hidden Folks. 
 
-- Speech recognition
+- Light
 
-The main challenge was to create the reaction with the words to the plants.
+The light was one of the main lights we wanted to create with the camera, but we found problems to create the reaction with the whole scrren (at the begginig the moving screen gave us a better interaction with light), so we decided to create a different way to use it. With a cover we develop a "light" to wake up the sloth.
+
+- Zoom and size screen
+
+We found the problem that when you zoom with the keyboard or reduze the size of the windows the background can change, so we create a "error" screen to avoid the change of the size.
 
 
 ## Credits (third libraries used)
+
+
+- Coding sources
 
 https://processing.org/examples/
 
@@ -89,6 +98,7 @@ This curious animal is the largest of one of Earth’s most fascinating groups o
 Lemur tree frogs (Agalychnis lemur)
 
 Surely you have seen this animal before, the lemur tree is bright yellowish-green to brown. They can change color depending on whether they are active or resting. For example, when they are active at night, they become more camouflaged as their upper parts turn to brown, also their eyes turn dark gray too. This is going to surprise you: they rarely jump unless fleeing from danger, they move slowly and walk hand over hand. And, this is gorgeous, these amphibians are part of the ‘tree frogs’ families, which have a fossil record in the Palaeocene (65 to 53 million years ago!).
+
 
 
 
