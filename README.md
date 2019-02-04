@@ -57,23 +57,21 @@ The light tool
 
 # The project
 
-## Design challenges
-Explain choiches behind the design of interactions and the architecture of the sketch. What are the most innovative elements?
-If useful, do the same for the visual design of the sketch.
+## Design challenges (Explain choiches behind the design of interactions and the architecture of the sketch. What are the most innovative elements?
+If useful, do the same for the visual design of the sketch.)
 
-- Design the jungle and the animals
+-Illustrations
+We decided to do the sketch by our own designs. A big challenge was the the big amount of png and levels we had in the sketch.
 
-One of the main channels was to put the big screen and the load of all the pictures. How to manage all the png and the levels of animals.
+-Big screen
+The big screen was another big challenge. At the begginig we started with the idea of creating a big screen to move around. The main problem was if we create this part, we had to cut other parts, so we decided to create a screen with all the elements as Hidden Folks.
+
 
 ![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/sfondo.png) 
 
 
 ## Code challenges 
-challenges On the technical side, what drove you crazy. What are the most interesting and elegant solutions?
 
-- Big screen
-
-At the begginig we started with the idea of creating a big screen to move around. The main problem was if we create this part, we had to cut other parts, so we decided to create a screen with all the elements as Hidden Folks. 
 
 - Light
 
