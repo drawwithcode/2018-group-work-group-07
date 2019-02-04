@@ -25,10 +25,6 @@ With this game the user discover some of the species that are in danger. This is
 
 ## Inspirations/References
 
-- Visual
-
-The idea was to create illustrations but not very childish style. At the end the idea is to concern people about a very big problem, the game can be fun with colourfull illustrations, but there is a black screen in the back remember the problem. 
-
 - Interactive projects inspiration
 
 ![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/inspi2000.png)
@@ -46,6 +42,10 @@ https://projects.propublica.org/extinctions/
 
 We search in different platforms the animals endangered or threatened and we selected the most interesting for our projects. These are some of the sources: Proceedings of the National Academy of Sciences, World Wild Life, NYT, BBC and IUCN Red List of Threatened Animals (https://www.iucnredlist.org/). Also we search for articles about the topic that could make our story more deeper. For example: the economics of finding the endangered species (http://www.rff.org/blog/2010/economics-endangered-species).
 
+- Visual
+
+The idea was to create illustrations but not very childish style. At the end the idea is to concern people about a very big problem, the game can be fun with colourfull illustrations, but there is a black screen in the back remember the problem. 
+
 
 ## Visual recap of the project
 The banana tool
@@ -60,10 +60,29 @@ The space tool
 
 ![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/space.gif)
 
+![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/sfondo.png) 
 
 # The project
 
-## Design challenges
+## Interactions
+
+- Voice
+
+With the speech recognition there is an interaction with two of the animals. 
+
+- Sound
+
+The sound create the move of the different pngs in the background and create the atmosphere
+
+- Keyboard
+
+With the keyboard you can move some plants of the screen to discover where are the animals. 
+
+- Mouse
+
+With the mouse the user can move around the screen and select the animals. Also the light and the banana tools work with that.
+
+## Code and design challenges 
 
 The project consist in different pages connected with buttons that arrive to the big screen of the rainforest. Also when the user finish, appear a screen with all the animals and the information. 
 
@@ -74,16 +93,6 @@ The main design problem we had was the Big Screen. At the begginig we started wi
 - Illustrations
 
 We decided to do the sketch by our own illustrations. A big challenge was the the wide amount of png and levels we had in the sketch. Organize them and configurate in different levels was important.
-
-- Tools
-
-The interaction of the tools was the most important challenge. Create the interaction with the images and the illustrations require different solutions. 
-
-![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/sfondo.png) 
-
-
-## Code challenges 
-
 
 - Light
 
@@ -98,7 +107,7 @@ We found the problem that when you zoom with the keyboard or reduze the size of 
 
 - Coding sources
 
-We used p5js to create the code. This are the main sources:
+We used p5js, p5.dom and p5.sound to create the code. This are the main sources:
 
 Coding train: https://www.youtube.com/watch?v=Rk-_syQluvc
               https://www.youtube.com/watch?v=q_bXBcmfTJM
