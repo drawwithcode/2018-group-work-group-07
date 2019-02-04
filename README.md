@@ -56,6 +56,10 @@ If useful, do the same for the visual design of the sketch.
 
 - Design the jungle and the animals
 
+One of the main channels was to put the big screen and the load of all the pictures. How to manage all the png and the levels of animals.
+
+![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/sfondo.png) 
+
 
 ## Code challenges 
 challenges On the technical side, what drove you crazy. What are the most interesting and elegant solutions?
