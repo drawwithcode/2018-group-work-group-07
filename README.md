@@ -8,20 +8,10 @@ This is a project created by Teresa Cremonesi, Andrea Febres Medina, Filippo Fer
 ### What is this?
 This project is an interactive where the user has to find in the Amazonic jungle five different animals endangered or threatened (Sloth, Butterfly, Armadillo, Frog and Monkey) using a variety of tools: the voice, the keyboard, the mouse... Thought the time they spend playing with it they will discover different characteristics of the animals and interact with the computer. We create also "fake animals" in the background that are not really in the jungle, and the user should discover which are they. Moreover, to active two tools you have to select them (banana and light) the other two, can be used without selectioning them. 
 
-*Banana*: clicking over the banana the user active the tool and when is aproximiting to the monkey the forest start to move so they can select the plant and see the monkey.
-
-*Light*: some animals are sensible to the light (in this case the sloth). Activing the light appears a cover to search the animal moving the mouse.
-
-*Voice*: saying the name of the animals hidden the user will find two of them. In this way, will appear the armadillo and the butterfly.
-
-*Keyboard*: pushing the space to move the plants and clicking over it to see the hidden animal to find the frog.
-
-
 ### Why this idea?
 This idea starts as a claim about what is happening with the animals because of humans. In the last years has increased the number of species in danger or threatened because of human acts and it has been declared as a “global epidemic”. Scientists estimate that up to 200 species die every hour. The deforestation of the Amazon, hunting and other human actions are destroying diverse species. 
 
 With this game the user discover some of the species that are in danger. This is a way to make people awareness about this problem. We have to create conciousness about our "global village".
-
 
 ## Inspirations/References
 
@@ -58,6 +48,8 @@ The idea was to create illustrations but not in a very childish style. At the en
 
 With the speech recognition there is an interaction with two of the animals. 
 
+*Voice tool*: saying the name of the animals hidden the user will find two of them. In this way, will appear the armadillo and the butterfly.
+
 - Sound
 
 The sound create the move of the different pngs in the background and create the atmosphere
@@ -68,7 +60,7 @@ With the keyboard you can move some plants of the screen to discover where are t
 
 ![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/space.gif)
 
-The space tool
+*Keyboard tool*: pushing the space to move the plants and clicking over it to see the hidden animal to find the frog.
 
 - Mouse
 
@@ -76,11 +68,11 @@ With the mouse the user can move around the screen and select the animals. Also 
 
 ![alt text]( https://github.com/drawwithcode/2018-group-work-group-07/blob/master/light.gif)
 
-The light tool
+*Light tool*: some animals are sensible to the light (in this case the sloth). Activing the light appears a cover to search the animal moving the mouse.
 
 ![alt text]( https://github.com/drawwithcode/2018-group-work-group-07/blob/master/banana.gif)
 
-The banana tool
+*Banana tool*: clicking over the banana the user active the tool and when is aproximiting to the monkey the forest start to move so they can select the plant and see the monkey.
 
 ## Code and design challenges 
 
