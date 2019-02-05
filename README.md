@@ -40,7 +40,7 @@ The Amazon is the world's biggest rainforest and is the home of the 10% of speci
 
 This butterfly is one of the most known, emblematic and favorite of all Amazon species. We selected it because is a butterfly protected in the Amazon and there are some asociations to preserve them because of their natural interest.
 
-*Sloth of three fingers (Bradypus variegatus)*
+#####*Sloth of three fingers (Bradypus variegatus)*
 
 The Sloth is a very known animal because of their ralentization and movies. But what we don't know is that there are different species of it, and one of them is in very danger. There are also another facts that we don't know, for example is a very good swimmer, something that they can learn playing this game. 
 
