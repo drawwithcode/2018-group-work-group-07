@@ -25,12 +25,12 @@ Faculty: Michele Mauri, Tommaso Elli
 
 
 ## What is this?
-This project is an interactive game where the user has to find in the Amazon Rainforest, five different animals endangered or threatened (Sloth, Butterfly, Armadillo, Frog and Monkey) using a variety of tools: voice, keyboard, mouse... Through the time they spend playing with it, they will discover different characteristics of the animals and interact with the computer. We create also "fake animals" in the background, which are not really in the jungle, to distract the user. To start the game, the player has to use the tools, two of them have to be selected meanwhile the other are active during all the game so the user can use them all the time.
+This project is an interactive game where the user has to find in the Amazon Rainforest, five different animals endangered or threatened (Sloth, Butterfly, Armadillo, Frog and Monkey) using a variety of tools: voice, keyboard, mouse... Through the time they spend playing with it, they will discover different characteristics of the animals and interact with the computer. We create also "fake animals" in the background, which are not really in the jungle, to distract the user. To start the game, the player has to use the tools, two of them have to be selected meanwhile the other two are active during all the game, so they can be use all the time.
 
 ## Why this idea?
 The idea came from the lack of awareness about the problems that humans cause to the environment and to the animals. In the last years the number of species in danger or threatened has increased because of human acts and it has been declared as a “global epidemic”. Scientists estimate that up to 200 species die every hour. The deforestation of the Amazon, hunting and other human actions are destroying distinct species. 
 
-With this game the user discover some of the species that are in danger. This is a way to make people aware about this problem: we wante to create conciousness about our "global village".
+With this game the user will discover some species in danger. This is a way to make people aware about this problem: we want to create conciousness about our "global village".
 
 ## Inspirations
 
@@ -41,45 +41,44 @@ With this game the user discover some of the species that are in danger. This is
 Hidden folks is an inspiration for the project because of the idea of creating a big screen to find the animals.
 https://hiddenfolks.com/
 
-Species in pieces is a website where animals in danger are creating with different pieces geometricaly, in this way to can discover more about endangered animals.
+Species in pieces is a website where animals in danger are creating with different pieces geometricaly, in this way you can discover more about endangered animals.
 http://www.species-in-pieces.com/
 
-This project develoop by propublica give us an idea of what we wanted to talk about: animals in danger of extintion. From this information we achive the idea of the project.
+This project developed by propublica give us an idea of what we want to talk about: animals in danger of extintion. From this information we achive the idea of the project.
 https://projects.propublica.org/extinctions/
 
 - Theorethical
 
-We select the Amazon because is the biggest deforestation front in the world, as WWF explain, and is the home of the 10% of species in the planet. In this image provided by the ESA (European Space Agency) we can see how has increased the deforestation in the Amazon, one of the main reasons of the dissapearence of animals. 
+We selected the Amazon because is the biggest deforestation front in the world, as WWF explain, and is the home of the 10% of species in the planet. In this image provided by the ESA (European Space Agency) we can see how has increased the deforestation in the Amazon, one of the main reasons of the dissapearence of animals. 
 
 ![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/amazon.jpg)
 
-The Amazon is the world's biggest rainforest and is the home of the 10% of species in the planet. Nearly two-thirds of the Amazon rainforest is found in Brazil, but it also cover other countries as Colombia, Peru or Bolivia. The Amazon River is, by far, the world's largest river by volume: 7.000 kilometers.But this incredible rainforest has a very big problem: human action. Unless the deforestation in the Amazon rainforest has been declining since 2004, is the biggest front in the world and, as explains WWF, interventions are needed to prevent a large-scale ecological disaster, as WWF explains. Right now, a 20% of the Amazon biome has already been lost.
+The Amazon is the world's biggest rainforest. Nearly two-thirds of the Amazon rainforest is found in Brazil, but it also cover other countries as Colombia, Peru or Bolivia. The Amazon River is, by far, the world's largest river by volume: 7.000 kilometers. But this incredible rainforest has a very big problem: human action. Unless the deforestation in the Amazon rainforest has been declining since 2004, is the biggest front in the world and, as explains WWF, interventions are needed to prevent a large-scale ecological disaster. Right now, a 20% of the Amazon biome has already been lost.
 
 ##### *Blue morpho butterfly  (Morpho menelaus)*
 
-This butterfly is one of the most known, emblematic and favorite of all Amazon species. We choose it because is a butterfly protected in the Amazon and there are some associations to preserve them because of their natural interest.
+This butterfly is one of the most known, emblematic and favorite of all Amazon species. We choose it because is a butterfly protected and there are associations to preserve them because of their natural interest.
 
 ##### *Sloth of three fingers (Bradypus variegatus)*
 
-The Sloth is famous animal because of their funny ralentization use in cartoon movies. But what we don't know is that there are different species of it, and one of them is in very danger. There are also another facts that we are not concern about: is a very good swimmer, and information that the user can learn at the end of the game. 
+The Sloth is known because of his funny ralentization use in cartoon movies. But what we don't know is that there are different species of it, and one of them is in very danger. There are also another facts that we are not concern about: is a very good swimmer, and information that the user can learn at the end of the game. 
 
 ##### *Black spider monkey (Ateles paniscus)*
 
-Is not the most common of the monkeys but an important one. As the sloth there are a lot of species of them, sometimes can be confused by others. It's very important for the enviroment because they play a key role in seed dispersal in the rainforest.
+Is not the most common of the monkeys but an important one. As the sloth, in this family, there are a lot of species of them, sometimes can be confused by others. It's very important for the enviroment because they play a key role in seed dispersal in the rainforest.
 
 ##### *Giant armadillo (Priodontes maximus)*
 
-The giant armadillo is a huge animal (one meter long, exclusive of tail, with the tail adding another 50 centimetres). The population of them has fallen by 30% - 50% in the past few decades. Some are also captured in an effort to sell them on the illegal exotic pet market.
+The giant armadillo is a huge animal (one meter long, the tail add another 50 centimetres). Their population has fallen by 30% - 50% in the past few decades. Some are also captured in an effort to sell them on the illegal exotic pet market.
 
 ##### *Lemur tree frog (Agalychnis lemur)*
 
-This frog is popular, but also in danger. The colors atract a lot of people. The changes in the environment are making them dissapear even if they are one of the most ancient animal: that specie has a fossil record in the Palaeocene (65 to 53 million years ago).
+This frog is popular, but also in danger. Their vivid colors atract a lot of people. The changes in the environment are making them dissapear even if they are one of the most ancient animal: that specie has a fossil record in the Palaeocene (65 to 53 million years ago).
 
 - Visual
 
 The idea was to create an illustration with a strong style focus on adults. The visual elements are colorfull and the background is black to hightlight the foreground objects. The illustration is full of plants, animals, vines, flowers, etc... to distract the user and make the goal of the game more complex. 
-One of the last screens represents the aim of the project: showing information about the animals, the user can be more conscious about the situation of some animals in danger.
-
+One of the last screens represents the aim of the project: showing information about the animals, the user can discover other characteristics of them and be more conscious about the situation of some animals in danger.
 
 ![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/inspira.png)
 
@@ -91,11 +90,11 @@ One of the last screens represents the aim of the project: showing information a
 
 - Voice
 
-With the speech recognition has been created two interactions.
+With the speech recognition have been created interactions with two animals. 
 
 ![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/voce%20ok.gif)
 
-*Voice tool*: saying the name of the animals hidden the user will find two of them. In this way, will appear the armadillo and the butterfly.
+*Voice tool*: saying the name of the animals hidden, the user will find two of them. In this way, will appear the armadillo and the butterfly.
 
 - Sound
 
@@ -123,19 +122,19 @@ With the mouse the user can move around the screen and select the animals. Also 
 
 ## Code and design challenges 
 
-The project consist in different pages connected with buttons that arrive to the big screen of the rainforest. When the user finish, appears screens with information about all the animals.
+The project consist in different pages connected with buttons that finally arrive to the big screen of the rainforest. When the user finish, appears more screens with information about all the animals.
 
 - Big screen
 
-The main design problem we had was the Big Screen. At the begginig we started with the idea of creating an illustration bigger than the cancas and where the user could move around. The main problem was that if we created it, we had to cut other parts, so we decided to create a fixed screen with all the elements, as Hidden Folks.
+The main design problem we had was the Big Screen. At the beginnig we started with the idea of creating an illustration bigger than the canvas and where the user could move around. The main problem was that if we created it, we had to cut other parts, so we decided to create a fixed screen with all the elements, as Hidden Folks.
 
 - Illustrations
 
-We decided to do the sketch by our own illustrations. The illustration is made with a big amount of differents png and levels. A big important challenge was to organize and configurate them in different levels and also to manage the weigh of the files.
+We decided to do the sketch by our own illustrations. The illustration is made with a big amount of different objects and levels. A big important challenge was to organize and configurate them in different layers and also to manage the weigh of the files.
 
 - Light
 
-The light was one of the main interactions we wanted to create with the camera, but we found problems to create the reaction with the whole screen (at the begginig the moving screen gave us a better interaction with light), so we decided to create a different way to use it. With a cover we develop a "light" to wake up the sloth.
+The light was one of the main interactions we wanted to create with the camera, but we found problems to create the reaction with the whole screen (at the beginnig the "moving screen" gave us a better interaction with light), so we decided to create a different way to use it. With a cover we develop a "light" to wake up the sloth.
 
 ```
   var dlight = dist(mouseX, mouseY, windowWidth / 3, windowHeight / 9);
@@ -175,8 +174,8 @@ Another problem was connected with the size of the screen: when the user zoom or
 - Buttons
 
 To link all the screens we created different buttons with "if" conditions. The challenge was to write the right order of the screens without changing the whole code.
-```
 
+```
  if (brad) {
           if (butter) {
             if (monkey) {
