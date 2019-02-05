@@ -49,7 +49,7 @@ https://projects.propublica.org/extinctions/
 
 - Theorethical
 
-We have select the Amazon because is the biggest deforestation front in the world, as WWF explain, and is the home of the 10% of species in the planet. In this image provided by the ESA (European Space Agency) we can see how has increased the deforestation in the Amazon, one of the main reasons of the dissapearence of animals. 
+We have selected the Amazon because is the biggest deforestation front in the world, as WWF explain, and is the home of the 10% of species in the planet. In this image provided by the ESA (European Space Agency) we can see how has increased the deforestation in the Amazon, one of the main reasons of the dissapearence of animals. 
 
 ![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/amazon.jpg)
 
