@@ -1,19 +1,38 @@
-# The idea
-
 ![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/endangered.png)
 
-### Who are we?
+1. [The idea](#the-idea) <br>
+    1a. [Who are we?](#who-are-we)<br>
+    1b. [What is this?](#what-is-this)<br>
+    1c. [Why this idea?](#why-this-idea)<br>
+    1d. [Inspirations](#inspirations)<br>
+
+2. [The project](#the-project)<br>
+    2a. [Interactions](#interactions)<br>
+    2b. [Code and design challenges](#code-and-design-challenges)<br>
+    
+3. [Credits](#credits)
+
+# The idea
+
+## Who are we?
 This is a project created by Teresa Cremonesi, Andrea Febres Medina, Filippo Ferrari and Cristina Pita da Veiga developed in the course of Creative Coding at Politecnico di Milano.
 
-### What is this?
-This project is an interactive game where the user has to find in the Amazon Rainforest five different animals endangered or threatened (Sloth, Butterfly, Armadillo, Frog and Monkey) using a variety of tools: the voice, the keyboard, the mouse... Trhought the time they spend playing with it they will discover different characteristics of the animals and interact with the computer. We create also "fake animals" in the background that are not really in the jungle, and the user should discover which are they. Moreover, to active two tools you have to select them (banana and light) while the other two, can be used without selectioning them. 
+Creative Coding 2018/2019 (https://drawwithcode.github.io/2018/)
 
-### Why this idea?
-This idea starts as a claim about what is happening with the animals because of humans. In the last years has increased the number of species in danger or threatened because of human acts and it has been declared as a “global epidemic”. Scientists estimate that up to 200 species die every hour. The deforestation of the Amazon, hunting and other human actions are destroying diverse species. 
+Politecnico di Milano - Scuola del Design
 
-With this game the user discover some of the species that are in danger. This is a way to make people aware about this problem. We have to create conciousness about our "global village".
+Faculty: Michele Mauri, Tommaso Elli
 
-## Inspirations/References
+
+## What is this?
+This project is an interactive game where the user has to find in the Amazon Rainforest, five different animals endangered or threatened (Sloth, Butterfly, Armadillo, Frog and Monkey) using a variety of tools: voice, keyboard, mouse... Through the time they spend playing with it, they will discover different characteristics of the animals and interact with the computer. We create also "fake animals" in the background, which are not really in the jungle, to distract the user. To start the game, the player has to use the tools, two of them have to be selected meanwhile the other are active during all the game so the user can use them all the time.
+
+## Why this idea?
+The idea came from the lack of awareness about the problems that humans cause to the environment and to the animals. In the last years the number of species in danger or threatened has increased because of human acts and it has been declared as a “global epidemic”. Scientists estimate that up to 200 species die every hour. The deforestation of the Amazon, hunting and other human actions are destroying distinct species. 
+
+With this game the user discover some of the species that are in danger. This is a way to make people aware about this problem: we wante to create conciousness about our "global village".
+
+## Inspirations
 
 - Interactive projects inspiration
 
@@ -36,29 +55,31 @@ We select the Amazon because is the biggest deforestation front in the world, as
 
 The Amazon is the world's biggest rainforest and is the home of the 10% of species in the planet. Nearly two-thirds of the Amazon rainforest is found in Brazil, but it also cover other countries as Colombia, Peru or Bolivia. The Amazon River is, by far, the world's largest river by volume: 7.000 kilometers.But this incredible rainforest has a very big problem: human action. Unless the deforestation in the Amazon rainforest has been declining since 2004, is the biggest front in the world and, as explains WWF, interventions are needed to prevent a large-scale ecological disaster, as WWF explains. Right now, a 20% of the Amazon biome has already been lost.
 
-*Blue morpho butterfly  (Morpho menelaus)*
+##### *Blue morpho butterfly  (Morpho menelaus)*
 
-This butterfly is one of the most known, emblematic and favorite of all Amazon species. We selected it because is a butterfly protected in the Amazon and there are some asociations to preserve them because of their natural interest.
+This butterfly is one of the most known, emblematic and favorite of all Amazon species. We choose it because is a butterfly protected in the Amazon and there are some associations to preserve them because of their natural interest.
 
-*Sloth of three fingers (Bradypus variegatus)*
+##### *Sloth of three fingers (Bradypus variegatus)*
 
-The Sloth is a very known animal because of their ralentization and movies. But what we don't know is that there are different species of it, and one of them is in very danger. There are also another facts that we don't know, for example is a very good swimmer, something that they can learn playing this game. 
+The Sloth is famous animal because of their funny ralentization use in cartoon movies. But what we don't know is that there are different species of it, and one of them is in very danger. There are also another facts that we are not concern about: is a very good swimmer, and information that the user can learn at the end of the game. 
 
-*Black spider monkey (Ateles paniscus)*
+##### *Black spider monkey (Ateles paniscus)*
 
-Is not the most common of the monkeys but a important one. As the sloth there are a lot of varients of them, sometimes can be confused by others, but is very protected. 
+Is not the most common of the monkeys but an important one. As the sloth there are a lot of species of them, sometimes can be confused by others. It's very important for the enviroment because they play a key role in seed dispersal in the rainforest.
 
-*Giant armadillo (Priodontes maximus)*
+##### *Giant armadillo (Priodontes maximus)*
 
-The giant armadillo is a huge animals (one meter long, exclusive of tail, with the tail adding another 50 centimetres). Many populations are threatened by agriculture.
+The giant armadillo is a huge animal (one meter long, exclusive of tail, with the tail adding another 50 centimetres). The population of them has fallen by 30% - 50% in the past few decades. Some are also captured in an effort to sell them on the illegal exotic pet market.
 
-*Lemur tree frog (Agalychnis lemur)*
+##### *Lemur tree frog (Agalychnis lemur)*
 
-This frog is very known, but also in danger. The colors atract a lot of people and the changes in the environment are making them dissapear. Something that we should think about taking in count that is specie has a fossil record in the Palaeocene (65 to 53 million years ago).
+This frog is popular, but also in danger. The colors atract a lot of people. The changes in the environment are making them dissapear even if they are one of the most ancient animal: that specie has a fossil record in the Palaeocene (65 to 53 million years ago).
 
 - Visual
 
-The idea was to create illustrations but not in a very childish style. At the end the idea is to concern people about a very big problem, the game can be fun with colourfull illustrations, but there is a black screen in the back remember the problem. 
+The idea was to create an illustration with a strong style focus on adults. The visual elements are colorfull and the background is black to hightlight the foreground objects. The illustration is full of plants, animals, vines, flowers, etc... to distract the user and make the goal of the game more complex. 
+One of the last screens represents the aim of the project: showing information about the animals, the user can be more conscious about the situation of some animals in danger.
+
 
 ![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/inspira.png)
 
@@ -76,37 +97,37 @@ With the speech recognition has been created two interactions.
 
 - Sound
 
-The sound create the move of the different pngs in the background and the atmosphere.
+The aim of the background sound is to create atmosphere and to move different objects.
 
 - Keyboard
 
-*Keyboard tool*: Pushing the space to move the plants and clicking over it to see the hidden animal to find the frog.
+![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/keybgif.gif)
 
-![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/space.gif)
+*Keyboard tool*: Pushing the space the user is able to move the plants and clicking over it he/she will see the hidden animal: the frog.
 
 - Mouse
 
 With the mouse the user can move around the screen and select the animals. Also the light and the banana tools work with that.
 
-![alt text]( https://github.com/drawwithcode/2018-group-work-group-07/blob/master/light.gif)
+![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/light%20ok.gif)
 
 *Light tool*: some animals are sensible to the light (in this case the sloth). Activing the light appears a cover to search the animal moving the mouse.
 
-![alt text]( https://github.com/drawwithcode/2018-group-work-group-07/blob/master/banana.gif)
+![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/bananagif.gif)
 
-*Banana tool*: clicking over the banana the user active the tool and when is aproximiting to the monkey the forest start to move so they can select the plant and see the monkey.
+*Banana tool*: clicking over the banana the users active the tool and when is aproximiting to the monkey the forest start to move so they can select the plant and see the monkey.
 
 ## Code and design challenges 
 
-The project consist in different pages connected with buttons that arrive to the big screen of the rainforest. Also when the user finish, appear a screen with all the animals and the information. 
+The project consist in different pages connected with buttons that arrive to the big screen of the rainforest. When the user finish, appears screens with information about all the animals.
 
 - Big screen
 
-The main design problem we had was the Big Screen. At the begginig we started with the idea of creating a big screen to move around. The main problem was that if we created it, we had to cut other parts, so we decided to create a screen with all the elements, as Hidden Folks.
+The main design problem we had was the Big Screen. At the begginig we started with the idea of creating an illustration bigger than the cancas and where the user could move around. The main problem was that if we created it, we had to cut other parts, so we decided to create a fixed screen with all the elements, as Hidden Folks.
 
 - Illustrations
 
-We decided to do the sketch by our own illustrations. A big challenge was the the wide amount of png and levels we had in the sketch. Organize them and configurate in different levels was important.
+We decided to do the sketch by our own illustrations. The illustration is made with a big amount of differents png and levels. A big important challenge was to organize and configurate them in different levels and also to manage the weigh of the files.
 
 - Light
 
@@ -128,7 +149,7 @@ The light was one of the main interactions we wanted to create with the camera, 
 
 - Zoom and resize screen
 
-We found the problem that when you zoom with the keyboard or reduze the size of the windows the background can change, so we create a "error" screen to avoid the change of the size.
+Another problem was connected with the size of the screen: when the user zoom or resize the game, the background change. We manage the problem creating an "error" screen to avoid it.
 
 ```
 
@@ -147,58 +168,60 @@ We found the problem that when you zoom with the keyboard or reduze the size of 
 
 - Buttons
 
-To link all the screens we created different buttons with "if", in this sense, was a huge challenge to connect all of them. But at the en, we managed to do it.
+To link all the screens we created different buttons with "if" conditions. The challenge was to write the right order of the screens without changing the whole code.
 
 
 
 
-## Credits (third libraries used)
+# Credits (third libraries used)
 
 - Coding sources
 
-We used p5js, p5.dom and p5.sound. This are the main sources:
+We used p5js, p5.dom, p5.sound and P5.speech. This are the main sources:
 
-``
-Coding train: https://www.youtube.com/watch?v=Rk-_syQluvc
+    Coding train: https://www.youtube.com/watch?v=Rk-_syQluvc
               https://www.youtube.com/watch?v=q_bXBcmfTJM
               
-P5.js: https://editor.p5js.org/piecesofuk/sketches/SyBpNOJTb
+    P5.js: https://editor.p5js.org/piecesofuk/sketches/SyBpNOJTb
               https://p5js.org/learn/interactivity.html
 
-P5.speech.js: http://ability.nyu.edu/p5.js-speech/
+    P5.speech.js: http://ability.nyu.edu/p5.js-speech/
               
-Processing: https://processing.org/examples/
+    Processing: https://processing.org/examples/
 
-Github: https://github.com/processing/p5.js/wiki/Positioning-your-canvas
+    Github: https://github.com/processing/p5.js/wiki/Positioning-your-canvas
 
-Banana: https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjF09bP96HgAhVJ26QKHRk_DM8QjRx6BAgBEAU&url=http%3A%2F%2Fwww.freestockphotos.biz%2Fstockphoto%2F15912&psig=AOvVaw2cnhZ2xFLxXtII08a70JnX&ust=1549364751305777
+    Banana: https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjF09bP96HgAhVJ26QKHRk_DM8QjRx6BAgBEAU&url=http%3A%2F%2Fwww.freestockphotos.biz%2Fstockphoto%2F15912&psig=AOvVaw2cnhZ2xFLxXtII08a70JnX&ust=1549364751305777
 
-``
 
 - Information sources
 
-We search in different platforms the animals endangered or threatened and we selected the most interesting for our projects. These are some of the sources: 
+We search in different platforms the animals endangered or threatened and we selected the most interesting for our projects. Here are some of the sources: 
 
-``
-Proceedings of the National Academy of Sciences, World Wild Life, NYT, BBC and IUCN Red List of Threatened Animals (https://www.iucnredlist.org/). Also we search for articles about the topic that could make our story more deeper. 
+    Proceedings of the National Academy of Sciences 
 
-The economics of finding the endangered species (http://www.rff.org/blog/2010/economics-endangered-species). 
+    World Wild Life
 
-Also there are some other articles related with information of the animals as The Guardian (https://www.theguardian.com/environment/2012/jul/12/amazon-endangered-species-doomed-brazil).
+    NYT
 
-More information about animals:
+    BBC 
 
-https://www.rainforest-alliance.org/species/blue-butterfly
+    IUCN Red List of Threatened Animals
 
-https://nationalzoo.si.edu/animals/lemur-tree-frog
+More information about animals and amazon:
 
-https://slothconservation.com/about-the-sloth/three-fingered-sloths/
+    https://www.rainforest-alliance.org/species/blue-butterfly
 
-http://www.ourendangeredworld.com/species/land-mammals/giant-armadillo/
+    https://nationalzoo.si.edu/animals/lemur-tree-frog
 
-https://www.worldwildlife.org/species/black-spider-monkey
+    https://slothconservation.com/about-the-sloth/three-fingered-sloths/
 
-``
+    http://www.ourendangeredworld.com/species/land-mammals/giant-armadillo/
+
+    https://www.worldwildlife.org/species/black-spider-monkey
+
+    https://www.theguardian.com/environment/2012/jul/12/amazon-endangered-species-doomed-brazil
+
 
 ![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/animali2000.png)
 
