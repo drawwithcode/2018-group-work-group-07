@@ -15,7 +15,7 @@ With this game the user discover some of the species that are in danger. This is
 
 ## Inspirations/References
 
-- Interactive projects inspiration
+##### - Interactive projects inspiration
 
 ![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/inspi2000.png)
 
@@ -28,7 +28,7 @@ http://www.species-in-pieces.com/
 This project develoop by propublica give us an idea of what we wanted to talk about: animals in danger of extintion. From this information we achive the idea of the project.
 https://projects.propublica.org/extinctions/
 
-- Theorethical
+##### - Theorethical
 
 We select the Amazon because is the biggest deforestation front in the world, as WWF explain, and is the home of the 10% of species in the planet. In this image provided by the ESA (European Space Agency) we can see how has increased the deforestation in the Amazon, one of the main reasons of the dissapearence of animals. 
 
@@ -36,27 +36,27 @@ We select the Amazon because is the biggest deforestation front in the world, as
 
 The Amazon is the world's biggest rainforest and is the home of the 10% of species in the planet. Nearly two-thirds of the Amazon rainforest is found in Brazil, but it also cover other countries as Colombia, Peru or Bolivia. The Amazon River is, by far, the world's largest river by volume: 7.000 kilometers.But this incredible rainforest has a very big problem: human action. Unless the deforestation in the Amazon rainforest has been declining since 2004, is the biggest front in the world and, as explains WWF, interventions are needed to prevent a large-scale ecological disaster, as WWF explains. Right now, a 20% of the Amazon biome has already been lost.
 
-*Blue morpho butterfly  (Morpho menelaus)*
+##### *Blue morpho butterfly  (Morpho menelaus)*
 
 This butterfly is one of the most known, emblematic and favorite of all Amazon species. We selected it because is a butterfly protected in the Amazon and there are some asociations to preserve them because of their natural interest.
 
-#####*Sloth of three fingers (Bradypus variegatus)*
+##### *Sloth of three fingers (Bradypus variegatus)*
 
 The Sloth is a very known animal because of their ralentization and movies. But what we don't know is that there are different species of it, and one of them is in very danger. There are also another facts that we don't know, for example is a very good swimmer, something that they can learn playing this game. 
 
-*Black spider monkey (Ateles paniscus)*
+##### *Black spider monkey (Ateles paniscus)*
 
 Is not the most common of the monkeys but a important one. As the sloth there are a lot of varients of them, sometimes can be confused by others, but is very protected. 
 
-*Giant armadillo (Priodontes maximus)*
+##### *Giant armadillo (Priodontes maximus)*
 
 The giant armadillo is a huge animals (one meter long, exclusive of tail, with the tail adding another 50 centimetres). Many populations are threatened by agriculture.
 
-*Lemur tree frog (Agalychnis lemur)*
+##### *Lemur tree frog (Agalychnis lemur)*
 
 This frog is very known, but also in danger. The colors atract a lot of people and the changes in the environment are making them dissapear. Something that we should think about taking in count that is specie has a fossil record in the Palaeocene (65 to 53 million years ago).
 
-- Visual
+##### - Visual
 
 The idea was to create illustrations but not in a very childish style. At the end the idea is to concern people about a very big problem, the game can be fun with colourfull illustrations, but there is a black screen in the back remember the problem. 
 
@@ -158,7 +158,6 @@ To link all the screens we created different buttons with "if", in this sense, w
 
 We used p5js, p5.dom and p5.sound. This are the main sources:
 
-``
 Coding train: https://www.youtube.com/watch?v=Rk-_syQluvc
               https://www.youtube.com/watch?v=q_bXBcmfTJM
               
@@ -173,13 +172,11 @@ Github: https://github.com/processing/p5.js/wiki/Positioning-your-canvas
 
 Banana: https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjF09bP96HgAhVJ26QKHRk_DM8QjRx6BAgBEAU&url=http%3A%2F%2Fwww.freestockphotos.biz%2Fstockphoto%2F15912&psig=AOvVaw2cnhZ2xFLxXtII08a70JnX&ust=1549364751305777
 
-``
 
 - Information sources
 
 We search in different platforms the animals endangered or threatened and we selected the most interesting for our projects. These are some of the sources: 
 
-``
 Proceedings of the National Academy of Sciences, World Wild Life, NYT, BBC and IUCN Red List of Threatened Animals (https://www.iucnredlist.org/). Also we search for articles about the topic that could make our story more deeper. 
 
 The economics of finding the endangered species (http://www.rff.org/blog/2010/economics-endangered-species). 
@@ -197,8 +194,6 @@ https://slothconservation.com/about-the-sloth/three-fingered-sloths/
 http://www.ourendangeredworld.com/species/land-mammals/giant-armadillo/
 
 https://www.worldwildlife.org/species/black-spider-monkey
-
-``
 
 ![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/animali2000.png)
 
