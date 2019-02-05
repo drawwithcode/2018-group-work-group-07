@@ -158,8 +158,10 @@ Another problem was connected with the size of the screen: when the user zoom or
     rectMode(CENTER);
     rect(windowWidth / 2, windowHeight / 2, windowWidth, windowHeight);
     textAlign(CENTER);
-    textSize(100);
-    text('Error', windowWidth / 2, 300);
+    textSize(50);
+    text('THE AMAZON RAINFOREST IS BIG.', windowWidth / 2, 300);
+    textSize(20);
+    text('Do not change its dimensions. Love it the way it is. ♥︎', windowWidth / 2, 600);
     fill(255, 0, 0);
     pop();
   }
@@ -169,8 +171,26 @@ Another problem was connected with the size of the screen: when the user zoom or
 - Buttons
 
 To link all the screens we created different buttons with "if" conditions. The challenge was to write the right order of the screens without changing the whole code.
+```
 
+ if (brad) {
+          if (butter) {
+            if (monkey) {
+              if (armad) {
+                if (frog) {
+                  if (giraffa) {
+                    // schermata finale giraffa e lupo
+                    image(girlup, 0, 0, windowWidth, windowHeight);
+                    image(refresh, 0, 0, windowWidth, windowHeight);
+                  } else if (finale) {
 
+                }
+              }
+            }
+          }
+        }
+
+```
 
 
 # Credits (third libraries used)
