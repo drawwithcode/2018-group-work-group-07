@@ -116,13 +116,26 @@ The light was one of the main interactions we wanted to create with the camera, 
 
 We found the problem that when you zoom with the keyboard or reduze the size of the windows the background can change, so we create a "error" screen to avoid the change of the size.
 
+```
+
+  if (windowWidth < 1100 || windowHeight < 620) {
+    push();
+    rectMode(CENTER);
+    rect(windowWidth / 2, windowHeight / 2, windowWidth, windowHeight);
+    textAlign(CENTER);
+    textSize(100);
+    text('Error', windowWidth / 2, 300);
+    fill(255, 0, 0);
+    pop();
+  }
+  
+  ```
+
 - Buttons
 
 To link all the screens we created different buttons with "if", in this sense, was a huge challenge to connect all of them. But at the en, we managed to do it.
 
 
-```
-```
 
 
 ## Credits (third libraries used)
