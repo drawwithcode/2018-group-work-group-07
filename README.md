@@ -199,7 +199,7 @@ To link all the screens we created different buttons with "if" conditions. The c
 ```
 
 
-# Credits (third libraries used)
+# Credits
 
 - Coding sources
 
