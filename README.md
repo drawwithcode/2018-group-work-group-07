@@ -30,12 +30,26 @@ https://projects.propublica.org/extinctions/
 
 - Theorethical
 
-We search in different platforms the animals endangered or threatened and we selected the most interesting for our projects. These are some of the sources: Proceedings of the National Academy of Sciences, World Wild Life, NYT, BBC and IUCN Red List of Threatened Animals (https://www.iucnredlist.org/). Also we search for articles about the topic that could make our story more deeper. For example: the economics of finding the endangered species (http://www.rff.org/blog/2010/economics-endangered-species).
-As WWF explain, Amazon is the biggest deforestation front in the world, one of the main problems of the animals disappearance.
-
-This is an example of how that deforestation has increased in the Amazon. *Image provided by ESA (European Space Agency)*
+We select the Amazon because is the biggest deforestation front in the world, as WWF explain, and is the home of the 10% of species in the planet. In this image provided by the ESA (European Space Agency) we can see how has increased the deforestation in the Amazon, one of the main reasons of the dissapearence of animals. 
 
 ![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/amazon.jpg)
+
+The Amazon is the world's biggest rainforest and is the home of the 10% of species in the planet. Nearly two-thirds of the Amazon rainforest is found in Brazil, but it also cover other countries as Colombia, Peru or Bolivia. The Amazon River is, by far, the world's largest river by volume: 7.000 kilometers.But this incredible rainforest has a very big problem: human action. Unless the deforestation in the Amazon rainforest has been declining since 2004, is the biggest front in the world and, as explains WWF, interventions are needed to prevent a large-scale ecological disaster, as WWF explains. Right now, a 20% of the Amazon biome has already been lost.
+
+*Blue morpho butterfly  (Morpho menelaus)*
+This butterfly is one of the most known, emblematic and favorite of all Amazon species. We selected it because is a butterfly protected in the Amazon and there are some asociations to preserve them because of their natural interest.
+
+*Sloth of three fingers (Bradypus variegatus)*
+The Sloth is a very known animal because of their ralentization and movies. But what we don't know is that there are different species of it, and one of them is in very danger. There are also another facts that we don't know, for example is a very good swimmer, something that they can learn playing this game. 
+
+*Black spider monkey (Ateles paniscus)*
+Is not the most common of the monkeys but a important one. As the sloth there are a lot of varients of them, sometimes can be confused by others, but is very protected. 
+
+*Giant armadillo (Priodontes maximus)*
+The giant armadillo is a huge animals (one meter long, exclusive of tail, with the tail adding another 50 centimetres). Many populations are threatened by agriculture.
+
+*Lemur tree frog (Agalychnis lemur)*
+This frog is very known, but also in danger. The colors atract a lot of people and the changes in the environment are making them dissapear. Something that we should think about taking in count that is specie has a fossil record in the Palaeocene (65 to 53 million years ago).
 
 - Visual
 
@@ -120,24 +134,7 @@ Banana: https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ah
 
 - Information sources
 
-Apart of the studies and articles, we based our information about the animals in different sources:
-
-Proceedings of the National Academy of Sciences, World Wild Life, NYT, BBC and IUCN Red List of Threatened Animals (https://www.iucnredlist.org/), Resources For the Future (http://www.rff.org/blog/2010/economics-endangered-species).
-
-### Information about the Amazon and the animals
-The Amazon is the world's biggest rainforest and is the home of the 10% of species in the planet. Nearly two-thirds of the Amazon rainforest is found in Brazil, but it also cover other countries as Colombia, Peru or Bolivia. The Amazon River is, by far, the world's largest river by volume: 7.000 kilometers.But this incredible rainforest has a very big problem: human action. Unless the deforestation in the Amazon rainforest has been declining since 2004, is the biggest front in the world and, as explains WWF, interventions are needed to prevent a large-scale ecological disaster, as WWF explains. Right now, a 20% of the Amazon biome has already been lost.
-
-*Blue morpho butterfly  (Morpho menelaus)*
- 
-*Sloth of three fingers (Bradypus variegatus)*
- 
-*Black spider monkey (Ateles paniscus)*
- 
-*Giant armadillo (Priodontes maximus)*
- 
-*Lemur tree frogs (Agalychnis lemur)*
-
-
+We search in different platforms the animals endangered or threatened and we selected the most interesting for our projects. These are some of the sources: Proceedings of the National Academy of Sciences, World Wild Life, NYT, BBC and IUCN Red List of Threatened Animals (https://www.iucnredlist.org/). Also we search for articles about the topic that could make our story more deeper. For example: the economics of finding the endangered species (http://www.rff.org/blog/2010/economics-endangered-species). Also there are some other articles related with information of the animals as The Guardian (https://www.theguardian.com/environment/2012/jul/12/amazon-endangered-species-doomed-brazil).
 
 ![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/animali2000.png)
 
