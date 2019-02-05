@@ -153,7 +153,6 @@ Banana: https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ah
 We search in different platforms the animals endangered or threatened and we selected the most interesting for our projects. These are some of the sources: 
 
 ``
-
 Proceedings of the National Academy of Sciences, World Wild Life, NYT, BBC and IUCN Red List of Threatened Animals (https://www.iucnredlist.org/). Also we search for articles about the topic that could make our story more deeper. 
 
 The economics of finding the endangered species (http://www.rff.org/blog/2010/economics-endangered-species). 
