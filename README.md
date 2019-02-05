@@ -8,7 +8,7 @@
     1a. [Who are we?](#who-are-we)<br>
     1b. [What is this?](#what-is-this)<br>
     1c. [Why thi idea?](#why-this-idea)<br>
-    1d. [Inspirations/References](#inspirations-references)<br>
+    1d. [Inspirations/References](#inspirations/references)<br>
 
 2. [The project](#the-project)<br>
     2a. [Interactions](#who-are-we)<br>
