@@ -351,15 +351,16 @@ function draw() {
         }
 
         // leaves moving with volume
-        var vx = volume / 2;
-        var vy = volume / 2;
+        var vx = volume / 3;
+        var vy = volume / 3;
+
 
         image(b1, vx, vy, windowWidth, windowHeight);
-        image(f4, vx, vy, windowWidth, windowHeight);
-        image(n5, vx, vy, windowWidth, windowHeight);
-        image(m1, vx, vy, windowWidth, windowHeight);
+        image(f4, -vx, vy, windowWidth, windowHeight);
+        image(n5, vx, -vy, windowWidth, windowHeight);
+        image(m1, -vx, -vy, windowWidth, windowHeight);
         image(m2, vx, vy, windowWidth, windowHeight);
-        image(u, vx, vy, windowWidth, windowHeight);
+        image(u, -vx, vy, windowWidth, windowHeight);
 
 
         //instruments banner
@@ -468,6 +469,7 @@ function draw() {
         image(avanti2, windowWidth / 7 * 5.85, windowHeight / 10 * 7.6, 30, 30);
         pop();
       }
+
     } else {
       //background introduction of the game
       image(myIntro, 0, 0, windowWidth, windowHeight);
@@ -579,22 +581,23 @@ function ArmadilloCover() {
 
 function mouseClicked() {
 
-mySong.pause();
+  mySong.pause();
+
   //play-->first page
   if (mouseX > windowWidth / 2 - 50 && mouseX < windowWidth / 2 + 50 && mouseY > windowHeight / 10 * 7.6 - 15 && mouseY < windowHeight / 10 * 7.6 + 15) {
     sfondo = true;
-  }
-
-  //first page-->instructions
-  var dforward2 = dist(mouseX, mouseY, windowWidth / 7 * 5.65, windowHeight / 10 * 7.6);
-  if (dforward2 < 15) {
-    instructions = true;
   }
 
   //instructions-->game
   var dforward1 = dist(mouseX, mouseY, windowWidth / 7 * 5.85, windowHeight / 10 * 7.6);
   if (dforward1 < 15 || dforward2 < 15 || dforward2 < 15) {
     startgame = true;
+  }
+
+  //first page-->instructions
+  var dforward2 = dist(mouseX, mouseY, windowWidth / 7 * 5.65, windowHeight / 10 * 7.6);
+  if (dforward2 < 15) {
+    instructions = true;
   }
 
   // click sulla rana
