@@ -90,6 +90,8 @@ With the mouse the user can move around the screen and select the animals. Also 
 
 ![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/light.gif)
 
+<iframe src="https://giphy.com/embed/51Y7VMlsBs5p9fD7RB" width="480" height="246" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/51Y7VMlsBs5p9fD7RB">via GIPHY</a></p>
+
 *Light tool*: some animals are sensible to the light (in this case the sloth). Activing the light appears a cover to search the animal moving the mouse.
 
 ![alt text]( https://github.com/drawwithcode/2018-group-work-group-07/blob/master/banana.gif)
