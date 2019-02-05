@@ -7,11 +7,11 @@
 1. [The idea](#the-idea) <br>
     1a. [Who are we?](#who-are-we)<br>
     1b. [What is this?](#what-is-this)<br>
-    1c. [Why thi idea?](#why-this-idea)<br>
+    1c. [Why this idea?](#why-this-idea)<br>
     1d. [Inspirations](#inspirations)<br>
 
 2. [The project](#the-project)<br>
-    2a. [Interactions](#who-are-we)<br>
+    2a. [Interactions](#interactions)<br>
     2b. [Code and design challenges](#code-and-design-challenges)<br>
     
 3. [Credits](#credits)
