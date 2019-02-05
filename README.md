@@ -183,6 +183,8 @@ To link all the screens we created different buttons with "if" conditions. The c
                     image(girlup, 0, 0, windowWidth, windowHeight);
                     image(refresh, 0, 0, windowWidth, windowHeight);
                   } else if (finale) {
+                  
+                            [...]
 
                 }
               }
