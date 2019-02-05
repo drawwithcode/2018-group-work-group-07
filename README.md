@@ -93,7 +93,7 @@ One of the last screens represents the aim of the project: showing information a
 
 With the speech recognition has been created two interactions.
 
-
+![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/voce%20ok.gif)
 
 *Voice tool*: saying the name of the animals hidden the user will find two of them. In this way, will appear the armadillo and the butterfly.
 
