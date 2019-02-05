@@ -14,6 +14,8 @@ Faculty: Michele Mauri, Tommaso Elli
 1. [What is this?](#wath-is-this?)
 2. [Why this idea?](#why-this-idea?)
 
+[The project](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/README.md#why-this-idea)
+
 ### What is this?
 This project is an interactive game where the user has to find in the Amazon Rainforest, five different animals endangered or threatened (Sloth, Butterfly, Armadillo, Frog and Monkey) using a variety of tools: voice, keyboard, mouse... Through the time they spend playing with it, they will discover different characteristics of the animals and interact with the computer. We create also "fake animals" in the background, which are not really in the jungle, to distract the user. To start the game, the player has to use the tools, two of them have to be selected meanwhile the other are active during all the game so the user can use them all the time.
 
