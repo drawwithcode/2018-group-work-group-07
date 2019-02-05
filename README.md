@@ -36,7 +36,7 @@ The idea came from the lack of awareness about the problems that humans cause to
 
 With this game the user discover some of the species that are in danger. This is a way to make people aware about this problem: we wante to create conciousness about our "global village".
 
-## Inspirations/References
+## Inspirations
 
 - Interactive projects inspiration
 
