@@ -6,7 +6,9 @@
 This is a project created by Teresa Cremonesi, Andrea Febres Medina, Filippo Ferrari and Cristina Pita da Veiga developed in the course of Creative Coding at Politecnico di Milano.
 
 Creative Coding 2018/2019 (https://drawwithcode.github.io/2018/)
+
 Politecnico di Milano - Scuola del Design
+
 Faculty: Michele Mauri, Tommaso Elli
 
 ### What is this?
