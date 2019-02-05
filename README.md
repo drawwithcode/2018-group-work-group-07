@@ -18,7 +18,7 @@
 
 
 
-### Who are we?
+## Who are we?
 This is a project created by Teresa Cremonesi, Andrea Febres Medina, Filippo Ferrari and Cristina Pita da Veiga developed in the course of Creative Coding at Politecnico di Milano.
 
 Creative Coding 2018/2019 (https://drawwithcode.github.io/2018/)
@@ -28,10 +28,10 @@ Politecnico di Milano - Scuola del Design
 Faculty: Michele Mauri, Tommaso Elli
 
 
-### What is this?
+## What is this?
 This project is an interactive game where the user has to find in the Amazon Rainforest, five different animals endangered or threatened (Sloth, Butterfly, Armadillo, Frog and Monkey) using a variety of tools: voice, keyboard, mouse... Through the time they spend playing with it, they will discover different characteristics of the animals and interact with the computer. We create also "fake animals" in the background, which are not really in the jungle, to distract the user. To start the game, the player has to use the tools, two of them have to be selected meanwhile the other are active during all the game so the user can use them all the time.
 
-### Why this idea?
+## Why this idea?
 The idea came from the lack of awareness about the problems that humans cause to the environment and to the animals. In the last years the number of species in danger or threatened has increased because of human acts and it has been declared as a “global epidemic”. Scientists estimate that up to 200 species die every hour. The deforestation of the Amazon, hunting and other human actions are destroying distinct species. 
 
 With this game the user discover some of the species that are in danger. This is a way to make people aware about this problem: we wante to create conciousness about our "global village".
