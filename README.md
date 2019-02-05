@@ -198,13 +198,13 @@ Banana: https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ah
 
 We search in different platforms the animals endangered or threatened and we selected the most interesting for our projects. Here are some of the sources: 
 
-Proceedings of the National Academy of Sciences, World Wild Life, NYT, BBC and IUCN Red List of Threatened Animals (https://www.iucnredlist.org/). Also we search for articles about the topic that could make our story more deeper. 
+Proceedings of the National Academy of Sciences 
+World Wild Life
+NYT
+BBC 
+IUCN Red List of Threatened Animals
 
-The economics of endangered species (http://www.rff.org/blog/2010/economics-endangered-species). 
-
-Also there are some other articles related with information of the animals as The Guardian (https://www.theguardian.com/environment/2012/jul/12/amazon-endangered-species-doomed-brazil).
-
-More information about animals:
+More information about animals and amazon:
 
 https://www.rainforest-alliance.org/species/blue-butterfly
 
@@ -215,6 +215,9 @@ https://slothconservation.com/about-the-sloth/three-fingered-sloths/
 http://www.ourendangeredworld.com/species/land-mammals/giant-armadillo/
 
 https://www.worldwildlife.org/species/black-spider-monkey
+
+https://www.theguardian.com/environment/2012/jul/12/amazon-endangered-species-doomed-brazil
+
 
 ![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/animali2000.png)
 
