@@ -4,15 +4,15 @@
 
 ![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/endangered.png)
 
-1. [The idea](#the-idea)
-    1a. [Who are we?](#who-are-we)
-    1b. [What is this?](#what-is-this)
-    1c. [Why thi idea?](#why-this-idea)
-    1d. [Inspirations/References](#inspirations-references)
+1. [The idea](#the-idea) <br>
+    1a. [Who are we?](#who-are-we)<br>
+    1b. [What is this?](#what-is-this)<br>
+    1c. [Why thi idea?](#why-this-idea)<br>
+    1d. [Inspirations/References](#inspirations-references)<br>
 
-2. [The project](#the-project)
-    2a. [Interactions](#who-are-we)
-    2b. [Code and design challenges](#code-and-design-challenges)
+2. [The project](#the-project)<br>
+    2a. [Interactions](#who-are-we)<br>
+    2b. [Code and design challenges](#code-and-design-challenges)<br>
     
 3. [Credits](#credits)
 
