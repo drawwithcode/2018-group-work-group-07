@@ -199,9 +199,13 @@ Banana: https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ah
 We search in different platforms the animals endangered or threatened and we selected the most interesting for our projects. Here are some of the sources: 
 
 Proceedings of the National Academy of Sciences 
+
 World Wild Life
+
 NYT
+
 BBC 
+
 IUCN Red List of Threatened Animals
 
 More information about animals and amazon:
