@@ -112,6 +112,20 @@ We decided to do the sketch by our own illustrations. A big challenge was the th
 
 The light was one of the main interactions we wanted to create with the camera, but we found problems to create the reaction with the whole screen (at the begginig the moving screen gave us a better interaction with light), so we decided to create a different way to use it. With a cover we develop a "light" to wake up the sloth.
 
+```
+  var dlight = dist(mouseX, mouseY, windowWidth / 3, windowHeight / 9);
+  if (dlight < 20) {
+    light = true;
+  }
+
+  var dsloth = dist(mouseX, mouseY, windowWidth / 1.7, windowHeight / 3);
+  if (dsloth < 50) {
+    leavessloth = false;
+    light = false;
+  }
+  
+```
+
 - Zoom and resize screen
 
 We found the problem that when you zoom with the keyboard or reduze the size of the windows the background can change, so we create a "error" screen to avoid the change of the size.
