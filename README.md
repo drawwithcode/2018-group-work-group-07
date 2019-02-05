@@ -1,6 +1,22 @@
+
+
 # The idea
 
 ![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/endangered.png)
+
+1. [The idea](#the-idea)
+    1a. [Who are we?](#who-are-we)
+    1b. [What is this?](#what-is-this)
+    1c. [Why thi idea?](#why-this-idea)
+    1d. [Inspirations/References](#inspirations-references)
+
+2. [The project](#the-project)
+    2a. [Interactions](#who-are-we)
+    2b. [Code and design challenges](#code-and-design-challenges)
+    
+3. [Credits](#credits)
+
+
 
 ### Who are we?
 This is a project created by Teresa Cremonesi, Andrea Febres Medina, Filippo Ferrari and Cristina Pita da Veiga developed in the course of Creative Coding at Politecnico di Milano.
@@ -11,10 +27,6 @@ Politecnico di Milano - Scuola del Design
 
 Faculty: Michele Mauri, Tommaso Elli
 
-1. [What is this?](#wath-is-this)
-2. [Why this idea?](#why-this-idea)
-
-[The project](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/README.md#why-this-idea)
 
 ### What is this?
 This project is an interactive game where the user has to find in the Amazon Rainforest, five different animals endangered or threatened (Sloth, Butterfly, Armadillo, Frog and Monkey) using a variety of tools: voice, keyboard, mouse... Through the time they spend playing with it, they will discover different characteristics of the animals and interact with the computer. We create also "fake animals" in the background, which are not really in the jungle, to distract the user. To start the game, the player has to use the tools, two of them have to be selected meanwhile the other are active during all the game so the user can use them all the time.
@@ -165,7 +177,7 @@ To link all the screens we created different buttons with "if" conditions. The c
 
 
 
-## Credits (third libraries used)
+# Credits (third libraries used)
 
 - Coding sources
 
