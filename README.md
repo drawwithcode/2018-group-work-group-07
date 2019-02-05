@@ -31,6 +31,7 @@ https://projects.propublica.org/extinctions/
 - Theorethical
 
 We search in different platforms the animals endangered or threatened and we selected the most interesting for our projects. These are some of the sources: Proceedings of the National Academy of Sciences, World Wild Life, NYT, BBC and IUCN Red List of Threatened Animals (https://www.iucnredlist.org/). Also we search for articles about the topic that could make our story more deeper. For example: the economics of finding the endangered species (http://www.rff.org/blog/2010/economics-endangered-species).
+As WWF explain, Amazon is the biggest deforestation front in the world 
 
 - Visual
 
