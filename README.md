@@ -11,8 +11,8 @@ Politecnico di Milano - Scuola del Design
 
 Faculty: Michele Mauri, Tommaso Elli
 
-1. [What is this?](#wath-is-this?)
-2. [Why this idea?](#why-this-idea?)
+1. [What is this?](#wath-is-this)
+2. [Why this idea?](#why-this-idea)
 
 [The project](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/README.md#why-this-idea)
 
