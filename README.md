@@ -76,7 +76,7 @@ With the speech recognition has been created two interactions.
 
 - Sound
 
-The sound create the move of the different pngs in the background and create the atmosphere
+The sound create the move of the different pngs in the background and the atmosphere.
 
 - Keyboard
 
