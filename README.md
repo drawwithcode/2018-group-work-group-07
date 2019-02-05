@@ -35,8 +35,7 @@ As WWF explain, Amazon is the biggest deforestation front in the world, one of t
 
 This is an example of how that deforestation has increased in this the Amazon, provided by ESA (European Space Agency)
 
-![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/amazon_deforestation_evi.jpg)
-
+![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/amazon.jpg)
 
 - Visual
 
