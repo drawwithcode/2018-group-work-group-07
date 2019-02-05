@@ -488,6 +488,15 @@ function draw() {
     pop();
   }
 
+  // play the song
+  if (mouseClicked == true) {
+    mySong.stop();
+  } else {
+    if (mySong.isPlaying() == false) {
+      mySong.play();
+    }
+  }
+
   // error if the window is too small
   if (windowWidth < 1100 || windowHeight < 620) {
     push();
@@ -570,6 +579,7 @@ function ArmadilloCover() {
 
 function mouseClicked() {
 
+mySong.pause();
   //play-->first page
   if (mouseX > windowWidth / 2 - 50 && mouseX < windowWidth / 2 + 50 && mouseY > windowHeight / 10 * 7.6 - 15 && mouseY < windowHeight / 10 * 7.6 + 15) {
     sfondo = true;
