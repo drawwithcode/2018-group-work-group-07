@@ -101,9 +101,9 @@ The aim of the background sound is to create atmosphere and to move different ob
 
 - Keyboard
 
-*Keyboard tool*: Pushing the space the user is able to move the plants and clicking over it he/she will see the hidden animal: the frog.
-
 ![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/keybgif.gif)
+
+*Keyboard tool*: Pushing the space the user is able to move the plants and clicking over it he/she will see the hidden animal: the frog.
 
 - Mouse
 
