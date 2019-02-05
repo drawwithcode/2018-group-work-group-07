@@ -15,7 +15,7 @@ With this game the user discover some of the species that are in danger. This is
 
 ## Inspirations/References
 
-##### - Interactive projects inspiration
+- Interactive projects inspiration
 
 ![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/inspi2000.png)
 
@@ -28,7 +28,7 @@ http://www.species-in-pieces.com/
 This project develoop by propublica give us an idea of what we wanted to talk about: animals in danger of extintion. From this information we achive the idea of the project.
 https://projects.propublica.org/extinctions/
 
-##### - Theorethical
+- Theorethical
 
 We select the Amazon because is the biggest deforestation front in the world, as WWF explain, and is the home of the 10% of species in the planet. In this image provided by the ESA (European Space Agency) we can see how has increased the deforestation in the Amazon, one of the main reasons of the dissapearence of animals. 
 
@@ -56,7 +56,7 @@ The giant armadillo is a huge animals (one meter long, exclusive of tail, with t
 
 This frog is very known, but also in danger. The colors atract a lot of people and the changes in the environment are making them dissapear. Something that we should think about taking in count that is specie has a fossil record in the Palaeocene (65 to 53 million years ago).
 
-##### - Visual
+- Visual
 
 The idea was to create illustrations but not in a very childish style. At the end the idea is to concern people about a very big problem, the game can be fun with colourfull illustrations, but there is a black screen in the back remember the problem. 
 
