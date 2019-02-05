@@ -81,6 +81,22 @@ var avanti2;
 var armadillo;
 var farfalla;
 
+var brad = false;
+var butter = false;
+var monkey = false;
+var armad = false;
+var frog = false;
+
+var next;
+var giraffa = false;
+var girlup;
+var refresh;
+
+var amazon;
+var amazzonia = false;
+
+var finale = false;
+
 
 function preload() {
   mySong = loadSound("./library/sound.mp3");
@@ -140,6 +156,13 @@ function preload() {
   avanti1 = loadImage("./library/avanti_1.png");
   avanti2 = loadImage("./library/avanti_2.png");
 
+  goodjob = loadImage('./library/GOODJOB_Tavola disegno 1.png');
+  next = loadImage('./library/next_Tavola disegno 1.png');
+  girlup = loadImage('./library/giraffaelupo.png');
+  refresh = loadImage('./library/refresh_Tavola disegno 1.png');
+
+  amazon = loadImage('./library/amazon.png');
+
 }
 
 function setup() {
@@ -185,7 +208,7 @@ function setup() {
 
   // bradipo = new Bradipo();
   armadillo = new ArmadilloCover();
-  farfalla =  new FarfallaCover();
+  farfalla = new FarfallaCover();
 
 
 }
@@ -244,10 +267,10 @@ function draw() {
         //when key is pressed move these elements
         push()
         if (keyIsPressed == true) {
-          image(myImage3, -15, -6, windowWidth, windowHeight);
+          image(myImage3, -15, 10, windowWidth, windowHeight);
           image(myImage26, 10, 0, windowWidth, windowHeight);
           image(myImage27, 400, -30, windowWidth, windowHeight);
-          image(myImage28, 700, -130, windowWidth, windowHeight);
+          // image(myImage28, 700, -130, windowWidth, windowHeight);
           image(myImage29, 700, 0, windowWidth, windowHeight);
           image(myImage29, 0, 0, windowWidth, windowHeight);
           image(myImage30, 0, -10, windowWidth, windowHeight);
@@ -257,7 +280,7 @@ function draw() {
           image(myImage3, 0, 0, windowWidth, windowHeight);
           image(myImage26, 0, 0, windowWidth, windowHeight);
           image(myImage27, 400, 0, windowWidth, windowHeight);
-          image(myImage28, 715, -135, windowWidth, windowHeight);
+          // image(myImage28, windowWidth/1.2, -135, windowWidth, windowHeight);
           image(myImage29, 700, 5, windowWidth, windowHeight);
           image(myImage29, 3, 0, windowWidth, windowHeight);
           image(myImage30, 0, 5, windowWidth, windowHeight);
@@ -269,9 +292,9 @@ function draw() {
         //show rana and hide its cover
         if (rana) {
           image(myImage16, 0, 0, windowWidth, windowHeight);
-        } else {
-          image(myImage3, 0, 0, windowWidth, windowHeight);
-        }
+        } //else {
+        // image(myImage3, 0, 0, windowWidth, windowHeight);
+        // }
 
         //show farfalla and hide its cover
         if (farfalla) {
@@ -353,6 +376,69 @@ function draw() {
         fill(250)
         ellipse(windowWidth / 1.070, windowHeight / 8.9, 50);
 
+        if (brad) {
+          if (butter) {
+            if (monkey) {
+              if (armad) {
+                if (frog) {
+                  if (giraffa) {
+                    image(girlup, 0, 0, windowWidth, windowHeight);
+                    image(refresh, 0, 0, windowWidth, windowHeight);
+                  } else if (finale) {
+                    //pagina final info animali
+                    image(myImage20, 0, 0, windowWidth, windowHeight);
+                    image(myImage21, 0, 0, windowWidth, windowHeight);
+                    image(myImage22, 0, 0, windowWidth, windowHeight);
+                    image(myImage23, 0, 0, windowWidth, windowHeight);
+                    image(myImage24, 0, 0, windowWidth, windowHeight);
+                    image(myImage25, 0, 0, windowWidth, windowHeight);
+
+                    //info rana
+                    if ((mouseX > windowWidth / 10) && (mouseX < windowWidth / 5)) {
+                      image(myImage36, 0, 0, windowWidth, windowHeight);
+                    }
+                    //info armadillo
+                    if ((mouseX > windowWidth / 5) && (mouseX < windowWidth / 3)) {
+                      image(myImage33, 0, 0, windowWidth, windowHeight);
+                    }
+                    //info bradipo
+                    if ((mouseX > windowWidth / 2.8) && (mouseX < windowWidth / 1.5)) {
+                      image(myImage34, 0, 0, windowWidth, windowHeight);
+                    }
+                    //info farfalla
+                    if ((mouseX > windowWidth / 1.5) && (mouseX < windowWidth / 1.3)) {
+                      image(myImage35, 0, 0, windowWidth, windowHeight);
+                    }
+                    //info scimmia
+                    if ((mouseX > windowWidth / 1.3) && (mouseX < windowWidth / 1.01)) {
+                      image(myImage37, 0, 0, windowWidth, windowHeight);
+                    }
+                    push();
+                    imageMode(CENTER);
+                    image(avanti2, windowWidth / 7 * 5.85, windowHeight / 10 * 8, 30, 30);
+                    pop();
+
+                  } else if (amazzonia) {
+                    image(amazon, 0, 0, windowWidth, windowHeight);
+                    push();
+                    imageMode(CENTER);
+                    image(avanti1, windowWidth / 7 * 5.65, windowHeight / 10 * 8, 30, 30);
+                    ellipse(windowWidth / 7 * 5.65, windowHeight / 10 * 8, 30, 30)
+                    pop();
+                  } else {
+                    image(goodjob, 0, 0, windowWidth, windowHeight);
+                    image(next, 0, 0, windowWidth, windowHeight);
+                  }
+                }
+              }
+            }
+          }
+        }
+
+
+
+
+
       } else {
         //backgound instructions of the game
         image(myInstructions, 0, 0, windowWidth, windowHeight);
@@ -409,7 +495,10 @@ function draw() {
   var diarmadillo = dist(mouseX, mouseY, windowWidth / 1.8, windowHeight / 12 * 11.3);
   var difarfalla = dist(mouseX, mouseY, windowWidth / 6.2, windowHeight / 5);
   var dirana = dist(mouseX, mouseY, windowWidth / 6.5, windowHeight / 12 * 11.3);
-  if (dirana < 30 || difarfalla < 30 || discimmia < 50 || diarmadillo < 40 || dsloth < 50 || diinfo < 25 || dbanana < 20 || dlight < 20 || dforward1 < 15 || dforward2 < 15 || dforward3 < 15 || mouseX > windowWidth / 2 - 50 && mouseX < windowWidth / 2 + 50 && mouseY > windowHeight / 10 * 7.6 - 15 && mouseY < windowHeight / 10 * 7.6 + 15) {
+
+  var dnext = dist(mouseX, mouseY, windowWidth / 2, windowHeight / 1.25);
+
+  if (dnext < 25 || dirana < 30 || difarfalla < 30 || discimmia < 50 || diarmadillo < 40 || dsloth < 50 || diinfo < 25 || dbanana < 20 || dlight < 20 || dforward1 < 15 || dforward2 < 15 || dforward3 < 15 || mouseX > windowWidth / 2 - 50 && mouseX < windowWidth / 2 + 50 && mouseY > windowHeight / 10 * 7.6 - 15 && mouseY < windowHeight / 10 * 7.6 + 15) {
     cursor(HAND);
   } else {
     cursor(ARROW);
@@ -529,30 +618,38 @@ function mouseClicked() {
   var dirana = dist(mouseX, mouseY, windowWidth / 6.5, windowHeight / 12 * 11.3);
   if (dirana < 30) {
     rana = true;
-
+    frog = true;
   }
+
   var difarfalla = dist(mouseX, mouseY, windowWidth / 6.2, windowHeight / 5);
   if (difarfalla < 30) {
-    farfalla = true;
+    // farfalla = true;
+    butter = true;
   }
+
   var discimmia = dist(mouseX, mouseY, windowWidth / 1.5, windowHeight / 1.6);
   if (discimmia < 50) {
     scimmia = true;
+    monkey = true;
   }
+
   var diarmadillo = dist(mouseX, mouseY, windowWidth / 1.8, windowHeight / 12 * 11.3);
   if (diarmadillo < 40) {
-    armadillo = true;
+    // armadillo = true;
+    armad = true;
   }
 
   var dlight = dist(mouseX, mouseY, windowWidth / 3, windowHeight / 9);
   if (dlight < 20) {
-    light = true;
+    light = !light;
+    banana = false;
   }
 
   var dsloth = dist(mouseX, mouseY, windowWidth / 1.7, windowHeight / 3);
   if (dsloth < 50) {
     leavessloth = false;
     light = false;
+    brad = true;
   }
 
   //bannan + scimmia
@@ -564,14 +661,32 @@ function mouseClicked() {
 
   var dbanana = dist(mouseX, mouseY, windowWidth / 1.77, windowHeight / 9);
   if (dbanana < 20) {
-    banana = true;
+    banana = !banana;
+    light = false;
   }
+
   //button info
   var diinfo = dist(mouseX, mouseY, windowWidth / 1.070, windowHeight / 8.9);
   if (diinfo < 25) {
     info = !info;
   }
+
+  var dnext = dist(mouseX, mouseY, windowWidth / 2, windowHeight / 10 * 8);
+  if (dnext < 25) {
+    amazzonia = true;
+  }
+
+  var dfin = dist(mouseX, mouseY, windowWidth / 7 * 5.65, windowHeight / 10 * 8)
+  if (dfin < 15) {
+    finale = true;
+  }
+
+  var dgir = dist(mouseX, mouseY, windowWidth / 7 * 5.85, windowHeight / 10 * 8);
+  if (dgir < 15) {
+    giraffa = true;
+  }
 }
+
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
