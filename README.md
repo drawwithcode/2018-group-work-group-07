@@ -31,9 +31,9 @@ https://projects.propublica.org/extinctions/
 - Theorethical
 
 We search in different platforms the animals endangered or threatened and we selected the most interesting for our projects. These are some of the sources: Proceedings of the National Academy of Sciences, World Wild Life, NYT, BBC and IUCN Red List of Threatened Animals (https://www.iucnredlist.org/). Also we search for articles about the topic that could make our story more deeper. For example: the economics of finding the endangered species (http://www.rff.org/blog/2010/economics-endangered-species).
-As WWF explain, Amazon is the biggest deforestation front in the world.
+As WWF explain, Amazon is the biggest deforestation front in the world, one of the main problems of the animals disappearance.
 
-This is an example of how that deforestation has increased in this zone in Brasil.
+This is an example of how that deforestation has increased in this the Amazon, provided by ESA (European Space Agency)
 
 ![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/amazon_deforestation_evi.jpg)
 
