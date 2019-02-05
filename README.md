@@ -82,7 +82,7 @@ The sound create the move of the different pngs in the background and the atmosp
 
 *Keyboard tool*: Pushing the space to move the plants and clicking over it to see the hidden animal to find the frog.
 
-![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/space.gif)
+![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/keybgif.gif)
 
 - Mouse
 
@@ -92,7 +92,7 @@ With the mouse the user can move around the screen and select the animals. Also 
 
 *Light tool*: some animals are sensible to the light (in this case the sloth). Activing the light appears a cover to search the animal moving the mouse.
 
-![alt text]( https://github.com/drawwithcode/2018-group-work-group-07/blob/master/banana.gif)
+![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/bananagif.gif)
 
 *Banana tool*: clicking over the banana the user active the tool and when is aproximiting to the monkey the forest start to move so they can select the plant and see the monkey.
 
