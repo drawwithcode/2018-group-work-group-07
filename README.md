@@ -88,9 +88,6 @@ The sound create the move of the different pngs in the background and the atmosp
 
 With the mouse the user can move around the screen and select the animals. Also the light and the banana tools work with that.
 
-![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/light.gif)
-
-
 ![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/light%20ok.gif)
 
 *Light tool*: some animals are sensible to the light (in this case the sloth). Activing the light appears a cover to search the animal moving the mouse.
