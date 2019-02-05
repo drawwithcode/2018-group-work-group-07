@@ -12,12 +12,12 @@ Politecnico di Milano - Scuola del Design
 Faculty: Michele Mauri, Tommaso Elli
 
 ### What is this?
-This project is an interactive game where the user has to find in the Amazon Rainforest, five different animals endangered or threatened (Sloth, Butterfly, Armadillo, Frog and Monkey) using a variety of tools: the voice, the keyboard, the mouse... Through the time they spend playing with it, they will discover different characteristics of the animals and interact with the computer. We create also "fake animals" in the background that are not really in the jungle to distract the user. To start the game, you have to use the tools, two of them have to be selected meanwhile the other are active during all the game so the user can use them all the time.
+This project is an interactive game where the user has to find in the Amazon Rainforest, five different animals endangered or threatened (Sloth, Butterfly, Armadillo, Frog and Monkey) using a variety of tools: voice, keyboard, mouse... Through the time they spend playing with it, they will discover different characteristics of the animals and interact with the computer. We create also "fake animals" in the background, which are not really in the jungle, to distract the user. To start the game, the player has to use the tools, two of them have to be selected meanwhile the other are active during all the game so the user can use them all the time.
 
 ### Why this idea?
-This idea starts as a claim about what is happening with the animals because of humans. In the last years has increased the number of species in danger or threatened because of human acts and it has been declared as a “global epidemic”. Scientists estimate that up to 200 species die every hour. The deforestation of the Amazon, hunting and other human actions are destroying distinct species. 
+The idea came from the lack of awareness about the problems that humans cause to the environment and to the animals. In the last years the number of species in danger or threatened has increased because of human acts and it has been declared as a “global epidemic”. Scientists estimate that up to 200 species die every hour. The deforestation of the Amazon, hunting and other human actions are destroying distinct species. 
 
-With this game the user discover some of the species that are in danger. This is a way to make people aware about this problem. We have to create conciousness about our "global village".
+With this game the user discover some of the species that are in danger. This is a way to make people aware about this problem: we wante to create conciousness about our "global village".
 
 ## Inspirations/References
 
@@ -187,7 +187,7 @@ We search in different platforms the animals endangered or threatened and we sel
 
 Proceedings of the National Academy of Sciences, World Wild Life, NYT, BBC and IUCN Red List of Threatened Animals (https://www.iucnredlist.org/). Also we search for articles about the topic that could make our story more deeper. 
 
-The economics of finding the endangered species (http://www.rff.org/blog/2010/economics-endangered-species). 
+The economics of endangered species (http://www.rff.org/blog/2010/economics-endangered-species). 
 
 Also there are some other articles related with information of the animals as The Guardian (https://www.theguardian.com/environment/2012/jul/12/amazon-endangered-species-doomed-brazil).
 
