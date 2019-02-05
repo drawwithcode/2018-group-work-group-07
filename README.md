@@ -179,48 +179,48 @@ To link all the screens we created different buttons with "if" conditions. The c
 
 We used p5js, p5.dom, p5.sound and P5.speech. This are the main sources:
 
-Coding train: https://www.youtube.com/watch?v=Rk-_syQluvc
+    Coding train: https://www.youtube.com/watch?v=Rk-_syQluvc
               https://www.youtube.com/watch?v=q_bXBcmfTJM
               
-P5.js: https://editor.p5js.org/piecesofuk/sketches/SyBpNOJTb
+    P5.js: https://editor.p5js.org/piecesofuk/sketches/SyBpNOJTb
               https://p5js.org/learn/interactivity.html
 
-P5.speech.js: http://ability.nyu.edu/p5.js-speech/
+    P5.speech.js: http://ability.nyu.edu/p5.js-speech/
               
-Processing: https://processing.org/examples/
+    Processing: https://processing.org/examples/
 
-Github: https://github.com/processing/p5.js/wiki/Positioning-your-canvas
+    Github: https://github.com/processing/p5.js/wiki/Positioning-your-canvas
 
-Banana: https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjF09bP96HgAhVJ26QKHRk_DM8QjRx6BAgBEAU&url=http%3A%2F%2Fwww.freestockphotos.biz%2Fstockphoto%2F15912&psig=AOvVaw2cnhZ2xFLxXtII08a70JnX&ust=1549364751305777
+    Banana: https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjF09bP96HgAhVJ26QKHRk_DM8QjRx6BAgBEAU&url=http%3A%2F%2Fwww.freestockphotos.biz%2Fstockphoto%2F15912&psig=AOvVaw2cnhZ2xFLxXtII08a70JnX&ust=1549364751305777
 
 
 - Information sources
 
 We search in different platforms the animals endangered or threatened and we selected the most interesting for our projects. Here are some of the sources: 
 
-Proceedings of the National Academy of Sciences 
+    Proceedings of the National Academy of Sciences 
 
-World Wild Life
+    World Wild Life
 
-NYT
+    NYT
 
-BBC 
+    BBC 
 
-IUCN Red List of Threatened Animals
+    IUCN Red List of Threatened Animals
 
 More information about animals and amazon:
 
-https://www.rainforest-alliance.org/species/blue-butterfly
+    https://www.rainforest-alliance.org/species/blue-butterfly
 
-https://nationalzoo.si.edu/animals/lemur-tree-frog
+    https://nationalzoo.si.edu/animals/lemur-tree-frog
 
-https://slothconservation.com/about-the-sloth/three-fingered-sloths/
+    https://slothconservation.com/about-the-sloth/three-fingered-sloths/
 
-http://www.ourendangeredworld.com/species/land-mammals/giant-armadillo/
+    http://www.ourendangeredworld.com/species/land-mammals/giant-armadillo/
 
-https://www.worldwildlife.org/species/black-spider-monkey
+    https://www.worldwildlife.org/species/black-spider-monkey
 
-https://www.theguardian.com/environment/2012/jul/12/amazon-endangered-species-doomed-brazil
+    https://www.theguardian.com/environment/2012/jul/12/amazon-endangered-species-doomed-brazil
 
 
 ![alt text](https://github.com/drawwithcode/2018-group-work-group-07/blob/master/animali2000.png)
